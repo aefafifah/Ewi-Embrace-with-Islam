@@ -1,11 +1,13 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #DAC0A3;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .calculator-container {
@@ -15,6 +17,8 @@ body {
     box-shadow: 0 2px 8px #41B06E;
     text-align: center;
     width: 320px;
+    margin: auto;
+    margin-top: 150px;
 }
 
 
@@ -60,12 +64,102 @@ button:hover {
     color: #333;
 }
 
-.footer {
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 44px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #102C57;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
     width: 100%;
-    background-color: #333;
-    color: #fff;
+    margin: 0;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0; /* Memastikan navbar berada di bagian atas */
+    background: #EADBC8;
+    z-index: 1000; /* Menetapkan z-index yang lebih tinggi */
+    border-bottom: 1px solid #DAC0A3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
     text-align: center;
-    padding:1.3rem 1rem;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style untuk dropdown menu */
+.dropdown-menu {
+    display: none;
     position: absolute;
+    background-color: #EADBC8; /* warna background dropdown */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* efek shadow pada dropdown */
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+/* Menampilkan dropdown saat li "Zakatime" dihover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#copyright {
+    position: fixed;
     bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: gray;
+    color: #fff;
+}
+
+
+a.tbl-biru {
+    background: #102C57;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #102C57;
+    text-decoration: none;
 }
