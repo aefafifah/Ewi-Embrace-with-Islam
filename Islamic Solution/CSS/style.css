@@ -4,7 +4,12 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  body
+  {
+    font-family: 'Open Sans',sans-serif;
+  }
+
 
   /* Navbar */
   .navbar 
@@ -13,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #EADBC8;
-    padding: 20px;
+    padding: 17px;
     color: black;
   }
   
@@ -25,8 +30,10 @@
   
   .logo 
   {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #102C57;
+    font-weight: 800;
   }
   
   .navbar-right 
@@ -80,7 +87,7 @@
   /* Hero */
   .hero 
   {
-    background-image: url('../Assets/HeroBackground.jpg');
+    background: rgba(0, 0, 0, 0.4) url('../Assets/HeroBackground.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -89,6 +96,7 @@
     align-items: center;
     display: flex;
     position: relative;
+    background-blend-mode: darken;
   }
 
   .hero::after
@@ -98,7 +106,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 4%, rgba(255, 255, 255, 0) 20%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 21%);
   }
   
   .hero-content 
@@ -124,7 +132,7 @@
   
   .hero p 
   {
-    font-size: 19px;
+    font-size: 17px;
     margin-bottom: 30px;
   }
   
@@ -136,7 +144,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 7px;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     transition: background-color 0.3s ease; /* Transisi untuk efek hover */
 }
@@ -219,8 +227,8 @@
   /* Footer */
   footer 
   {
-    background-color: #333;
-    color: #fff;
+    background-color: grey;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
   }
