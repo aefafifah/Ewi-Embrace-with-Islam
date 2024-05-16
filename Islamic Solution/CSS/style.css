@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body
+  {
+    font-family: 'Open Sans',sans-serif;
+  }
+
+
+  /* Navbar */
+  .navbar 
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EADBC8;
+    padding: 17px;
+    color: black;
+  }
+  
+  .navbar-left 
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo 
+  {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #102C57;
+    font-weight: 800;
+  }
+  
+  .navbar-right 
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu 
+  {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li 
+  {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child 
+  {
+    margin-right: 0;
+  }
+  
+  .menu li a 
+  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Toggle Button */
+  .toggle-button 
+  {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .toggle-button span 
+  {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  
+  /* Hero */
+  .hero 
+  {
+    background: rgba(0, 0, 0, 0.4) url('../Assets/HeroBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-blend-mode: darken;
+  }
+
+  .hero::after
+  {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 21%);
+  }
+  
+  .hero-content 
+  {
+    padding: 1.4rem 6%;
+    max-width: 50rem;
+    z-index: 1;
+    margin-top: -20px;
+  }
+  
+  .hero h1 
+  {
+    font-size: 3.2em;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    margin-bottom: 12px;
+  }
+
+  .hero h1 span
+  {
+    color: #eca966;
+  }
+  
+  .hero p 
+  {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  
+
+  .cta-button 
+  {
+    background-color: #eca966;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Transisi untuk efek hover */
+}
+
+.cta-button:hover 
+{
+    background-color: #5a5337 !important;
+}
+
+  
+  /* About */
+  .content 
+  {
+    padding: 50px 20px;
+  }
+  
+  .container 
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .content h2 
+  {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  
+  /* Kategori Box */
+  .category-box 
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .category 
+  {
+    flex: 1 0 25%;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .category-content 
+  {
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .category img 
+  {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .category h3 
+  {
+    font-size: 20px;
+    margin-bottom: auto;
+  }
+  
+  .category button 
+  {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: auto;
+  }
+
+
+  /* Footer */
+  footer 
+  {
+    background-color: grey;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p 
+  {
+    font-size: 14px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) 
+  {
+    .navbar-right 
+    {
+      display: none;
+    }
+    
+    .toggle-button 
+    {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+    }
+  
+    .menu 
+    {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 80px;
+      right: 20px;
+    }
+  
+    .menu li 
+    {
+      margin: 10px 0;
+    }
+  }
+  
