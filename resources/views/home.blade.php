@@ -7,6 +7,9 @@
     <title>Embrace with Islam</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+@include('nav')
 <body>
+@include('master')
+
 
 </html>
