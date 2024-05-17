@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'hadith_api' => [
+        'key' => env('HADITH_API_KEY'),
+    ],
+
 ];
