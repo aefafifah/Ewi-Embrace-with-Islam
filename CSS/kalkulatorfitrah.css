@@ -64,21 +64,10 @@ button:hover {
     color: #333;
 }
 
-<<<<<<< HEAD
-.footer {
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding:1.5rem 1rem;
-    position: absolute;
-    bottom: 0;
-=======
 .wrapper {
     width: 1100px;
     margin: auto;
     position: relative;
->>>>>>> d1bcf2b (update)
 }
 
 .logo a {
