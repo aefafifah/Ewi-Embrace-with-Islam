@@ -1,4 +1,4 @@
-function calculateZakat() {
+function calculateMal() {
     var totalWealth = parseFloat(document.getElementById('totalWealth').value);
     var zakatRate = parseFloat(document.getElementById('zakatRate').value);
 
