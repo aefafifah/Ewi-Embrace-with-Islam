@@ -34,7 +34,7 @@ nav {
     display: flex;
     line-height: 80px;
     position: sticky;
-    position: -webkit-sticky; 
+    position: -webkit-sticky;
     top: 0;
     background: #EADBC8;
     z-index: 1;
@@ -68,7 +68,7 @@ nav ul li a:hover {
     display: none;
     position: absolute;
     background-color: #EADBC8;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -230,6 +230,77 @@ h3 {
     color: #fff;
 }
 
+.surah-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Atur posisi rak-rak kotak di tengah */
+    list-style: none;
+    padding: 0;
+}
+
+.surah-box {
+    width: 300px; /* Atur lebar setiap rak kotak */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.surah-box h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.surah-box p {
+    margin: 5px 0;
+}
+
+.surah-box audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #232971; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Hapus border */
+    border-radius: 5px; /* Bentuk sudut */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Hilangkan dekorasi teks */
+    transition: background-color 0.3s; /* Animasi perubahan warna */
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #2e366b; /* Warna latar belakang saat dihover */
+}
+
+.hadith-rack {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.hadith-arabic {
+    font-family: 'Amiri', serif; /* Ganti dengan font Arabic yang Anda sukai */
+    font-size: 18px;
+    line-height: 1.8;
+    direction: rtl; /* Right-to-left direction */
+    text-align: justify; /* Justify text for better readability */
+    margin-top: 10px;
+}
+
+.hadith-rack strong {
+    color: #333;
+}
 
 @media screen and (max-width: 991.98px) {
     .wrapper {

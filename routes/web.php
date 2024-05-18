@@ -11,7 +11,8 @@ Route::get('/', function () {
 //Quran
 
 Route::get('quran',[QuranController::class, 'index']);
-Route::get('quran/{id}',[QuranController::class, 'indexId']);
+Route::get('quran/{id}', [QuranController::class, 'indexId'])->name('quran.indexId');
+
 
 //Hadist
 Route::get('hadist',[HadistController::class, 'index']);
