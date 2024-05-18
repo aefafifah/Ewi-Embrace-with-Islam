@@ -19,7 +19,11 @@ class QuranController extends Controller
 
     public function indexId($id){
         $response = Http::get("https://raw.githubusercontent.com/penggguna/QuranJSON/master/surah/{$id}.json");
-        return $response->json();
+        // return $response->json();
+
+        return view('ayat',[
+            'response' => json_decode($response)
+        ]);
     }
 
 }
