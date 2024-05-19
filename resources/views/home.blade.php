@@ -10,7 +10,7 @@
 </head>
 @include('nav')
 <body>
-@include('master')
+@extends('master')
 </body>
 
 
