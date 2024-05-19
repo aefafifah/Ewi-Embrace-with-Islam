@@ -35,9 +35,9 @@ nav {
     line-height: 80px;
     position: sticky;
     position: -webkit-sticky; 
-    top: 0; /* Memastikan navbar berada di bagian atas */
+    top: 0; 
     background: #EADBC8;
-    z-index: 1000; /* Menetapkan z-index yang lebih tinggi */
+    z-index: 1000; 
     border-bottom: 1px solid #DAC0A3;
 }
 
@@ -56,7 +56,7 @@ nav ul li a {
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 0px 16px 0px 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -74,10 +74,18 @@ nav ul li a:hover {
 }
 
 .dropdown-menu li {
+    float: none;
     padding: 10px;
 }
 
-/* Menampilkan dropdown saat li "Zakatime" dihover */
+.dropdown-menu li a {
+    color: black;
+}
+
+.dropdown-menu li a:hover {
+    background-color:#EADBC8;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -221,15 +229,14 @@ h3 {
     line-height: 50px;
 }
 
-
 #copyright {
-    text-align: center;
+    position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
     padding: 20px 0;
-    background-color: grey;
+    background-color: gray;
     color: #fff;
 }
 

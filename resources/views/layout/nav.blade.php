@@ -16,8 +16,8 @@
                 <li class="dropdown">
                     <a href="">Zakatime</a>
                     <ul class="dropdown-menu">
-                        <li><a href="/kalkulator">Zakat Mal</a></li>
-                        <li><a href="/kalkulator">Zakat Fitrah</a></li>
+                        <li><a href="/kalkulatormal">Zakat Mal</a></li>
+                        <li><a href="/kalkulatorfitrah">Zakat Fitrah</a></li>
                     </ul>
                 </li>
                 <li><a href="/memorizinspire">Memorizinspire</a></li>
