@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EWI | Kalkulator Zakat Fitrah</title>
-    <link rel="stylesheet" href="CSS/kalkulatormal.css">
+    <link rel="stylesheet" href="{{ asset('CSS/style.css') }}">
 </head>
 <body>
     <nav>
@@ -58,7 +58,7 @@
         </div>
     </div>
     
-    <script src="JS/kalkulatorfitrah.js"></script>
+    <script src="{{ asset('JS/kalkulator.js') }}"></script>
 
 </body>
 

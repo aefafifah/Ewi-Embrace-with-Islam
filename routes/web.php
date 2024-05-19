@@ -24,9 +24,12 @@ Route::get('/issolution', function () {
     return view('issolution');
 });
 
-//kalkulator
-Route::get('/kalkulator', function () {
-    return view('kalkulator');
+Route::get('/kalkulatormal', function () {
+    return view('kalkulatormal');
+});
+
+Route::get('/kalkulatorfitrah', function () {
+    return view('kalkulatorfitrah');
 });
 
 // memorizinspire
@@ -35,3 +38,6 @@ Route::get('/memorizinspire', function () {
 });
 Route::post('/verse/save-progress', [MemController::class, 'store']);
 Route::get('/memorizinspire/{id}', [MemController::class, 'indexId'])->name('memorizinspire');
+
+
+
