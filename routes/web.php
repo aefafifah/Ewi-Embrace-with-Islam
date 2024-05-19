@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuranController;
 use App\Http\Controllers\HadistController;
-
+use App\Http\Controllers\MemController;
 Route::get('/', function () {
-    return view('home');
+    return view('master');
 });
 
 //Quran
@@ -31,3 +31,5 @@ Route::get('/kalkulator', function () {
 Route::get('/memorizinspire', function () {
     return view('memorizinspire');
 });
+Route::post('/verse/save-progress', [MemController::class, 'store']);
+Route::get('/memorizinspire/{id}', [MemController::class, 'indexId'])->name('memorizinspire');
