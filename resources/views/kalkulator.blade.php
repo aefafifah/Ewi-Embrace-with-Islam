@@ -1,2 +1,3 @@
-
-@include('nav')
+@extends('layout.master')
+@section('content')
+@endsection
