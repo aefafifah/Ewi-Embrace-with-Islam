@@ -4,9 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuranController;
 use App\Http\Controllers\HadistController;
 use App\Http\Controllers\MemController;
+
 Route::get('/', function () {
-    return view('master');
+    return view('index');
 });
+
 
 //Quran
 

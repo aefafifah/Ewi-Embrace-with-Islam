@@ -1,8 +1,7 @@
+@extends('layout.master')
 
+@section('content')
 
-@include('nav')
-
-<body>
 <h1>Checklist App</h1>
     <form action="/checklist" method="POST">
         @csrf
@@ -10,5 +9,5 @@
         <label for="checked">Selesai</label><br>
         <button type="submit">Tambahkan Item</button>
     </form>
-</body>
-</html>
+@endsection
+

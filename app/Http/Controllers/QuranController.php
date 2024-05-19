@@ -12,7 +12,7 @@ class QuranController extends Controller
         $response = Http::get('https://raw.githubusercontent.com/penggguna/QuranJSON/master/quran.json');
         // return $response->json();
 
-        return view('index',[
+        return view('quran',[
             'response' => json_decode($response)
         ]);
     }
