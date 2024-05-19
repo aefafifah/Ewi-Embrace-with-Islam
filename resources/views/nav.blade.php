@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="css/style.css">
 <nav>
     <div class="wrapper">
         <div class="logo"><a href=''>Embrace with Islam.</a></div>
