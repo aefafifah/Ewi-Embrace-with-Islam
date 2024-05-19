@@ -1,4 +1,4 @@
-@extends('home')
+
 @include('nav')
 
 <h1>Daftar Surah Al-Quran</h1>
