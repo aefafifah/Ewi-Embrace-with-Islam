@@ -1,15 +1,17 @@
-
 @extends('layout.master')
 @section('content')
     <div class="wrapper">
         <!-- untuk home -->
         <section id="home">
-            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-prayer-mat-illustration_23-2149280347.jpg?t=st=1716081809~exp=1716085409~hmac=4e6e00bafa40d0d8edb7d5f88fe70cd05a906c83370bf957b9b5e96f8a3b4430&w=740"width="400" height="500">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-prayer-mat-illustration_23-2149280347.jpg?t=st=1716081809~exp=1716085409~hmac=4e6e00bafa40d0d8edb7d5f88fe70cd05a906c83370bf957b9b5e96f8a3b4430&w=740"width="400"
+                height="500">
             <div class="kolom">
                 <p class="deskripsi">Qurdistime </p>
                 <h2>Luangkan Waktumu! Untuk hidup yang lebih tenang </h2>
                 <p>ر (( خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ )) رَوَاهُ البُخَارِيُّ .</p>
-                <p>Utsman bin ‘Affan radhiyallahu ‘anhu berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Sebaik-baik orang di antara kalian adalah yang belajar Al-Qur’an dan mengajarkannya.” (HR. Bukhari) [HR. Bukhari, no. 5027]</p>
+                <p>Utsman bin ‘Affan radhiyallahu ‘anhu berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+                    “Sebaik-baik orang di antara kalian adalah yang belajar Al-Qur’an dan mengajarkannya.” (HR. Bukhari)
+                    [HR. Bukhari, no. 5027]</p>
                 <p><a href="" class="tbl-pink">Ayo Dibuka</a></p>
             </div>
         </section>
@@ -22,13 +24,15 @@
                 <p>siap membantu mu untuk menyelesaikan permasalahan yang telah teringkas menjadi beberapa sub tema </p>
                 <p><a href="" class="tbl-biru">Kamu Ada Masalah</a></p>
             </div>
-            <img src="https://img.freepik.com/free-vector/hand-drawn-prayer-mat-illustration_23-2149265397.jpg?t=st=1716081734~exp=1716085334~hmac=ec07806042d02813e09c5711aaef7cfa108742c9a2780ed138165afc761223dd&w=740"width="400" height="500"/>
+            <img src="https://img.freepik.com/free-vector/hand-drawn-prayer-mat-illustration_23-2149265397.jpg?t=st=1716081734~exp=1716085334~hmac=ec07806042d02813e09c5711aaef7cfa108742c9a2780ed138165afc761223dd&w=740"width="400"
+                height="500" />
         </section>
         <section id="home">
-            <img src="https://img.freepik.com/free-vector/flat-ramadan-illustration_23-2148874349.jpg?t=st=1716082202~exp=1716085802~hmac=044590f1b69871714e680a4ecd4e75cfb6b168aad8eaa8363c348748873340a5&w=740"width="400" height="500">
+            <img src="https://img.freepik.com/free-vector/flat-ramadan-illustration_23-2148874349.jpg?t=st=1716082202~exp=1716085802~hmac=044590f1b69871714e680a4ecd4e75cfb6b168aad8eaa8363c348748873340a5&w=740"width="400"
+                height="500">
             <div class="kolom">
                 <p class="deskripsi">Zakatime </p>
-                <h2>Membantumu dalam menghitung zakat  </h2>
+                <h2>Membantumu dalam menghitung zakat </h2>
                 <p>Yuk ketahui asal muasal hitung zakat</p>
                 <p>sehingga zakatmu lebih berwarna!</p>
                 <p><a href="" class="tbl-pink">Hitung Zakat Yuk!</a></p>
@@ -38,10 +42,12 @@
             <div class="kolom">
                 <p class="deskripsi">Bingung Menghafal?</p>
                 <h2>Memorizinspire</h2>
-                <p>siap menginspirasimu dalam menghafal Al-Quran, Teruslah menghafal karena kelak ia akan menjadi syafaat untukmu dan keluargamu</p>
+                <p>siap menginspirasimu dalam menghafal Al-Quran, Teruslah menghafal karena kelak ia akan menjadi syafaat
+                    untukmu dan keluargamu</p>
                 <p><a href="" class="tbl-biru">Mulai Menghafal</a></p>
             </div>
-            <img src="https://img.freepik.com/free-vector/hand-drawn-ramadan-concept-illustration_23-2148890135.jpg?t=st=1716082793~exp=1716086393~hmac=7c58ef4fa85031793e59444791be43b6759fa97ca6acf19f7ab2b5956416d8a7&w=826"width="400" height="500"/>
+            <img src="https://img.freepik.com/free-vector/hand-drawn-ramadan-concept-illustration_23-2148890135.jpg?t=st=1716082793~exp=1716086393~hmac=7c58ef4fa85031793e59444791be43b6759fa97ca6acf19f7ab2b5956416d8a7&w=826"width="400"
+                height="500" />
         </section>
         <!-- untuk tutors -->
         <section id="tutors">
@@ -103,8 +109,8 @@
                         <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-64.jpg"/>
                     </div>
                 </div> --}}
-            </div>
-        </section>
+    </div>
+    </section>
     </div>
 
     {{-- <div id="contact">
