@@ -6,9 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embrace with Islam</title>
-    {{-- <link rel="stylesheet" href="css/style.css"> --}}
-
 </head>
+
 <header>
     <!-- Bagian header website -->
 </header>
@@ -19,9 +18,8 @@
 {{-- </nav> --}}
 
 <body>
-    @include('layout.nav')
+    @include('Islamic Solution.nav')
     @yield('content')
-
 </body>
 
 </html>
