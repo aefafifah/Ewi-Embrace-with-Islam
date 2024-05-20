@@ -1,19 +1,7 @@
 @extends('layout.master')
 @section('content')
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EWI - Islamic Solution</title>
 
         <link rel="stylesheet" href="css/issostyle.css">
-
-    </head>
-
-    <body>
 
         <!-- Hero Section-->
         <section class="hero">
@@ -170,7 +158,7 @@
         <!-- End of Content Section -->
 
 
-        <!-- Footer -->
+        {{-- <!-- Footer -->
         <footer>
 
             <div class="container">
@@ -178,11 +166,8 @@
             </div>
 
         </footer>
-        <!-- End of Footer -->
+        <!-- End of Footer --> --}}
 
 
         <script src="script.js"></script>
-    </body>
-
-    </html>
 @endsection
