@@ -59,7 +59,6 @@
         <!-- Conten Section -->
         <section class="content">
 
-
             <div class="container">
                 <h2>Kategori Permasalahan</h2>
                 <div class="category-box">
