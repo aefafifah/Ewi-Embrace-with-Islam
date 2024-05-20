@@ -1,5 +1,7 @@
 @extends('layout.master')
 @section('content')
+ <link rel="stylesheet" href="css/style.css">
+
     <div class="wrapper">
         <!-- untuk home -->
         <section id="home">

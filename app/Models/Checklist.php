@@ -10,6 +10,6 @@ class Checklist extends Model
 {
 
         protected $table = 'checklists'; // Nama tabel dalam database
-        protected $fillable = ['item', 'checked']; // Kolom-kolom yang dapat diisi massal
+        protected $fillable = ['item', 'checked']; // Kolom-kolom yang dapat diisi
     }
 

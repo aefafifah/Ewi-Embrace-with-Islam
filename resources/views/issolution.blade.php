@@ -1,5 +1,9 @@
 @extends('layout.master')
 @section('content')
+<<<<<<< HEAD
+=======
+
+>>>>>>> afifah
         <link rel="stylesheet" href="css/issostyle.css">
 
         <!-- Hero Section-->
@@ -152,7 +156,7 @@
         <!-- End of Content Section -->
 
 
-        <!-- Footer -->
+        {{-- <!-- Footer -->
         <footer>
 
             <div class="container">
@@ -160,7 +164,7 @@
             </div>
 
         </footer>
-        <!-- End of Footer -->
+        <!-- End of Footer --> --}}
 
 
         <script src="script.js"></script>
