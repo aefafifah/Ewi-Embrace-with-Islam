@@ -78,7 +78,7 @@
         </section>
 
         <!-- untuk partners -->
-        <section id="partners">
+        {{-- <section id="partners">
             <div class="tengah">
                 <div class="kolom">
                     <p class="deskripsi">Our Top Partners</p>
@@ -102,12 +102,12 @@
                     <div class="kartu-partner">
                         <img src="https://image.freepik.com/free-vector/campus-collage-university-education-logo-design-template_7492-64.jpg"/>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </section>
     </div>
 
-    <div id="contact">
+    {{-- <div id="contact">
         <div class="wrapper">
             <div class="footer">
                 <div class="footer-section">
@@ -135,5 +135,5 @@
         <div class="wrapper">
             &copy; 2024. <b>EWI.</b> All Rights Reserved.
         </div>
-    </div>
+    </div> --}}
 @endsection
