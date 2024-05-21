@@ -68,10 +68,10 @@
         @endforeach
     </ul>
 
-    <h2>Tafsir:</h2>
+    {{-- <h2>Tafsir:</h2>
     @foreach ($response->tafsir->id->kemenag->text as $key => $tafsir)
         <h3>Ayat {{ $key }}</h3>
         <p>{{ $tafsir }}</p>
-    @endforeach
+    @endforeach --}}
 </body>
 </html>

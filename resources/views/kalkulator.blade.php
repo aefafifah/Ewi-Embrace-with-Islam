@@ -1,2 +1,0 @@
-@extends('home')
-@include('nav')

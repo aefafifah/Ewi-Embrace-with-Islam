@@ -3,10 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuranController;
 use App\Http\Controllers\HadistController;
+use App\Http\Controllers\MemController;
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
+
 
 //Quran
 
@@ -22,12 +24,20 @@ Route::get('/issolution', function () {
     return view('issolution');
 });
 
-//kalkulator
-Route::get('/kalkulator', function () {
-    return view('kalkulator');
+Route::get('/kalkulatormal', function () {
+    return view('kalkulatormal');
+});
+
+Route::get('/kalkulatorfitrah', function () {
+    return view('kalkulatorfitrah');
 });
 
 // memorizinspire
 Route::get('/memorizinspire', function () {
     return view('memorizinspire');
 });
+Route::post('/verse/save-progress', [MemController::class, 'store']);
+Route::get('/memorizinspire/{id}', [MemController::class, 'indexId'])->name('memorizinspire');
+
+
+

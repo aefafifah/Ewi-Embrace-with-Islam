@@ -1,7 +1,4 @@
-@extends('home')
-
-@include('nav')
-
+@extends('layout.master')
 @section('content')
     <h1>Daftar Hadis</h1>
     <div class="hadith-racks">
