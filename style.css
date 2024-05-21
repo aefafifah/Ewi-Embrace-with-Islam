@@ -203,9 +203,36 @@ p {
     margin: auto;
 }
 
-.footer-section {
-    width: 20%;
+/* styles.css */
+.wrapper {
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 h3 {
@@ -275,4 +302,37 @@ h3 {
     .kartu-partner {
         width: 50%;
     }
+
+ 
 }
+
+.card {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-bottom: 0.5px solid #ddd;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
