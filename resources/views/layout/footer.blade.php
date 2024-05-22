@@ -49,5 +49,9 @@
             </div>
         </div>
     </div>
+    <p>
+        <input type="submit" name="submit" value="Daftar" />
+    </p>
 </div>
 </div>
+
