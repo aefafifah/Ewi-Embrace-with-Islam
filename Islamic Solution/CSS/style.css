@@ -230,10 +230,141 @@ body
 }
 
 
+/* Layanan */
+.layanan 
+{
+  background-color: #f5f5f5;
+}
+
+.layanan .container 
+{
+  text-align: center;
+  min-height: 75vh;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.layanan h2 
+{
+  color: #364f6b;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.layanan p 
+{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 100px;
+  padding-right: 35px;
+  padding-left: 35px;
+  line-height: 1.7;
+}
+
+.layanan-content 
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.layanan-item 
+{
+  flex: 1 0 25%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.layanan-item img 
+{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.layanan-item .layanan1
+{ 
+  width: 200px;
+  height: 200px;
+  background: url("../Assets/quranIconFix.png") no-repeat center;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.layanan-item .layanan1:hover
+{
+  background: url("../Assets/quranIconFixHover.png") no-repeat center;
+  scale: 1.05;
+}
+
+.layanan-item .layanan2
+{ 
+  width: 200px;
+  height: 200px;
+  background: url("../Assets/hadisIconFix.png") no-repeat center;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.layanan-item .layanan2:hover
+{
+  background: url("../Assets/hadisIconFixHover.png") no-repeat center;
+  scale: 1.05;
+}
+
+.layanan-item .layanan3
+{ 
+  width: 200px;
+  height: 200px;
+  background: url("../Assets/tafsirIconFix.png") no-repeat center;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.layanan-item .layanan3:hover
+{
+  background: url("../Assets/tafsirIconFixHover.png") no-repeat center;
+  scale: 1.05;
+}
+
+.layanan-item .layanan4
+{ 
+  width: 200px;
+  height: 200px;
+  background: url("../Assets/vidioIconFIx.png") no-repeat center;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.layanan-item .layanan4:hover
+{
+  background: url("../Assets/vidioIconFIxHover.png") no-repeat center;
+  scale: 1.05;
+}
+
+.layanan-item h3 
+{
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.layanan-item p 
+{
+  font-size: 16px;
+  color: black
+}
+
+
 /* Kategori Box */
 .content
 {
-  background-color: #f5f5f5;
+  background-image: url(../Assets/PermalahanBG2.png);
+  background-size: cover;
 }
 
 .content .container 
@@ -244,13 +375,13 @@ body
 
 .content h2 
 {
-  font-size: 30px;
-  margin-bottom: 20px;
+  color: #364f6b;
+  font-size: 45px;
+  margin-bottom: 75px;
 }
 
 .content 
 {
-  /* padding: 50px 20px; */
   text-align: center;
 }
 
@@ -407,6 +538,46 @@ footer p
     margin-top: 20px;
   }
 
+  .layanan .container 
+  {
+    text-align: center;
+    min-height: 180vh;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .layanan-item 
+  {
+    flex: 1 0 50%;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .layanan h2 
+  {
+    color: #364f6b;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .layanan p 
+  {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 60px;
+    padding-right: 35px;
+    padding-left: 35px;
+    line-height: 1.7;
+  }
+
+  .category 
+  {
+    flex: 1 0 50%;
+    padding: 20px;
+    position: relative;
+  }
+  
+
 }
 
 
@@ -491,6 +662,39 @@ footer p
     opacity: 0.8; 
     margin-bottom: 45px; 
     margin-top: 20px;
+  }
+
+  .layanan .container 
+  {
+    text-align: center;
+    min-height: 260vh;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .layanan-item 
+  {
+    flex: 1 0 100%;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .layanan h2 
+  {
+    margin-top: 50px;
+    color: #364f6b;
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  .layanan p 
+  {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 60px;
+    padding-right: 35px;
+    padding-left: 35px;
+    line-height: 1.7;
   }
 
 }
