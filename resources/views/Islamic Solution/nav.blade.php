@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="css/navStyle.css">
 
 <nav>
+
     <div class="wrapper">
         <div class="logo"><a href=''>Embrace with Islam.</a></div>
         <div class="menu">
@@ -25,4 +26,5 @@
             </ul>
         </div>
     </div>
+
 </nav>
