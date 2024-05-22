@@ -21,7 +21,6 @@ class HadistController extends Controller
         }
 
         dd($hadiths);
-
         
         return view('hadist', ['hadiths' => $hadiths]);
     }
