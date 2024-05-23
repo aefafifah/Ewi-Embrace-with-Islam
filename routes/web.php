@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuranController;
 use App\Http\Controllers\HadistController;
 use App\Http\Controllers\MemController;
+use App\Http\Controllers\PremiumController;
 
 Route::get('/', function () {
     return view('index');
@@ -32,6 +33,9 @@ Route::get('/kalkulatorfitrah', function () {
     return view('kalkulatorfitrah');
 });
 
+// premium
+
+Route::post('/', [PremiumController::class, 'simpanData']);
 // memorizinspire
 Route::get('/memorizinspire', function () {
     return view('memorizinspire');
