@@ -1,7 +1,9 @@
 
 @extends('layout.master')
 @section('content')
+<div class="surah h1">
 <h1>Daftar Surah Al-Quran</h1>
+</div>
 <ul class="surah-container">
     @foreach ($response as $surah)
         <li>
@@ -17,7 +19,9 @@
                 <ul>
                     {{-- @foreach ($surah->recitations as $recitation) --}}
                         <li>
+                        <div class="audio-container">
                             <audio src="{{ $surah->recitation }}" controls></audio>
+                        </div>
                         </li>
                     {{-- @endforeach --}}
                 </ul>
