@@ -43,7 +43,8 @@
     margin-top: 5px;
 }
 
-h3 {
+#contact h3
+{
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 30px;

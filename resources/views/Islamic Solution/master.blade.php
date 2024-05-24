@@ -20,6 +20,7 @@
 <body>
     @include('Islamic Solution.nav')
     @yield('content')
+    @include('layout.footer')
 </body>
 
 </html>
