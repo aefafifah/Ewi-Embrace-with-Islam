@@ -363,8 +363,9 @@ body
 /* Kategori Box */
 .content
 {
-  background-image: url(../Assets/PermalahanBG2.png);
+  background-image: url(../Assets/PermalahanBG3.png);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content .container 
@@ -377,7 +378,7 @@ body
 {
   color: #364f6b;
   font-size: 45px;
-  margin-bottom: 75px;
+  margin-bottom: 115px;
 }
 
 .content 
@@ -396,24 +397,32 @@ body
   flex: 1 0 25%;
   padding: 20px;
   position: relative;
+  transition: transform 0.3s ease;
 }
 
-.category-content 
-{
-  border: 2px solid #333;
+.category:hover {
+  transform: scale(1.03); /* Scale up on hover */
+}
+
+
+.category-content {
+  border: 3px solid #333;
   padding: 20px;
   text-align: center;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 10px; /* Add border radius for smoother appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
-.category img 
-{
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.category img {
+  width: 310px;
+  height: 200px; /* Adjust height for consistency */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-radius: 10px; /* Add border radius to images */
+  align-items: center;
 }
 
 .category h3 
@@ -422,16 +431,20 @@ body
   margin-bottom: auto;
 }
 
-.category button 
-{
+.category button {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #102C57;
   border: none;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
-  margin-top: auto;
+  border-radius: 10px; /* Add border radius to buttons */
 }
+
+.category button:hover {
+  background-color: #1e3e6f; /* Darken button on hover */
+}
+
 
 
 /* Footer */
