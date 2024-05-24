@@ -1,26 +1,22 @@
-* 
-{
+* {
     text-decoration: none;
     margin: 0px;
     padding: 0px;
 }
 
-body 
-{
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans',sans-serif;
 }
 
-.wrapper 
-{
+.wrapper {
     width: 1100px;
     margin: auto;
     position: relative;
 }
 
-.logo a 
-{
+.logo a {
     font-size: 44px;
     font-weight: 800;
     float: left;
@@ -28,13 +24,11 @@ body
     color: #102C57;
 }
 
-.menu 
-{
+.menu {
     float: right;
 }
 
-nav 
-{
+nav {
     width: 100%;
     margin: 0;
     display: flex;
@@ -47,21 +41,18 @@ nav
     border-bottom: 1px solid #DAC0A3;
 }
 
-nav ul 
-{
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-nav ul li 
-{
+nav ul li {
     float: left;
 }
 
-nav ul li a 
-{
+nav ul li a {
     color: black;
     font-weight: bold;
     text-align: center;
@@ -69,13 +60,11 @@ nav ul li a
     text-decoration: none;
 }
 
-nav ul li a:hover 
-{
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-.dropdown-menu 
-{
+.dropdown-menu {
     display: none;
     position: absolute;
     background-color: #EADBC8; 
@@ -84,23 +73,49 @@ nav ul li a:hover
     z-index: 1;
 }
 
-.dropdown-menu li 
-{
+.dropdown-menu li {
     float: none;
     padding: 10px;
 }
 
-.dropdown-menu li a 
-{
+.dropdown-menu li a {
     color: black;
 }
 
-.dropdown-menu li a:hover 
-{
+.dropdown-menu li a:hover {
     background-color:#EADBC8;
 }
 
-.dropdown:hover .dropdown-menu 
-{
+.dropdown:hover .dropdown-menu {
     display: block;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
 }

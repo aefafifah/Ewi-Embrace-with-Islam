@@ -63,7 +63,6 @@ body
   margin-bottom: 30px;
 }
 
-
 .cta-button 
 {
   background-color: #eca966;
@@ -136,8 +135,8 @@ body
 {
   flex: 1 1 45%;
   padding: 20px;
-  background-color: #f5f5f5; /* Tambahkan background color */
-  border-radius: 15px; /* Tambahkan border-radius */
+  background-color: #f5f5f5;
+  border-radius: 15px;
 }
 
 .about-text h2 
@@ -290,8 +289,9 @@ body
 /* Kategori Box */
 .content
 {
-  background-image: url(../Assets/PermalahanBG2.png);
+  background-image: url(../Assets/PermalahanBG3.png);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content .container 
@@ -304,7 +304,7 @@ body
 {
   color: #364f6b;
   font-size: 45px;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 .content 
@@ -323,56 +323,56 @@ body
   flex: 1 0 25%;
   padding: 20px;
   position: relative;
+  transition: transform 0.3s ease;
 }
 
-.category-content 
-{
-  border: 2px solid #333;
-  padding: 20px;
+.category:hover {
+  transform: scale(1.03);
+}
+
+
+.category-content {
+  border: 2px solid #EADBC8;
+  border-radius: 7px;
+  align-items: center;
   text-align: center;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
-.category img 
-{
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.category img {
+  border-radius: 13px;
+  padding: 7px;
+  width: 256px;
+  height: 200px; 
+  object-fit: cover; 
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .category h3 
 {
-  font-size: 20px;
-  margin-bottom: auto;
+  font-size: 19px;
+  margin-bottom: 15px;
 }
 
-.category button 
-{
-  padding: 10px 20px;
-  background-color: #333;
+.category button {
+  padding: 10px 15px;
+  background-color: #102C57;
   border: none;
   color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: auto;
-}
-
-
-/* Footer */
-footer 
-{
-  background-color: grey;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer p 
-{
   font-size: 14px;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.category button:hover {
+  background-color: #204172;
 }
 
 
@@ -380,33 +380,6 @@ footer p
 @media screen and (max-width: 769px) 
 {
   
-  .navbar-right 
-  {
-    display: none;
-  }
-
-  .toggle-button 
-  {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-
-  .menu 
-  {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-  }
-
-  .menu li 
-  {
-    margin: 10px 0;
-  }
-
   .about
   {
     padding-bottom: 75px;
@@ -465,6 +438,7 @@ footer p
     margin-top: 20px;
   }
 
+
   .layanan .container 
   {
     text-align: center;
@@ -503,7 +477,47 @@ footer p
     padding: 20px;
     position: relative;
   }
+
+
+  .content h2 
+  {
+    color: #364f6b;
+    font-size: 40px;
+    margin-bottom: 100px;
+  }
+
+  .category-content 
+  {
+    border: 2px solid #EADBC8;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    background-color: white;
+  }
   
+  .category img 
+  {
+    border-radius: 13px;
+    padding: 7px;
+    width: 270px;
+    height: 200px; 
+    object-fit: cover; 
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .content .container 
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 65px;
+    margin-right: 65px;
+  }
 
 }
 
@@ -516,6 +530,7 @@ footer p
   {
     text-align: center;
   }
+
 
   .hero 
   {
@@ -562,6 +577,7 @@ footer p
     margin-top: -50px;
   }
 
+
   .about-text h2 
   {
     font-size: 27px;
@@ -590,6 +606,7 @@ footer p
     margin-bottom: 45px; 
     margin-top: 20px;
   }
+
 
   .layanan .container 
   {
@@ -622,6 +639,53 @@ footer p
     padding-right: 35px;
     padding-left: 35px;
     line-height: 1.7;
+  }
+
+
+  .content h2 
+  {
+    color: #364f6b;
+    font-size: 27px;
+    margin-bottom: 50px;
+  }
+
+  .category 
+  {
+    flex: 1 0 100%;
+    padding: 20px;
+    position: relative;
+  }
+
+  .content .container 
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .category-content 
+  {
+    border: 2px solid #EADBC8;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  .category img 
+  {
+    border-radius: 13px;
+    padding: 7px;
+    width: 270px;
+    height: 220px; 
+    object-fit: cover; 
+    align-items: center;
+    margin-bottom: 25px;
   }
 
 }

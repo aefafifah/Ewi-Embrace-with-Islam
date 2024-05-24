@@ -99,139 +99,74 @@
     <section class="content">
 
         <div class="container">
-            <br><br><br><br>
-            <h2>Kategori Permasalahan</h2>
+            <br><br><br><br><br><br><br>
+            <h2>Pilih Topik Anda</h2>
             <div class="category-box">
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 1</h3>
-                        <img src="category1.jpg" alt="Category 1">
-                        <button>Detail</button>
+                        <img src="Assets/shalat.png" alt="Category 1">
+                        <h3>Hukum Meninggalkan Shalat</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
+                        <img src="Assets/zakat.jpeg" alt="Category 2">
+                        <h3>Hukum Zakat</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
+                        <img src="Assets/puasa.jpg" alt="Category 2">
+                        <h3>Hukum Berpuasa</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
+                        <img src="Assets/haji.png" alt="Category 2">
+                        <h3>Hukum Haji</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 1</h3>
-                        <img src="category1.jpg" alt="Category 1">
-                        <button>Detail</button>
+                        <img src="Assets/sabar.jpeg" alt="Category 1">
+                        <h3 style="padding: 5px;">Bersabar Menghadapi Ujian</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
+                        <img src="Assets/taubat.png" alt="Category 2">
+                        <h3>Taubat Maksiat</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
+                        <img src="Assets/Pendidikan.jpg" alt="Category 2">
+                        <h3>Menuntut Ilmu</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
                 <div class="category">
                     <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
+                        <img src="Assets/Sukses.jpg" alt="Category 2">
+                        <h3 style="padding: 5px;">Kiat Sukses Dunia & Akhirat</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 1</h3>
-                        <img src="category1.jpg" alt="Category 1">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 1</h3>
-                        <img src="category1.jpg" alt="Category 1">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="category-content">
-                        <h3>Judul Kategori 2</h3>
-                        <img src="category2.jpg" alt="Category 2">
-                        <button>Detail</button>
-                    </div>
-                </div>
-
             </div>
-            <br><br><br>
+            <br><br><br><br><br><br><br>
         </div>
 
     </section>
