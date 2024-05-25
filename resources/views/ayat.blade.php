@@ -58,7 +58,7 @@
     font-size: 16px;
     color: #fff;
 }
-        
+
         .verse {
             font-size: 18px;
             text-align: right;
@@ -89,7 +89,7 @@
                 <li>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3>Surat {{ $response->name}} "number"</h3>
+                            <h3> {{ $response->name}} Ayat {{$verse->number}}</h3>
                         </div>
                         <div class="panel-body">
                             <p class="verse">{{ $verse->text }}</p>
