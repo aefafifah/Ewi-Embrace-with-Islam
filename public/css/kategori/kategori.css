@@ -1,0 +1,99 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+.hero
+{
+  background-image: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e 60%, #ffff 60%, #ffff 100%);
+}
+
+.hero .hero-container 
+{
+  margin: 0 auto;
+  min-height: 125vh;
+  display: flex; 
+  justify-content: center; 
+}
+
+.hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1
+{
+ text-align: center;
+ color: white;
+ font-size: 42px;
+ margin-bottom: 35px;
+}
+
+.hero img
+{ 
+  height: 500px;
+  width: 800px;
+  border: 2px solid #FEFAF6;
+  
+}
+
+
+.center-button 
+{
+  background-color: #102c57;
+  color: white !important; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; 
+  font-size: 13px;
+  margin-top: 80px;
+  text-decoration: none;
+}
+
+
+.center-button:hover 
+{
+  background-color: #1A3A72; /* Warna tombol saat di-hover */
+}
+
+.hero #bismillah
+{
+  font-size: 37px; 
+  color: #102c57; 
+  opacity: 0.8; 
+  margin-bottom: 45px; 
+  margin-top: 75px;
+}
+
+
+
+/* Responsive Tablet*/
+@media screen and (max-width: 769px) 
+{
+  
+  
+
+}
+
+
+/* Responsive Handphone */
+@media screen and (max-width: 426px) 
+{
+
+  body 
+  {
+    text-align: center;
+  }
+
+}
