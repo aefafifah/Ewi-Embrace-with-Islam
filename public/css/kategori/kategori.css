@@ -11,6 +11,7 @@ body
 }
 
 
+
 .hero
 {
   background-image: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e 60%, #ffff 60%, #ffff 100%);
@@ -77,13 +78,49 @@ body
 }
 
 
-
 /* Responsive Tablet*/
 @media screen and (max-width: 769px) 
 {
   
-  
+  .hero .hero-container 
+  {
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
 
+  .hero-content 
+  {
+    width: 100%;
+  }
+
+  .hero .center-button 
+  {
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 8px 12px;
+    margin-bottom: 0px;
+  }
+
+  .hero h1 
+  {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+
+  .hero img 
+  {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .hero .bismillah 
+  {
+    font-size: 24px;
+    margin: 20px 0;
+  }
 }
 
 
@@ -94,6 +131,46 @@ body
   body 
   {
     text-align: center;
+  }
+
+  .hero .hero-container 
+  {
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .hero-content 
+  {
+    width: 100%;
+  }
+
+  .hero .center-button 
+  {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .hero h1 
+  {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+
+  .hero img 
+  {
+    width: 90%;
+    height: auto;
+    margin: 20px 0; 
+  }
+
+  .hero .bismillah 
+  {
+    margin-top: 15px !important;
+    font-size: 22px !important;
+    margin: 15px 0;
   }
 
 }
