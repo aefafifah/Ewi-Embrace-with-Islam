@@ -1,0 +1,274 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+/* Navbar */
+.navbar 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EADBC8;
+  padding: 17px;
+  color: black;
+}
+
+.navbar-left 
+{
+  display: flex;
+  align-items: center;
+}
+
+.logo 
+{
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #102C57;
+  font-weight: 800;
+}
+
+.navbar-right 
+{
+  display: flex;
+  align-items: center;
+}
+
+.menu 
+{
+  list-style: none;
+  display: flex;
+}
+
+.menu li 
+{
+  margin-right: 20px;
+}
+
+.menu li:last-child 
+{
+  margin-right: 0;
+}
+
+.menu li a 
+{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Toggle Button */
+.toggle-button 
+{
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18px;
+  cursor: pointer;
+}
+
+.toggle-button span 
+{
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.hero
+{
+  background-image: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e 60%, #ffff 60%, #ffff 100%);
+}
+
+.hero .hero-container 
+{
+  margin: 0 auto;
+  min-height: 125vh;
+  display: flex; 
+  justify-content: center; 
+}
+
+.hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1
+{
+ text-align: center;
+ color: white;
+ font-size: 42px;
+ margin-bottom: 35px;
+}
+
+.hero img
+{ 
+  height: 500px;
+  width: 800px;
+  border: 2px solid #FEFAF6;
+  
+}
+
+
+.center-button 
+{
+  background-color: #102c57;
+  color: white !important; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; 
+  font-size: 13px;
+  margin-top: 80px;
+  text-decoration: none;
+}
+
+
+.center-button:hover 
+{
+  background-color: #1A3A72; /* Warna tombol saat di-hover */
+}
+
+.hero #bismillah
+{
+  font-size: 37px; 
+  color: #102c57; 
+  opacity: 0.8; 
+  margin-bottom: 45px; 
+  margin-top: 75px;
+}
+
+
+/* Responsive Tablet*/
+@media screen and (max-width: 769px) 
+{
+  
+  .navbar-right 
+  {
+    display: none;
+  }
+
+  .toggle-button 
+  {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .menu 
+  {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+  }
+
+  .menu li 
+  {
+    margin: 10px 0;
+  }
+
+  .hero .hero-container 
+  {
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .hero-content 
+  {
+    width: 100%;
+  }
+
+  .hero .center-button 
+  {
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 8px 12px;
+    margin-bottom: 0px;
+  }
+
+  .hero h1 
+  {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+
+  .hero img 
+  {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .hero .bismillah 
+  {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+}
+
+
+/* Responsive Handphone */
+@media screen and (max-width: 426px) 
+{
+
+  body 
+  {
+    text-align: center;
+  }
+
+  .hero .hero-container 
+  {
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .hero-content 
+  {
+    width: 100%;
+  }
+
+  .hero .center-button 
+  {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .hero h1 
+  {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+
+  .hero img 
+  {
+    width: 90%;
+    height: auto;
+    margin: 20px 0; 
+  }
+
+  .hero .bismillah 
+  {
+    margin-top: 15px !important;
+    font-size: 22px !important;
+    margin: 15px 0;
+  }
+
+}

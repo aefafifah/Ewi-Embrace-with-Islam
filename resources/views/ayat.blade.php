@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surah Al-Fatiha</title>
+    <title> {{ $response->name }}</title>
+
     <!-- Tambahkan stylesheet CSS di sini jika diperlukan -->
     <style>
         body {
@@ -32,40 +33,71 @@
         li {
             margin-bottom: 20px;
             background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
+        .panel {
+            margin-bottom: 20px;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+        }
+
+        .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #102c67;
+    border-color: #ddd;
+}
+
+.panel-heading h2, .panel-heading h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
         .verse {
             font-size: 18px;
-            color: #333;
             text-align: right;
             direction: rtl;
+            padding: 10px;
+            margin-bottom: 20px;
         }
 
         .translation {
             font-size: 16px;
             color: #666;
-            text-align: right;
-            direction: rtl;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <h2>{{ $response->name }} - {{ $response->name_translations->id }}</h2>
-    <p>Jumlah Ayat: {{ $response->number_of_ayah }}</p>
-    <p>Tempat: {{ $response->place }}</p>
-    <p>Tipe: {{ $response->type }}</p>
+    <h2>{{ $response->name }}</h2>
+    <h2>({{ $response->name_translations->id }})</h2>
+    <p>{{ $response->number_of_ayah }} Ayat • Tempat: {{ $response->place }} • Tipe: {{ $response->type }} </p>
 
-    <h2>Verses:</h2>
-    <ul>
-        @foreach ($response->verses as $verse)
-            <li>
-                <p class="verse">{{ $verse->number }}. {{ $verse->text }}</p>
-                <p class="translation">Translation (ID): {{ $verse->translation_id }}</p>
-            </li>
-        @endforeach
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h2>Verses:</h2>
+    </div>
+    <div class="panel-body">
+        <ul>
+            @foreach ($response->verses as $verse)
+                <li>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3> {{ $response->name}} Ayat {{$verse->number}}</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="verse">{{ $verse->text }}</p>
+                            <p class="translation">Terjemahan: {{ $verse->translation_id }}</p>
+                        </div>
+                    </div>
+                </li>
+            @endforeach
     </ul>
 
     {{-- <h2>Tafsir:</h2>

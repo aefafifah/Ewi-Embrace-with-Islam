@@ -240,49 +240,82 @@ h3 {
     color: #fff;
 }
 
+/* Kontainer untuk daftar Surah */
 .surah-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #102C57;
+}
+
+.surah-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Layout grid untuk daftar Surah */
+.daftar-surah {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Atur posisi rak-rak kotak di tengah */
-    list-style: none;
-    padding: 0;
+    justify-content: space-between;
 }
 
-.surah-box {
-    width: 300px; /* Atur lebar setiap rak kotak */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
+/* Setiap kolom Surah */
+.daftar-surah > div {
+    flex: 0 1 calc(33.333% - 20px);
+    margin-bottom: 20px;
 }
 
-.surah-box h2 {
-    margin-top: 0;
-    font-size: 20px;
+/* Styling untuk setiap item Surah */
+.item-surah {
+    width: 23%;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #102C57;
 }
 
-.surah-box p {
+/* Styling untuk nama Surah */
+.item-surah h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling untuk deskripsi Surah */
+.item-surah p {
+    color: #666;
     margin: 5px 0;
 }
 
-.surah-box audio {
-    width: 100%;
+.ayat-item {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.ayat-container {
     margin-top: 10px;
+}
+
+.ayat-item {
+padding: 10px;
+background-color: #e9ecef;
+border-radius: 5px;
 }
 
 .custom-button {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #232971; /* Warna latar belakang */
-    color: white; /* Warna teks */
-    border: none; /* Hapus border */
-    border-radius: 5px; /* Bentuk sudut */
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #102C57;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none; /* Hilangkan dekorasi teks */
-    transition: background-color 0.3s; /* Animasi perubahan warna */
 }
 
 /* Hover effect */
