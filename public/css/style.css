@@ -24,6 +24,12 @@ body {
     color: #102C57;
 }
 
+.logo img {
+    display: block;
+    width: 80px;
+    height: auto;
+    padding-left : 100px;
+}
 .menu {
     float: right;
 }
@@ -34,10 +40,10 @@ nav {
     display: flex;
     line-height: 80px;
     position: sticky;
-    position: -webkit-sticky; 
-    top: 0; 
+    position: -webkit-sticky;
+    top: 0;
     background: #EADBC8;
-    z-index: 1000; 
+    z-index: 1000;
     border-bottom: 1px solid #DAC0A3;
 }
 
@@ -67,9 +73,9 @@ nav ul li a:hover {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #EADBC8; 
+    background-color: #EADBC8;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -345,26 +351,29 @@ border-radius: 5px;
     color: #333;
 }
 
+
 @media screen and (max-width: 991.98px) {
     .wrapper {
-        width: 90%;
+        width: 70%;
     }
 
-    .logo a {
+    /* .logo a {
         display: block;
-        width: 100%;
+        width: 50%;
         text-align: center;
-    }
+        line-height: 20px;
+
+    } */
 
     nav .menu {
-        width: 100%;
+        width: 90%;
         margin: 0;
     }
 
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 60px;
+        line-height: 40px;
     }
 
     nav .menu ul li {
@@ -389,56 +398,32 @@ border-radius: 5px;
     .kartu-partner {
         width: 50%;
     }
+
+
 }
 
-/* Kalkulator */
-.calculator-container {
-    background-color: #FEFAF6;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px #41B06E;
-    text-align: center;
-    width: 320px;
-    margin: auto;
-    margin-top: 150px;
+.card {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-.input-section {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666;
-}
-
-input[type="number"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #25D366;
-    color: black;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #25D366;
-}
-
-.result-section {
-    margin-top: 20px;
+.card-header {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-bottom: 0.5px solid #ddd;
+    font-size: 1rem;
     font-weight: bold;
-    color: #333;
 }
 
-/* Kalkulator */
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
