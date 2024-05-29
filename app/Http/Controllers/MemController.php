@@ -8,14 +8,25 @@ use Illuminate\Support\Facades\Http;
 
 class MemController extends Controller
 {
-    // public function indexId($id){
-    //     $response = Http::get("https://raw.githubusercontent.com/penggguna/QuranJSON/master/surah/{$id}.json");
-    //     // return $response->json();
+    public function index(){
+        $response = Http::get('https://raw.githubusercontent.com/penggguna/QuranJSON/master/quran.json');
+        // return $response->json();
 
-    //     return view('memorizinspire',[
-    //         'response' => json_decode($response)
-    //     ]);
-    // }
+        return view('memorizinspire',[
+            'response' => json_decode($response)
+        ]);
+    }
+
+    public function indexId($id){
+        $response = Http::get("https://raw.githubusercontent.com/penggguna/QuranJSON/master/surah/{$id}.json");
+        // return $response->json();
+
+        return view('test',[
+            'response' => json_decode($response)
+        ]);
+    }
+
+
 
 
     // public function saveProgress(Request $request)
