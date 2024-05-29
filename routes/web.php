@@ -19,6 +19,8 @@ Route::get('quran/{id}', [QuranController::class, 'indexId'])->name('quran.index
 
 //Hadist
 Route::get('hadist', [HadistController::class, 'index']);
+Route::get('hadist/{book}/{page}', [HadistController::class, 'index']);
+
 
 //issolution
 Route::get('/issolution', function () {
@@ -70,9 +72,11 @@ Route::get('/kalkulatorfitrah', function () {
 // premium
 
 Route::post('/', [PremiumController::class, 'simpanData']);
+
 // memorizinspire
-Route::get('/memorizinspire', function () {
-    return view('memorizinspire');
-});
-Route::post('/verse/save-progress', [MemController::class, 'store']);
-Route::get('/memorizinspire/{id}', [MemController::class, 'indexId'])->name('memorizinspire');
+Route::get('/memorizinspire', [MemController::class, 'index']);
+Route::get('/test/{id}', [MemController::class, 'indexId'])->name('test.indexId');
+
+
+return view('test');
+
