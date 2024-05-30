@@ -2,53 +2,62 @@
 @section('content')
 <style>
     .hadis-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
     }
 
     .hadis-box {
-        border: 2px solid #333;
+        width: 300px;
         padding: 20px;
-        border-radius: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
         background-color: #f9f9f9;
-        position: relative;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     .hadis-title {
+        font-size: 18px;
         font-weight: bold;
         margin-bottom: 10px;
     }
 
-    .hadis-info {
-        font-size: 16px;
+    .pagination {
+        margin-top: 15px;
     }
 
-    .open-button {
-        position: absolute;
-        bottom: 5px;
-        right: 10px;
+    .pagination button {
         background-color: #4CAF50;
         color: white;
-        padding: 10px 20px;
         border: none;
         border-radius: 5px;
+        padding: 5px 10px;
         cursor: pointer;
+        margin: 5px;
     }
 
-    .open-button:hover {
+    .pagination button:hover {
         background-color: #45a049;
     }
+
+    .hadith-group {
+        display: none;
+        text-align: left;
+    }
+
+    .hadith-group li {
+        list-style: none;
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+    }
 </style>
-</head>
+
 <div class="hadis-container">
     @foreach($allBooks as $book)
         <div class="hadis-box">
             <div class="hadis-title">{{ $book['name'] }}</div>
-            <div class="hadis-info">
-                <p><strong>ID:</strong> {{ $book['id'] }}</p>
-                <p><strong>Tersedia:</strong> {{ $book['available'] }}</p>
-            </div>
             <div id="{{ $book['id'] }}-content" class="hadis-content">
                 @php
                     $hadiths = [];
@@ -93,7 +102,7 @@
                         @if($index != 0)
                             </ul>
                         @endif
-                        <ul id="{{ $book['id'] }}-group-{{ floor($index / 5) + 1 }}" class="hadith-group" style="display: none;">
+                        <ul id="{{ $book['id'] }}-group-{{ floor($index / 5) + 1 }}" class="hadith-group">
                     @endif
                     <li>
                         <p><strong>Hadis {{ $hadith['number'] }}:</strong></p>
@@ -109,7 +118,7 @@
     @endforeach
 </div>
 
-<<script>
+<script>
     function showHadithGroup(bookId, groupNumber) {
         // Menampilkan atau menyembunyikan kelompok hadis tergantung pada kondisi saat ini
         var selectedGroup = document.getElementById(bookId + '-group-' + groupNumber);
@@ -129,7 +138,4 @@
     }
 </script>
 
-
-
 @endsection
-
