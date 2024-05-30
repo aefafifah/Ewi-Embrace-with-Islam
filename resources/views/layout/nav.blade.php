@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/style.css">
 <nav>
     <div class="wrapper">
-        <div class="logo"><a href=''>Embrace with Islam.</a></div>
+        <div class="logo"><a href="Assets/Ewi Logo.png"><img src="Assets/Ewi Logo Fix.png" alt="Logo"></a></div>
         <div class="menu">
             <ul>
                 <li><a href="/" class="tbl-biru">Home</a></li>

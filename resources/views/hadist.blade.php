@@ -1,32 +1,5 @@
 @extends('layout.master')
 @section('content')
-    {{-- <h1>Daftar Hadis</h1>
-    <div class="hadith-racks">
-        @foreach($response['hadiths']['data'] as $hadith)
-            <div class="hadith-rack">
-                <strong>Hadis Nomor {{ $hadith['hadithNumber'] }}</strong><br>
-                <strong>Bab:</strong> {{ $hadith['chapter']['chapterEnglish'] }}<br>
-                <strong>Nomor Hadis:</strong> {{ $hadith['hadithNumber'] }}<br>
-                <strong>Isi Hadis (Bahasa Arab):</strong> {{ $hadith['hadithArabic'] }}
-                <div class="hadith-arabic">
-                    {{ $hadith['hadithArabic'] }}
-                    <h1>Hadist HR. Muslim</h1>
-                    <ul>
-                        @foreach($hadiths as $hadith)
-                            <li>
-                                <strong>Nomor Hadis:</strong> {{ $hadith['number'] }}<br>
-                                <strong>Hadis Arab:</strong> {{ $hadith['arab'] }}<br>
-                                <strong>Terjemahan:</strong> {{ $hadith['id'] }}
-                            </li>
-                        @endforeach
-                    </ul>
-
-                </div>
-            </div>
-        @endforeach
-    </div>
-@endsection --}}
-
 <style>
     .hadis-container {
         display: grid;
@@ -76,103 +49,87 @@
                 <p><strong>ID:</strong> {{ $book['id'] }}</p>
                 <p><strong>Tersedia:</strong> {{ $book['available'] }}</p>
             </div>
-            <button class="open-button" onclick="toggleHadis('{{ $book['id'] }}')">Open</button>
             <div id="{{ $book['id'] }}-content" class="hadis-content">
-                @if($book['id'] === 'bukhari')
-                    <ul>
-                        @foreach($bukhariHadiths['hadiths'] as $hadith)
-                            <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                            <p></strong> {{ $hadith['arab'] }}</p>
-                        <p></strong> {{ $hadith['id'] }}</li><p>
-                        @endforeach
+                @php
+                    $hadiths = [];
+                    switch($book['id']) {
+                        case 'bukhari':
+                            $hadiths = $bukhariHadiths['hadiths'];
+                            break;
+                        case 'muslim':
+                            $hadiths = $muslimHadiths['hadiths'];
+                            break;
+                        case 'tirmidzi':
+                            $hadiths = $tirmidziHadiths['hadiths'];
+                            break;
+                        case 'nasai':
+                            $hadiths = $nasaiHadiths['hadiths'];
+                            break;
+                        case 'abu-daud':
+                            $hadiths = $abuHadiths['hadiths'];
+                            break;
+                        case 'ahmad':
+                            $hadiths = $ahmadHadiths['hadiths'];
+                            break;
+                        case 'darimi':
+                            $hadiths = $darimiHadiths['hadiths'];
+                            break;
+                        case 'ibnu-majah':
+                            $hadiths = $ibnuHadiths['hadiths'];
+                            break;
+                        case 'malik':
+                            $hadiths = $malikHadiths['hadiths'];
+                            break;
+                    }
+                    $groupCount = ceil(count($hadiths) / 5);
+                @endphp
+                <div class="pagination">
+                    @for ($i = 0; $i < $groupCount; $i++)
+                        <button onclick="showHadithGroup('{{ $book['id'] }}', {{ $i + 1 }})">Bagian {{ $i + 1 }}</button>
+                    @endfor
+                </div>
+                @foreach($hadiths as $index => $hadith)
+                    @if($index % 5 == 0)
+                        @if($index != 0)
+                            </ul>
+                        @endif
+                        <ul id="{{ $book['id'] }}-group-{{ floor($index / 5) + 1 }}" class="hadith-group" style="display: none;">
+                    @endif
+                    <li>
+                        <p><strong>Hadis {{ $hadith['number'] }}:</strong></p>
+                        <p>{{ $hadith['arab'] }}</p>
+                        <p>{{ $hadith['id'] }}</p>
+                    </li>
+                @endforeach
+                @if(count($hadiths) % 5 != 0)
                     </ul>
                 @endif
-                @if($book['id'] === 'muslim')
-                <ul>
-                    @foreach($muslimHadiths['hadiths'] as $hadith)
-                        <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                        <p></strong> {{ $hadith['arab'] }}</p>
-                    <p></strong> {{ $hadith['id'] }}</li><p>
-                    @endforeach
-                </ul>
-            @endif
-            @if($book['id'] === 'tirmidzi')
-            <ul>
-                @foreach($tirmidziHadiths['hadiths'] as $hadith)
-                    <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                    <p></strong> {{ $hadith['arab'] }}</p>
-                <p></strong> {{ $hadith['id'] }}</li><p>
-                @endforeach
-            </ul>
-        @endif
-        @if($book['id'] === 'nasai')
-            <ul>
-                @foreach($nasaiHadiths['hadiths'] as $hadith)
-                    <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                    <p></strong> {{ $hadith['arab'] }}</p>
-                <p></strong> {{ $hadith['id'] }}</li><p>
-                @endforeach
-            </ul>
-        @endif
-        @if($book['id'] === 'abu-daud')
-        <ul>
-            @foreach($abuHadiths['hadiths'] as $hadith)
-                <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                <p></strong> {{ $hadith['arab'] }}</p>
-            <p></strong> {{ $hadith['id'] }}</li><p>
-            @endforeach
-        </ul>
-    @endif
-    @if($book['id'] === 'ahmad')
-        <ul>
-            @foreach($ahmadHadiths['hadiths'] as $hadith)
-                <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                <p></strong> {{ $hadith['arab'] }}</p>
-            <p></strong> {{ $hadith['id'] }}</li><p>
-            @endforeach
-        </ul>
-    @endif
-    @if($book['id'] === 'darimi')
-        <ul>
-            @foreach($darimiHadiths['hadiths'] as $hadith)
-                <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                <p></strong> {{ $hadith['arab'] }}</p>
-            <p></strong> {{ $hadith['id'] }}</li><p>
-            @endforeach
-        </ul>
-    @endif
-    @if($book['id'] === 'ibnu-majah')
-        <ul>
-            @foreach($ibnuHadiths['hadiths'] as $hadith)
-                <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                <p></strong> {{ $hadith['arab'] }}</p>
-            <p></strong> {{ $hadith['id'] }}</li><p>
-            @endforeach
-        </ul>
-    @endif
-    @if($book['id'] === 'malik')
-        <ul>
-            @foreach($malikHadiths['hadiths'] as $hadith)
-                <li><p><strong>Hadis {{ $hadith['number'] }}:</p>
-                <p></strong> {{ $hadith['arab'] }}</p>
-            <p></strong> {{ $hadith['id'] }}</li><p>
-            @endforeach
-        </ul>
-    @endif
             </div>
         </div>
     @endforeach
 </div>
 
-<script>
-    function toggleHadis(id) {
-        var content = document.getElementById(id + "-content");
-        if (content.style.display === "none") {
-            content.style.display = "block";
-        } else {
-            content.style.display = "none";
+<<script>
+    function showHadithGroup(bookId, groupNumber) {
+        // Menampilkan atau menyembunyikan kelompok hadis tergantung pada kondisi saat ini
+        var selectedGroup = document.getElementById(bookId + '-group-' + groupNumber);
+        if (selectedGroup) {
+            if (selectedGroup.style.display === 'block') {
+                selectedGroup.style.display = 'none'; // Jika sudah ditampilkan, maka sembunyikan
+            } else {
+                // Menyembunyikan semua kelompok hadis untuk buku yang sesuai
+                var hadithGroups = document.querySelectorAll('#' + bookId + '-content .hadith-group');
+                for (var i = 0; i < hadithGroups.length; i++) {
+                    hadithGroups[i].style.display = 'none';
+                }
+                // Menampilkan kelompok hadis yang dipilih
+                selectedGroup.style.display = 'block';
+            }
         }
     }
 </script>
+
+
+
 @endsection
 
