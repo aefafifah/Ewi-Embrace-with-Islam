@@ -16,6 +16,34 @@
                             <p class="translation">Terjemahan: {{ $response->verses[$i]->translation_id }}</p>
                         </div>
                     </div>
+
+                    <h1>Audio Recording</h1>
+
+                    <div id="recordingControls">
+                        <button id="startRecord" onclick="startRecording()">Start Recording</button>
+                        <button id="stopRecord" onclick="stopRecording()" disabled>Stop Recording</button>
+                        <button id="getWhatsAppLink" onclick="getWhatsAppLink()">Get WhatsApp Link</button>
+                    </div>
+
+                    <div id="audioPreviewContainer" style="display: none;">
+                        <h2>Recorded Audio</h2>
+                        <audio controls id="audioPreview"></audio>
+                    </div>
+                    <form method="POST">
+                        @csrf
+                        {{-- @for ($i = 1; $i <= count($response->verse); $i++) --}}
+                            {{-- @php
+                                $recording = $recordings->get($i - 1) ?? new \App\Models\Recordings;
+                            @endphp --}}
+                            <div>
+                                <label for="hafalan_ayat_{{ $i }}">Ayat {{ $i+1 }}:</label>
+                                <input type="text" id="hafalan_ayat_{{ $i }}" name="hafalan_ayat_{{ $i }}" value="{{ old('hafalan_ayat_' . $i) }}">
+                                <input type="checkbox" id="is_finished_{{ $i }}" name="is_finished_{{ $i }}" {{ old('is_finished_' . $i) ? 'checked' : '' }}>
+                                <label for="is_finished_{{ $i }}">Finished</label>
+                            </div>
+                        {{-- @endfor --}}
+                        <button type="submit">Submit</button>
+                    </form>
                 </li>
             @endfor
         </ul>
@@ -43,10 +71,65 @@
                         <p class="translation">Terjemahan: ${verses[i].translation_id}</p>
                     </div>
                 </div>
+                <h1>Audio Recording</h1>
+
+                    <div id="recordingControls">
+                        <button id="startRecord" onclick="startRecording()">Start Recording</button>
+                        <button id="stopRecord" onclick="stopRecording()" disabled>Stop Recording</button>
+                        <button id="getWhatsAppLink" onclick="getWhatsAppLink()">Get WhatsApp Link</button>
+                    </div>
+
+                    <div id="audioPreviewContainer" style="display: none;">
+                        <h2>Recorded Audio</h2>
+                        <audio controls id="audioPreview"></audio>
+                    </div>
+
             `;
             verseList.appendChild(verse);
         }
     }
+    let mediaRecorder;
+        let audioChunks = [];
+
+        function startRecording() {
+            navigator.mediaDevices.getUserMedia({ audio: true })
+                .then(function(stream) {
+                    mediaRecorder = new MediaRecorder(stream);
+                    mediaRecorder.start();
+
+                    mediaRecorder.addEventListener('dataavailable', function(event) {
+                        audioChunks.push(event.data);
+                    });
+
+                    mediaRecorder.addEventListener('stop', function() {
+                        let audioBlob = new Blob(audioChunks, { 'type': 'audio/wav' });
+                        let audioURL = URL.createObjectURL(audioBlob);
+                        document.getElementById('audioPreview').src = audioURL;
+                        document.getElementById('audioPreviewContainer').style.display = 'block';
+                    });
+
+                    document.getElementById('startRecord').disabled = true;
+                    document.getElementById('stopRecord').disabled = false;
+                })
+                .catch(function(err) {
+                    console.error('Error accessing microphone: ', err);
+                });
+        }
+
+        function stopRecording() {
+            mediaRecorder.stop();
+            document.getElementById('startRecord').disabled = false;
+            document.getElementById('stopRecord').disabled = true;
+        }
+
+        function getWhatsAppLink() {
+            let phoneNumber = '6281217332804';
+            let audioURL = document.getElementById('audioPreview').src;
+            let whatsAppLink = 'https://wa.me/' + phoneNumber + '?text=Listen%20to%20my%20recording:%20' + encodeURIComponent(audioURL);
+            window.open(whatsAppLink);
+        }
+
+        // Ensure checkboxes and inputs reflect
 </script>
 
 
