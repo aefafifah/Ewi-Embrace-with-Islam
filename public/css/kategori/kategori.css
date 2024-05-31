@@ -11,10 +11,9 @@ body
 }
 
 
-
 .hero
 {
-  background-image: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e 60%, #ffff 60%, #ffff 100%);
+  background-image: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e  60%, #ffff 60%, #ffff 100%);
 }
 
 .hero .hero-container 
@@ -25,7 +24,8 @@ body
   justify-content: center; 
 }
 
-.hero .hero-content {
+.hero .hero-content 
+{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +47,6 @@ body
   
 }
 
-
 .center-button 
 {
   background-color: #102c57;
@@ -62,7 +61,6 @@ body
   text-decoration: none;
 }
 
-
 .center-button:hover 
 {
   background-color: #1A3A72; /* Warna tombol saat di-hover */
@@ -70,11 +68,179 @@ body
 
 .hero #bismillah
 {
-  font-size: 37px; 
+  font-size: 32px; 
   color: #102c57; 
   opacity: 0.8; 
-  margin-bottom: 45px; 
+  margin-bottom: 30px; 
+  margin-top: 120px;
+}
+
+
+.dalil h2
+{
+  text-align: center;
+  font-size: 40px;
+  color: #102c57; 
+  margin-top: 0px;
+}
+
+hr
+{
+  width: 110px;
+  margin: 20px auto;
+  height: 4.5px;
+  background-color: #102c57;
+}
+
+.dalil .dalil-container 
+{
+  min-height: 90vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
   margin-top: 75px;
+}
+
+.dalil .dalil-box 
+{
+  background-color: #fff;
+  border: 2px solid #102c57;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 60px auto;
+  margin-top: 0px;
+}
+
+.dalil .dalil-title 
+{
+  font-size: 24px;
+  color: #102c57;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+
+.dalil .dalil-content 
+{
+  padding: 15px;
+  border-radius: 5px;
+  text-align: end;
+  font-size: 26px;
+  color: black;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.dalil .dalil-translation 
+{
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+}
+
+/* Tombol Tafsir dan Tatbhiq */
+.tafsir-button,
+.tatbhiq-button 
+{
+    background-color: #102c57;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.tafsir-button:hover,
+.tatbhiq-button:hover 
+{
+    background-color: rgb(50, 90, 160);   
+}
+
+#popup-container 
+{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup-content 
+{
+  background-color: #fff;
+  padding: 20px;
+  width: 750px;
+  height: 550px;
+  overflow-y: auto;
+  position: relative;
+}
+
+#close-popup 
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#close-popup:hover 
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: blue;
+}
+
+#popup-title 
+{
+  font-size: 24px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#popup-text 
+{
+  font-size: 17;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  letter-spacing: 0.7px;
+  line-height: 1.7;
+}
+
+
+.tafsir
+{
+  background-color: #f5f5f5;
+}
+
+.tafsir .tafsir-container
+{
+  min-height: 90vh;
+}
+
+.tafsir h2
+{
+  text-align: center;
+  font-size: 40px;
+  color: #102c57; 
 }
 
 
@@ -121,6 +287,59 @@ body
     font-size: 24px;
     margin: 20px 0;
   }
+
+
+  .dalil .dalil-title 
+  {
+    font-size: 21px;
+    color: #102c57;
+    margin-bottom: 10px;
+    margin-left: 80px;
+  }
+
+  .dalil .dalil-content 
+  {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: end;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .dalil .dalil-translation 
+  {
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+  }
+
+  .tafsir-button,
+  .tatbhiq-button 
+  {
+      background-color: #102c57;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 13px;
+      margin-right: 5px;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+  }
+
+  #popup-content 
+  {
+    background-color: #fff;
+    padding: 20px;
+    width: 650px;
+    height: 450px;
+    overflow-y: auto;
+    position: relative;
+  }
+
 }
 
 
@@ -171,6 +390,143 @@ body
     margin-top: 15px !important;
     font-size: 22px !important;
     margin: 15px 0;
+  }
+
+  
+  .dalil h2
+  {
+    text-align: center;
+    font-size: 25px;
+    color: #102c57; 
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .dalil .dalil-container 
+  {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .dalil .dalil-box 
+  {
+    background-color: #fff;
+    border: 2px solid #102c57;
+    border-radius: 10px;
+    padding: 15px;
+    width: 99%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    margin-top: 0px;
+  }
+
+  .dalil .dalil-title 
+  {
+    font-size: 15px;
+    color: #102c57;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .dalil .dalil-content 
+  {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: end;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .dalil .dalil-translation 
+  {
+    font-size: 13px;
+    color: black;
+    line-height: 1.5;
+  }
+
+  .tafsir-button,
+  .tatbhiq-button 
+  {
+      background-color: #102c57;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 11px;
+      margin-right: 5px;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+  }
+
+  #popup-container 
+  {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #popup-content 
+  {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    overflow-y: auto; 
+    position: relative;
+  }
+
+  #close-popup 
+  {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  #close-popup:hover 
+  {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: blue;
+  }
+
+  #popup-title 
+  {
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #popup-text 
+  {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    letter-spacing: 0.7px;
   }
 
 }
