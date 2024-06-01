@@ -29,20 +29,18 @@
                         <h2>Recorded Audio</h2>
                         <audio controls id="audioPreview"></audio>
                     </div>
-                    <form method="POST">
+                    <form method="POST" action="{{ route('verses.store') }}">
                         @csrf
-                        {{-- @for ($i = 1; $i <= count($response->verse); $i++) --}}
-                            {{-- @php
-                                $recording = $recordings->get($i - 1) ?? new \App\Models\Recordings;
-                            @endphp --}}
-                            <div>
-                                <label for="hafalan_ayat_{{ $i }}">Ayat {{ $i+1 }}:</label>
-                                <input type="text" id="hafalan_ayat_{{ $i }}" name="hafalan_ayat_{{ $i }}" value="{{ old('hafalan_ayat_' . $i) }}">
-                                <input type="checkbox" id="is_finished_{{ $i }}" name="is_finished_{{ $i }}" {{ old('is_finished_' . $i) ? 'checked' : '' }}>
-                                <label for="is_finished_{{ $i }}">Finished</label>
-                            </div>
-                        {{-- @endfor --}}
-                        <button type="submit">Submit</button>
+                        <label for="day_number">Hari ke:</label>
+                        <input type="text" id="day_number" name="day_number" value="{{ old('day_number') }}">
+                        <div>
+                            <label for="hafalan_ayat_{{ $i }}">Ayat {{ $i + 1 }}:</label>
+                            <input type="text" id="hafalan_ayat_{{ $i }}" name="hafalan_ayat[{{ $i }}]" value="{{ old('hafalan_ayat.' . $i) }}">
+                            <input type="hidden" name="is_finished[{{ $i }}]" value="0"> <!-- Hidden input for unchecked state -->
+                            <input type="checkbox" id="is_finished_{{ $i }}" name="is_finished[{{ $i }}]" value="1" {{ old('is_finished.' . $i) ? 'checked' : '' }}>
+                            <label for="is_finished_{{ $i }}">Finished</label>
+                            <button type="submit">Submit</button>
+                        </div>
                     </form>
                 </li>
             @endfor
@@ -73,66 +71,72 @@
                 </div>
                 <h1>Audio Recording</h1>
 
-                    <div id="recordingControls">
-                        <button id="startRecord" onclick="startRecording()">Start Recording</button>
-                        <button id="stopRecord" onclick="stopRecording()" disabled>Stop Recording</button>
-                        <button id="getWhatsAppLink" onclick="getWhatsAppLink()">Get WhatsApp Link</button>
-                    </div>
+                <div id="recordingControls">
+                    <button id="startRecord" onclick="startRecording()">Start Recording</button>
+                    <button id="stopRecord" onclick="stopRecording()" disabled>Stop Recording</button>
+                    <button id="getWhatsAppLink" onclick="getWhatsAppLink()">Get WhatsApp Link</button>
+                </div>
 
-                    <div id="audioPreviewContainer" style="display: none;">
-                        <h2>Recorded Audio</h2>
-                        <audio controls id="audioPreview"></audio>
-                    </div>
-
+                <div id="audioPreviewContainer" style="display: none;">
+                    <h2>Recorded Audio</h2>
+                    <audio controls id="audioPreview"></audio>
+                </div>
+                <form method="POST" action="{{ route('verses.store') }}">
+                        @csrf
+                        <label for="day_number">Hari ke:</label>
+                        <input type="text" id="day_number" name="day_number" value="{{ old('day_number') }}">
+                        <div>
+                            <label for="hafalan_ayat_{{ $i }}">Ayat {{ $i + 1 }}:</label>
+                            <input type="text" id="hafalan_ayat_{{ $i }}" name="hafalan_ayat[{{ $i }}]" value="{{ old('hafalan_ayat.' . $i) }}">
+                            <input type="hidden" name="is_finished[{{ $i }}]" value="0"> <!-- Hidden input for unchecked state -->
+                            <input type="checkbox" id="is_finished_{{ $i }}" name="is_finished[{{ $i }}]" value="1" {{ old('is_finished.' . $i) ? 'checked' : '' }}>
+                            <label for="is_finished_{{ $i }}">Finished</label>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
             `;
             verseList.appendChild(verse);
         }
     }
+
     let mediaRecorder;
-        let audioChunks = [];
+    let audioChunks = [];
 
-        function startRecording() {
-            navigator.mediaDevices.getUserMedia({ audio: true })
-                .then(function(stream) {
-                    mediaRecorder = new MediaRecorder(stream);
-                    mediaRecorder.start();
+    function startRecording() {
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(function(stream) {
+                mediaRecorder = new MediaRecorder(stream);
+                mediaRecorder.start();
 
-                    mediaRecorder.addEventListener('dataavailable', function(event) {
-                        audioChunks.push(event.data);
-                    });
-
-                    mediaRecorder.addEventListener('stop', function() {
-                        let audioBlob = new Blob(audioChunks, { 'type': 'audio/wav' });
-                        let audioURL = URL.createObjectURL(audioBlob);
-                        document.getElementById('audioPreview').src = audioURL;
-                        document.getElementById('audioPreviewContainer').style.display = 'block';
-                    });
-
-                    document.getElementById('startRecord').disabled = true;
-                    document.getElementById('stopRecord').disabled = false;
-                })
-                .catch(function(err) {
-                    console.error('Error accessing microphone: ', err);
+                mediaRecorder.addEventListener('dataavailable', function(event) {
+                    audioChunks.push(event.data);
                 });
-        }
 
-        function stopRecording() {
-            mediaRecorder.stop();
-            document.getElementById('startRecord').disabled = false;
-            document.getElementById('stopRecord').disabled = true;
-        }
+                mediaRecorder.addEventListener('stop', function() {
+                    let audioBlob = new Blob(audioChunks, { 'type': 'audio/wav' });
+                    let audioURL = URL.createObjectURL(audioBlob);
+                    document.getElementById('audioPreview').src = audioURL;
+                    document.getElementById('audioPreviewContainer').style.display = 'block';
+                });
 
-        function getWhatsAppLink() {
-            let phoneNumber = '6281217332804';
-            let audioURL = document.getElementById('audioPreview').src;
-            let whatsAppLink = 'https://wa.me/' + phoneNumber + '?text=Listen%20to%20my%20recording:%20' + encodeURIComponent(audioURL);
-            window.open(whatsAppLink);
-        }
+                document.getElementById('startRecord').disabled = true;
+                document.getElementById('stopRecord').disabled = false;
+            })
+            .catch(function(err) {
+                console.error('Error accessing microphone: ', err);
+            });
+    }
 
-        // Ensure checkboxes and inputs reflect
+    function stopRecording() {
+        mediaRecorder.stop();
+        document.getElementById('startRecord').disabled = false;
+        document.getElementById('stopRecord').disabled = true;
+    }
+
+    function getWhatsAppLink() {
+        let phoneNumber = '6281217332804';
+        let audioURL = document.getElementById('audioPreview').src;
+        let whatsAppLink = 'https://wa.me/' + phoneNumber + '?text=Listen%20to%20my%20recording:%20' + encodeURIComponent(audioURL);
+        window.open(whatsAppLink);
+    }
 </script>
-
-
-
-
-

@@ -76,6 +76,20 @@ Route::post('/', [PremiumController::class, 'simpanData']);
 // memorizinspire
 Route::get('/memorizinspire', [MemController::class, 'index']);
 Route::get('/test/{id}', [MemController::class, 'indexId'])->name('test.indexId');
+// Route::get('/verses', [MemController::class, 'index'])->name('verses.index');
+Route::post('/memorizinspire', [MemController::class, 'store'])->name('verses.store');
+Route::get('/verses', [MemController::class, 'show'])->name('verses.show');
+// Route::get('/verses/{day_number}/edit', [MemController::class, 'edit'])->name('verses.edit');
+// Route::put('/verses/{day_number}', [MemController::class, 'update'])->name('verses.update');
+// Route::delete('/verses/{day_number}', [MemController::class, 'destroy'])->name('verses.destroy');
+Route::delete('/verses/{day_number}/{hafalan_ayat}', [MemController::class, 'destroy'])->name('verses.destroy');
+Route::get('/verses/{day_number}/edit', [MemController::class, 'edit'])->name('verses.edit');
+Route::put('/verses/{day_number}', [MemController::class, 'update'])->name('verses.update');
+// Route::put('/verses/{day_number}/{hafalan_ayat}', [MemController::class, 'update'])->name('verses.update');
+// Route::get('/verses/{day_number}/{hafalan_ayat}/edit', [MemController::class, 'edit'])->name('verses.edit');
+// Route::put('/verses/{day_number}/{hafalan_ayat}', [MemController::class, 'update'])->name('verses.update');
+
+
 
 
 return view('test');
