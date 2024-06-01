@@ -11,6 +11,7 @@
                 <p>Tempat: {{ $surah->place }}</p>
                 <p>Tipe: {{ $surah->type }}</p>
                 <button onclick="window.location='{{ route('quran.indexId', ['id' => $surah->number_of_surah]) }}'" class="custom-button">Buka Surat</button>
+                <a href="{{ route('test.indexId', ['id' => $surah->number_of_surah]) }}">Kunjungi halaman Test</a>
 
                 <p>Audio:</p>
                 <div class="audio-container">
