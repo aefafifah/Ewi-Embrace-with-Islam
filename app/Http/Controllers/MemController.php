@@ -88,17 +88,18 @@ class MemController extends Controller
     }
 
 
-public function destroy($day_number, $hafalan_ayat)
-{
-    // Cari entri kemajuan ayat berdasarkan day_number dan hafalan_ayat
-    $verseProgress = VerseProgress::where('day_number', $day_number)
-                                   ->where('hafalan_ayat', $hafalan_ayat)
-                                   ->firstOrFail();
+    public function destroy($day_number, $hafalan_ayat_id) // Mengubah nama parameter agar sesuai dengan route
+    {
+        // Cari entri kemajuan ayat berdasarkan day_number dan hafalan_ayat_id
+        $verseProgress = VerseProgress::where('day_number', $day_number)
+                                       ->where('id', $hafalan_ayat_id) // Menggunakan id dari model untuk pencarian
+                                       ->firstOrFail();
 
-    // Hapus entri
-    $verseProgress->delete();
+        // Hapus entri
+        $verseProgress->delete();
 
-    return redirect()->route('verses.show', ['day_number' => $day_number])
-                     ->with('success', 'Verse deleted successfully!');
-}
+        return redirect()->route('verses.show', ['day_number' => $day_number])
+                         ->with('success', 'Verse deleted successfully!');
+    }
+
 }

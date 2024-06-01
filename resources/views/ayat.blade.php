@@ -10,13 +10,13 @@
 <style>
         body {
             font-family: "Arial", sans-serif;
-            background-color: #f0f8ff;
+            background-color: #f4f4f4;
             padding: 20px;
             text-align: center;
         }
 
         h2 {
-            color: #007bff;
+            color: rgb(16, 44, 87);
             margin-bottom: 10px;
             font-size: 24px;
         }
@@ -64,17 +64,17 @@
         }
 
         .verse {
-            font-size: 18px;
+            font-size: 30px;
             text-align: right;
             direction: rtl;
             padding: 10px;
             margin-bottom: 20px;
+            font-family: Scheherazade;
         }
         .translation {
             font-size: 16px;
-            color: #333;
+            color: #666;
             text-align: left;
-            padding:
         }
     </style>
 </head>
