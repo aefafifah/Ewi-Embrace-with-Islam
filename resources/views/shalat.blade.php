@@ -63,7 +63,7 @@
                     <p>فَوَيْلٌۭ لِّلْمُصَلِّينَ (٤) ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ (٥)</p>
                 </div>
                 <p class="dalil-translation">Maka celakalah orang yang salat, (yaitu) orang-orang yang lalai terhadap
-                    salatnya,</p>
+                    salatnya.</p>
                 <button class="tafsir-button" data-title="Tafsir Jalalain Surah Al-Ma'un, Ayat 4 - 5"
                     data-text="Maka kecelakaanlah bagi orang-orang yang shalat. Yaitu orang-orang yang lalai dari shalatnya, artinya mengakhirkan shalat dari waktunya. ">Tafsir</button>
                 <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Ma'un, Ayat 4 - 5"
