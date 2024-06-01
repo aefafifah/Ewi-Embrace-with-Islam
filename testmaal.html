@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Zakat Maal</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Zakat Maal</h1>
+        <form id="zakatForm">
+            <label for="cash">Uang Tunai (IDR):</label>
+            <input type="number" id="cash" name="cash" required><br>
+            <label for="bank">Tabungan Bank (IDR):</label>
+            <input type="number" id="bank" name="bank" required><br>
+            <label for="receivables">Piutang (IDR):</label>
+            <input type="number" id="receivables" name="receivables" required><br>
+            <label for="investments">Investasi (IDR):</label>
+            <input type="number" id="investments" name="investments" required><br>
+            <label for="foreignCurrency">Mata Uang Asing (IDR):</label>
+            <input type="number" id="foreignCurrency" name="foreignCurrency" required><br>
+            <label for="gold">Emas (gram):</label>
+            <input type="number" id="gold" name="gold" required>
+            <select id="goldKarat" name="goldKarat">
+                <option value="1">1 karat</option>
+                <option value="2">2 karat</option>
+                <option value="3">3 karat</option>
+                <option value="4">4 karat</option>
+                <option value="5">5 karat</option>
+                <option value="6">6 karat</option>
+                <option value="7">7 karat</option>
+                <option value="8">8 karat</option>
+                <option value="9">9 karat</option>
+                <option value="10">10 karat</option>
+                <option value="11">11 karat</option>
+                <option value="12">12 karat</option>
+                <option value="13">13 karat</option>
+                <option value="14">14 karat</option>
+                <option value="15">15 karat</option>
+                <option value="16">16 karat</option>
+                <option value="17">17 karat</option>
+                <option value="18">18 karat</option>
+                <option value="19">19 karat</option>
+                <option value="20">20 karat</option>
+                <option value="21">21 karat</option>
+                <option value="22">22 karat</option>
+                <option value="23">23 karat</option>
+                <option value="24">24 karat</option>
+            </select><br>
+            <label for="silver">Perak (gram):</label>
+            <input type="number" id="silver" name="silver" required><br>
+            <label for="business">Aset Bisnis (IDR):</label>
+            <input type="number" id="business" name="business" required><br>
+            <button type="button" onclick="calculateZakat()">Hitung Zakat</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script>
+        function calculateZakat() {
+            const nisabGold = 85; // grams of gold for nisab
+            const goldPricePerGram = 900000; // IDR per gram (update this value accordingly)
+            const silverPricePerGram = 10000; // IDR per gram (update this value accordingly)
+            const nisab = nisabGold * goldPricePerGram;
+
+            const cash = parseFloat(document.getElementById('cash').value) || 0;
+            const bank = parseFloat(document.getElementById('bank').value) || 0;
+            const receivables = parseFloat(document.getElementById('receivables').value) || 0;
+            const investments = parseFloat(document.getElementById('investments').value) || 0;
+            const foreignCurrency = parseFloat(document.getElementById('foreignCurrency').value) || 0;
+            const gold = parseFloat(document.getElementById('gold').value) || 0;
+            const goldKarat = parseFloat(document.getElementById('goldKarat').value) || 0;
+            const silver = parseFloat(document.getElementById('silver').value) || 0;
+            const business = parseFloat(document.getElementById('business').value) || 0;
+
+            const goldValue = gold * goldPricePerGram * (goldKarat / 24); // Adjust gold value based on karat
+            const silverValue = silver * silverPricePerGram;
+            const totalAssets = cash + bank + receivables + investments + foreignCurrency + goldValue + silverValue + business;
+
+            let zakat = 0;
+            if (totalAssets >= nisab) {
+                zakat = totalAssets * 0.025;
+            }
+
+            document.getElementById('result').innerText = `Your Zakat Maal is: IDR ${zakat.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>

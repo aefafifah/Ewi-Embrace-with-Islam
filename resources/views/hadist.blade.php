@@ -6,26 +6,53 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+        padding: 20px;
+        background-color: #f0f4f8;
     }
 
     .hadis-box {
-        width: 300px;
+        flex: 1 1 calc(33.33% - 40px);
+        max-width: 1000px;
         padding: 20px;
         border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: #f9f9f9;
+        border-radius: 10px;
+        background-color: #ffffff;
         text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    @media (max-width: 992px) {
+        .hadis-box {
+            flex: 1 1 calc(50% - 40px);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .hadis-box {
+            flex: 1 1 calc(100% - 40px);
+        }
+    }
+
+    .hadis-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     }
 
     .hadis-title {
-        font-size: 18px;
+        font-size: 22px;
         font-weight: bold;
-        margin-bottom: 10px;
+        color: #333;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #4CAF50;
+        padding-bottom: 10px;
     }
 
     .pagination {
         margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 
     .pagination button {
@@ -33,9 +60,9 @@
         color: white;
         border: none;
         border-radius: 5px;
-        padding: 5px 10px;
+        padding: 8px 12px;
         cursor: pointer;
-        margin: 5px;
+        transition: background-color 0.3s;
     }
 
     .pagination button:hover {
@@ -49,8 +76,35 @@
 
     .hadith-group li {
         list-style: none;
-        padding: 5px;
+        padding: 10px;
         border-bottom: 1px solid #ddd;
+        background-color: #fafafa;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .hadith-group li:hover {
+        background-color: #f1f1f1;
+    }
+
+    .hadith-group p {
+        margin: 5px 0;
+    }
+
+    .hadith-number {
+        font-weight: bold;
+        color: #4CAF50;
+    }
+
+    .hadith-arabic {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .hadith-translation {
+        font-size: 16px;
+        color: #333;
     }
 </style>
 
@@ -90,7 +144,7 @@
                             $hadiths = $malikHadiths['hadiths'];
                             break;
                     }
-                    $groupCount = ceil(count($hadiths) / 5);
+                    $groupCount = ceil(count($hadiths) / 10);
                 @endphp
                 <div class="pagination">
                     @for ($i = 0; $i < $groupCount; $i++)
@@ -98,19 +152,19 @@
                     @endfor
                 </div>
                 @foreach($hadiths as $index => $hadith)
-                    @if($index % 5 == 0)
+                    @if($index % 10 == 0)
                         @if($index != 0)
                             </ul>
                         @endif
-                        <ul id="{{ $book['id'] }}-group-{{ floor($index / 5) + 1 }}" class="hadith-group">
+                        <ul id="{{ $book['id'] }}-group-{{ floor($index / 10) + 1 }}" class="hadith-group">
                     @endif
                     <li>
-                        <p><strong>Hadis {{ $hadith['number'] }}:</strong></p>
-                        <p>{{ $hadith['arab'] }}</p>
-                        <p>{{ $hadith['id'] }}</p>
+                        <p class="hadith-number">Hadis {{ $hadith['number'] }}:</p>
+                        <p class="hadith-arabic">{{ $hadith['arab'] }}</p>
+                        <p class="hadith-translation">{{ $hadith['id'] }}</p>
                     </li>
                 @endforeach
-                @if(count($hadiths) % 5 != 0)
+                @if(count($hadiths) % 10 != 0)
                     </ul>
                 @endif
             </div>
@@ -118,20 +172,18 @@
     @endforeach
 </div>
 
+
 <script>
     function showHadithGroup(bookId, groupNumber) {
-        // Menampilkan atau menyembunyikan kelompok hadis tergantung pada kondisi saat ini
         var selectedGroup = document.getElementById(bookId + '-group-' + groupNumber);
         if (selectedGroup) {
             if (selectedGroup.style.display === 'block') {
-                selectedGroup.style.display = 'none'; // Jika sudah ditampilkan, maka sembunyikan
+                selectedGroup.style.display = 'none';
             } else {
-                // Menyembunyikan semua kelompok hadis untuk buku yang sesuai
                 var hadithGroups = document.querySelectorAll('#' + bookId + '-content .hadith-group');
                 for (var i = 0; i < hadithGroups.length; i++) {
                     hadithGroups[i].style.display = 'none';
                 }
-                // Menampilkan kelompok hadis yang dipilih
                 selectedGroup.style.display = 'block';
             }
         }

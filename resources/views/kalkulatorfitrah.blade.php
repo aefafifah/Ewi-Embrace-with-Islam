@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('css/kalkulatorfitrah.css') }}">
 
 <div class="container">
-    <img src="{{ asset('images/logo.png') }}" alt="EWI LOGO SOOOOOOOOOOON" class="logo">
+    <img src="{{ asset('Assets/Ewi Logo.png') }}" alt="EWI LOGO SOOOOOOOOOOON" class="logo">
     <h1>Kalkulator Zakat</h1>
     <p>"Ambillah zakat dari harta mereka, guna membersihkan dan menyucikan mereka, dan berdoalah untuk mereka. Sesungguhnya doamu itu (menumbuhkan) ketenteraman jiwa bagi mereka. Allah Maha Mendengar, Maha Mengetahui." Q.S Attaubah : 103</p>        
 
@@ -14,11 +14,10 @@
         <img src="Assets/Penghasilan.svg" alt="Penghasilan">
             <p>Penghasilan</p>
         </a>
-        <div class="icon-item" onclick="showForm('tabungan')">
+        <div class="icon-item" onclick="ubahJenisZakat('tabungan')">
             <img src="Assets/Tabungan.svg" alt="Tabungan">
             <p>Tabungan</p>
         </div>
-        </a>
         <a href="#form-perdagangan" class="icon-item">
         <img src="Assets/Perdagangan.svg" alt="Perdagangan">
             <p>Perdagangan</p>
@@ -33,12 +32,12 @@
     <label for="jenis-zakat">Jenis Zakat:</label>
     <select id="jenis-zakat" onchange="ubahJenisZakat()">
         <option value="penghasilan">PENGHASILAN</option>
-        <option value="perdagangan">PERDAGANGAN</option>
         <option value="tabungan">TABUNGAN</option>
+        <option value="perdagangan">PERDAGANGAN</option>
         <option value="emas">EMAS</option>
     </select>
 
-    <div id="form-penghasilan">
+    <div id="form-penghasilan" class="form-section">
         <form id="penghasilan-form">
             <label for="gaji">Gaji saya per bulan</label>
             <input type="number" id="gaji" name="gaji" placeholder="Rp.">
@@ -51,11 +50,11 @@
             
             <label for="nisab-tahun">Nisab per tahun</label>
             <input type="number" id="nisab-tahun" name="nisab-tahun" value="81945667" readonly>
-            <a href="{{ asset('SK_01_2024.pdf') }}" class="sk-text" download>Sesuai SK Ketua BAZNAS No. 1 tahun 2024</a>
+            <a href="{{ asset('Assets/SK_01_2024.pdf') }}" class="sk-text" download>Sesuai SK Ketua BAZNAS No. 1 tahun 2024</a>
             
             <label for="nisab-bulan">Nisab per bulan</label>
             <input type="number" id="nisab-bulan" name="nisab-bulan" value="6828806" readonly>
-            <a href="{{ asset('SK_01_2024.pdf') }}" class="sk-text" download>Sesuai SK Ketua BAZNAS No. 1 tahun 2024</a>
+            <a href="{{ asset('Assets/SK_01_2024.pdf') }}" class="sk-text" download>Sesuai SK Ketua BAZNAS No. 1 tahun 2024</a>
             
             <button type="reset">Reset</button>
             <button type="button" onclick="hitungZakat('penghasilan')">Hitung Zakat</button>
@@ -75,7 +74,7 @@
         </form>
     </div>
     
-    <div id="form-perdagangan" style="display: none;">
+    <div id="form-perdagangan" class="form-section" style="display: none;">
         <form id="perdagangan-form">
             <label for="aset-lancar">Aset Lancar</label>
             <input type="number" id="aset-lancar" name="aset-lancar" placeholder="Rp.">
@@ -88,14 +87,14 @@
             
             <label for="nisab-tahun-perdagangan">Nisab per tahun</label>
             <input type="number" id="nisab-tahun-perdagangan" name="nisab-tahun-perdagangan" value="81945667" readonly>
-            <a href="{{ asset('SK_01_2024.pdf') }}" class="sk-text" download>Sesuai SK Ketua BAZNAS No. 1 tahun 2024</a>
+            <a href="{{ asset('Assets/SK_01_2024.pdf') }}" class="sk-text" download>Sesuai SK Ketua BAZNAS No. 1 tahun 2024</a>
             
             <button type="reset">Reset</button>
             <button type="button" onclick="hitungZakat('perdagangan')">Hitung Zakat</button>
         </form>
     </div>
 
-    <div id="form-emas" style="display: none;">
+    <div id="form-emas" class="form-section" style="display: none;">
         <form id="emas-form">
             <label for="berat-emas">Berat Emas (gram)</label>
             <input type="number" id="berat-emas" name="berat-emas" placeholder="gram">
@@ -166,12 +165,15 @@
 <script>
     function ubahJenisZakat() {
         var jenisZakat = document.getElementById('jenis-zakat').value;
-        document.getElementById('form-penghasilan').style.display = 'none';
-        document.getElementById('form-perdagangan').style.display = 'none';
-        document.getElementById('form-emas').style.display = 'none';
+        var formSections = document.querySelectorAll('.form-section');
+        formSections.forEach(function(section) {
+            section.style.display = 'none';
+        });
 
         if (jenisZakat === 'penghasilan') {
             document.getElementById('form-penghasilan').style.display = 'block';
+        } else if (jenisZakat === 'tabungan') {
+            document.getElementById('form-tabungan').style.display = 'block';
         } else if (jenisZakat === 'perdagangan') {
             document.getElementById('form-perdagangan').style.display = 'block';
         } else if (jenisZakat === 'emas') {
@@ -191,6 +193,15 @@
             } else {
                 alert("Penghasilan Anda belum mencapai nisab untuk zakat penghasilan.");
             }
+        } else if (jenis === 'tabungan') {
+            let jumlahTabungan = parseFloat(document.getElementById('jumlah-tabungan').value) || 0;
+            let nisabTabungan = parseFloat(document.getElementById('nisab-tabungan').value);
+            if (jumlahTabungan >= nisabTabungan) {
+                let zakat = jumlahTabungan * 0.025;
+                alert('Zakat yang harus dikeluarkan: Rp. ' + zakat);
+            } else {
+                alert('Jumlah tabungan tidak mencapai nisab');
+            }
         } else if (jenis === 'perdagangan') {
             var asetLancar = parseFloat(document.getElementById('aset-lancar').value) || 0;
             var laba = parseFloat(document.getElementById('laba').value) || 0;
@@ -202,15 +213,6 @@
             } else {
                 alert("Aset Perdagangan Anda belum mencapai nisab untuk zakat perdagangan.");
             }
-        } else if (type === 'tabungan') {
-        let jumlahTabungan = parseFloat(document.getElementById('jumlah-tabungan').value) || 0;
-        let nisabTabungan = parseFloat(document.getElementById('nisab-tabungan').value);
-        if (jumlahTabungan >= nisabTabungan) {
-            let zakat = jumlahTabungan * 0.025;
-            alert('Zakat yang harus dikeluarkan: Rp. ' + zakat);
-        } else {
-            alert('Jumlah tabungan tidak mencapai nisab');
-        }
         } else if (jenis === 'emas') {
             var beratEmas = parseFloat(document.getElementById('berat-emas').value) || 0;
             var hargaEmas = parseFloat(document.getElementById('harga-emas').value) || 0;
