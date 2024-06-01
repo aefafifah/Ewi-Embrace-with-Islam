@@ -9,13 +9,13 @@
     <style>
         body {
             font-family: "Arial", sans-serif;
-            background-color: #f4f4f4;
+            background-color: rgb(234, 219, 200);
             padding: 20px;
             text-align: center;
         }
 
         h2 {
-            color: #007bff;
+            color: rgb(16, 44, 87);
             margin-bottom: 10px;
         }
 
@@ -60,17 +60,19 @@
 }
 
         .verse {
-            font-size: 18px;
+            font-size: 30px;
             text-align: right;
             direction: rtl;
             padding: 10px;
             margin-bottom: 20px;
+            font-family: Scheherazade;
         }
 
         .translation {
-            font-size: 16px;
+            font-size: 20px;
             color: #666;
             text-align: left;
+            padding: 2%;
         }
     </style>
 </head>

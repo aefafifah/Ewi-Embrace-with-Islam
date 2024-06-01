@@ -5,7 +5,7 @@
     .hero {
     background: url('https://via.placeholder.com/1500') no-repeat center center/cover;
     color: white;
-    height: 100vh;
+    /* height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,25 +13,27 @@
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
+    background: rgb(218, 192, 163);
     border-radius: 8px;
-    max-width: 800px;
+    width: 100%;
+
 }
 
 .hero h1 {
+    padding: 2%;
     margin-bottom: 1rem;
     font-size: 2.5rem;
-    color: #4caf50;
+    color:rgb(16, 44, 87);
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    color: rgb(16, 44, 87);
 }
 
 .steps .step {
-    background: rgba(72, 187, 120, 0.9);
+    background: rgb(16, 44, 87);
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -40,6 +42,7 @@
 .steps .step h2 {
     margin-bottom: 0.5rem;
     font-size: 1.25rem;
+    color: rgb(218, 192, 163);
 }
 
 .steps .step ul {
@@ -48,10 +51,11 @@
 }
 
 .steps .step ul li {
-    background: rgba(200, 230, 201, 0.8);
+    background: rgb(254, 250, 246);
     padding: 0.5rem;
     border-radius: 4px;
     margin-bottom: 0.5rem;
+    color:rgb(16, 44, 87);
 }
 
 .steps .step ul li strong {
@@ -62,6 +66,7 @@
     <div class="hero-content">
         <h1>Langkah-langkah Menggunakan Fitur Memorizinspire</h1>
         <p>Siap menghafal? Memorizinspire siap membantumu!</p>
+
         <div class="steps">
             <div class="step">
                 <h2>1. Akses Fitur Memorizinspire:</h2>
@@ -87,6 +92,8 @@
                     <li>Masukkan keterangan ayat yang sudah dihafal.</li>
                     <li>Ceklis jika hafalan sudah selesai.</li>
                 </ul>
+                <a href="{{ route('quran.index') }}" class="custom-button">Go to Quran</a>
+
             </div>
 
 </header>
