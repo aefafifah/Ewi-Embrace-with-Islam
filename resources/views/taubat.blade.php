@@ -29,16 +29,18 @@
                     <p> قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ
                         ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ (٥٣)</p>
                 </div>
+
                 <p class="dalil-translation">Katakanlah, "Wahai hamba-hamba-Ku yang melampaui batas terhadap diri mereka
                     sendiri! Janganlah kamu berputus asa dari rahmat Allah. Sesungguhnya Allah mengampuni dosa-dosa
                     semuanya. Sungguh, Dialah Yang Maha Pengampun, Maha Penyayang.</p>
-                <div class="button-container">
+                < div class="button-container">
                     <button class="tafsir-button" data-title="Tafsir Jalalain Surah Az-Zumar, Ayat 53"
                         data-text="(Katakanlah, Hai hamba-hamba-Ku yang melampaui batas terhadap diri mereka sendiri,
                         janganlah kalian berputus asa) dapat dibaca Laa Taqnithuu atau Laa Taqnathuu; sebagian ahli qiraat
                         ada yang membacanya Laa Taqnuthuu; artinya janganlah kalian putus asa (dari rahmat Allah ﷻ .
                         Sesungguhnya Allah ﷻ mengampuni dosa-dosa semuanya) bagi orang yang bertobat dari kemusyrikan.
                         (Sesungguhnya Dialah Yang Maha Pengampun lagi Maha Penyayang.) ">Tafsir</button>
+
                     <button class="tatbhiq-button" data-title="Tatbhiq Surah Az-Zumar, Ayat 53"
                         data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Ayat ini menjelaskan tentang sifat Allah SWT Yang Maha Pengasih lagi Maha Pengampun bagi hamba-hambaNya yang berbuat dosa. Dia memiliki rahmat dan kasih sayang yang sangat luas kepada hambaNya yang beriman.
 
@@ -47,7 +49,7 @@
                         Terkadang manusia berputus asa terlebih dahulu sebelum mencoba untuk mengharapkan ridho dan ampunan-Nya. Banyak orang yang mengira Allah SWT tidak akan mengampuni dosa yang begitu banyaknya.
                         
                         Bahkan hati seolah sudah tertutup karena kedurhakaan dan perbuatan kelamnya. Tapi Allah SWT, akan mengampuni dan menerima taubat hamba-Nya.">Tatbhiq</button>
-                </div>
+                </>
             </div>
 
             <h3 class="dalil-title">~ Surah At-Tahrim, Ayat 8</h3>
@@ -59,21 +61,24 @@
                         أَيْدِيهِمْ وَبِأَيْمَـٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ
                         إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ (٨)</p>
                 </div>
+
                 <p class="dalil-translation">Wahai orang-orang yang beriman! Bertobatlah kepada Allah dengan tobat yang
                     semurni-murninya, mudah-mudahan Tuhan kamu akan menghapus kesalahan-kesalahanmu dan memasukkan kamu ke
                     dalam surga-surga yang mengalir di bawahnya sungai-sungai, pada hari ketika Allah tidak mengecewakan
                     Nabi dan orang-orang yang beriman bersama dengannya; sedang cahaya mereka memancar di hadapan dan di
                     sebelah kanan mereka, sambil mereka berkata, "Ya Tuhan kami, sempurnakanlah untuk kami cahaya kami dan
                     ampunilah kami; sungguh, Engkau Mahakuasa atas segala sesuatu."</p>
+
                 <button class="tafsir-button" data-title="Tafsir Jalalain Surah At-Tahrim, Ayat 8"
                     data-text="(Hai orang-orang yang beriman, bertobatlah kepada Allah dengan tobat yang semurni-murninya) dapat dibaca nashuuhaa dan nushuuhaa, artinya tobat yang sebenar-benarnya, bertobat tidak akan mengulangi dosa lagi, dan menyesali apa yang telah dikerjakannya (mudah-mudahan Rabb kalian) lafal 'asaa ini mengandung makna tarajji, yakni sesuatu yang dapat diharapkan akan terjadi (akan menutupi kesalahan-kesalahan kalian, dan memasukkan kalian ke dalam surga-surga) yakni taman-taman surga (yang mengalir di bawahnya sungai-sungai, pada hari ketika Allah tidak menghinakan) Allah tidak akan memasukkan ke dalam neraka (Nabi dan orang-orang yang beriman bersama dia; sedangkan cahaya mereka memancar di hadapan mereka) maksudnya, di depan mereka terang benderang oleh cahayanya (dan) cahaya itu pun memancar pula (di sebelah kanan mereka. Mereka berkata) lafal yaquuluuna merupakan jumlah isti'naf atau kalimat baru: (Ya
                     Rabb kami! Sempurnakanlah bagi kami cahaya kami) hingga sampai ke surga, sedangkan orang-orang munafik
                     cahaya mereka padam (dan ampunilah kami) wahai Rabb kami (sesungguhnya Engkau Maha Kuasa atas segala
                     sesuatu.). ">Tafsir</button>
+
                 <button class="tatbhiq-button" data-title="Tatbhiq Surah At-Tahrim, Ayat 8"
                     data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
 
-                    Allah memerintahkan untuk bertaubat dengan sungguh-sungguh dalam ayat ini,menjanjikan penghapusan kesalahan-kesalahan, dimasukkan ke dalam surga dan mendapatkan keberuntungan dan kemenangan pada saat orangt-orang yang beriman berjalan dengan cahaya keimanan pada Hari Kiamat. Mereka menikmati rizki dan kenikmatan. Mereka berbelas kasih pada orang-orang munafik ketika cahaya mereka dipadamkan. Allah mengabulkan permintaan mereka dan Allah mengantarkan mereka berserta cahaya dan keyakinan yang ada pada diri mereka menuju surga penuh kenikmatan dan berada di dekat Rabb Yang Mahamulia. Ini semua adalah buah dari taubat secara umum, mencakup seluruh dosa yang dilakukan oleh hamba Allah yang hanya dilakukan semata-mata mengharap bertemu dengan Allah serta berada dekat denganNya. Taubat terus menerus dilakukan di seluruh hal-ihwalnya.">Tatbhiq</button>
+                    Allah memerintahkan untuk bertaubat dengan sungguh-sungguh dalam ayat ini,menjanjikan penghapusan kesalahan-kesalahan, dimasukkan ke dalam surga dan mendapatkan keberuntungan dan kemenangan pada saat orang-orang yang beriman berjalan dengan cahaya keimanan pada Hari Kiamat. Mereka menikmati rizki dan kenikmatan. Mereka berbelas kasih pada orang-orang munafik ketika cahaya mereka dipadamkan. Allah mengabulkan permintaan mereka dan Allah mengantarkan mereka berserta cahaya dan keyakinan yang ada pada diri mereka menuju surga penuh kenikmatan dan berada di dekat Rabb Yang Mahamulia. Ini semua adalah buah dari taubat secara umum, mencakup seluruh dosa yang dilakukan oleh hamba Allah yang hanya dilakukan semata-mata mengharap bertemu dengan Allah serta berada dekat denganNya. Taubat terus menerus dilakukan di seluruh hal-ihwalnya.">Tatbhiq</button>
             </div>
 
             <h3 class="dalil-title">~ Surah Ghafir Ayat 7 - 9</h3>
@@ -86,6 +91,7 @@
                         وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ (٨) وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ
                         ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ (٩)</p>
                 </div>
+
                 <p class="dalil-translation">(Malaikat-malaikat) yang memikul Arasy dan (malaikat) yang berada di
                     sekelilingnya bertasbih dengan memuji Tuhannya dan mereka beriman kepada-Nya serta memohonkan ampunan
                     untuk orang-orang yang beriman (seraya berkata), "Ya Tuhan kami, rahmat dan ilmu yang ada pada-Mu
@@ -96,6 +102,7 @@
                     mereka dari (bencana) kejahatan. Dan orang-orang yang Engkau pelihara dari (bencana) kejahatan pada hari
                     itu, maka sungguh, Engkau telah menganugerahkan rahmat kepadanya dan demikian itulah kemenangan yang
                     agung."</p>
+
                 <button class="tafsir-button" data-title="Tafsir Jalalain Surah Ghafir, Ayat 7 - 9"
                     data-text="(Malaikat-malaikat yang memikul Arasy) berkedudukan menjadi Mubtada (dan malaikat yang berada di sekelilingnya) diathafkan kepada ayat sebelumnya (bertasbih) menjadi Khabar dari Mubtada (memuji Rabb mereka) artinya, seraya memuji-Nya yaitu mengucapkan kalimat, Subhaanallaah
                     Wa Bihamdihi (dan mereka beriman kepada-Nya) kepada Allah ﷻ. dengan kalbu mereka, maksudnya, mereka
@@ -111,7 +118,8 @@
                     kejahatan) dari balasan azabnya (Dan orang-orang yang Engkau pelihara dari balasan kejahatan pada hari
                     itu) pada hari kiamat (maka sesungguhnya telah Engkau anugerahkan rahmat kepadanya dan itulah kemenangan
                     yang besar.)">Tafsir</button>
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Ma'un, Ayat 4 - 5"
+
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah Surah Ghafir, Ayat 7 - 9"
                     data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Di antara keutamaan orang-orang yang bertaubat adalah, Allah SWT akan menugaskan para malaikat  untuk beristighfar bagi mereka serta berdo'a kepada Allah SWT agar Allah SWT menyelamatkan mereka dari azab neraka. Serta memasukkan mereka ke dalam surga. Dan menyelamatkan mereka dari keburukan.">Tatbhiq</button>
             </div>
 
@@ -120,12 +128,14 @@
     </section>
 
     <div id="popup-container">
+
         <div id="popup-content">
             <button id="close-popup">&times;</button>
             <h1 id="popup-title"></h1>
             <hr style="color: black; height: 3px; margin-bottom: 35px;">
             <p id="popup-text"></p>
         </div>
+
     </div>
     <!-- end of dalil al-quran section -->
 
@@ -136,7 +146,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="
-                                                                                        M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                                                                                                    M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
         <br><br><br><br>

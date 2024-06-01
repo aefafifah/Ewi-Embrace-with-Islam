@@ -18,11 +18,44 @@
 
     <!-- dalil al-quran-->
     <section class="dalil">
-
         <h2>Dalil Al-Qur'an & Tafsirnya</h2>
         <hr>
 
         <div class="dalil-container">
+            <h3 class="dalil-title">~ Surah Al-Baqarah, Ayat 177</h3>
+            <div class="dalil-box">
+                <div class="dalil-content">
+                    <p>لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَـٰكِنَّ ٱلْبِرَّ
+                        مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَٱلْمَلَـٰٓئِكَةِ وَٱلْكِتَـٰبِ وَٱلنَّبِيِّـۧنَ
+                        وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينَ وَٱبْنَ
+                        ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ
+                        وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَـٰهَدُوا۟ ۖ وَٱلصَّـٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ
+                        وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَـٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُتَّقُونَ (١٧٧)
+                    </p>
+                </div>
+
+                <p class="dalil-translation">Kebajikan itu bukanlah mengahadapkan wajahmu ke arah timur dan ke barat, tetapi
+                    kebajikan itu ialah (kebajikan) orang yang beriman kepada Allah, hari akhir, malaikat-malaikat,
+                    kitab-kitab, dan nabi-nabi dan memberikan harta yang dicintainya kepada kerabat, anak yatim, orang-orang
+                    miskin, orang-orang yang dalam perjalanan (musafir), peminta-minta, dan untuk memerdekakan hamba sahaya,
+                    yang melaksanakan salat dan menunaikan zakat, orang-orang yang menepati janji apabila berjanji, dan
+                    orang yang sabar dalam kemelaratan, penderitaan dan pada masa peperangan. Mereka itulah orang-orang yang
+                    benar, dan mereka itulah orang-orang yang bertakwa.</p>
+
+                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 177"
+                    data-text="Bukanlah kebajikan di sisi Allah ﷻ itu dengan menghadap ke arah timur dan barat di dalam sholat, bila tidak berdasarkan perintah Allah dan syariat Nya. Akan tetapi kebajikan yang sepenuhnya adalah perbuatan orang yang beriman kepada Allah dan mengimani Nya sebagai Tuhan yang berhak disembah tanpa menyekutukan sesuatu dengan Nya, dan beriman kepada hari kebangkitan dan pembalasan, dan kepada seluruh malaikat, dan kepada semua kitab-kitab yang diturunkan, dan beriman kepada seluruh Nabi tanpa membeda-bedakan, dan memberikan hartanya secara sukarela (meskipun sangat besar kecintaannya pada harta tersebut) kepada kaum kerabat, anak-anak yatim yang membutuhkan bantuan yang telah ditinggal mati oleh ayah-ayah mereka ketika mereka belum mencapai usia baligh, dan kepada orang-orang miskin yang tidak memiliki sesuatu yang mencukupi dan menutupi kebutuhan mereka, dan kepada orang-orang musafir yang terlilit kebutuhan yang jauh dari keluarga dan hartanya, dan kepada mereka para peminta-minta yang terpaksa meminta-minta karena keterdesakan kebutuhan mereka, dan mengeluarkan hartanya dalam membebaskan budak dan tawanan, mendirikan shalat, dan membayar zakat yang wajib, dan orang-orang yang menepati janji janji, dan orang-orang yang bersabar dalam kondisi kemiskinan dan sakit mereka, dan  dalam peperangan yang berkecamuk keras. Maka orang-orang yang berkarakter demikian  itulah orang-orang yang benar dalam keimanan mereka, dan mereka itulah orang-orang yang takut terhadap siksaan Allah sehingga mereka menjauhi perbuatan maksiat-maksiat kepada Nya.">Tafsir</button>
+
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 177"
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: 1. Mencukupkan diri dengan beberapa perkara agama tanpa mengerjakan perkara yang lain tidak disebut sebagai mukmin atau orang yang selamat.
+                    2. Rukun iman disebutkan dalam ayat ini, dan yang dimaksud dengan kitab adalah kitab-kitab.
+                    3. Penjelasan mengenai infaq yang pahalanya diharapkan pada hari kiamat, yaitu infaq kepada kerabat dekat dst.
+                    4. Penjelasan mengenai mulianya ibadah shalat dan zakat.
+                    5. Kewajiban untuk memenuhi perjanjian.
+                    6. Kewajiban bersabar, terutama saat peperangan berkecamuk.
+                    7. Ketakwaan itu adalah inti dari semua perkara, dan tujuan akhir dari orang-orang yang beramal shalih.
+                    ">Tatbhiq</button>
+            </div>
+
             <h3 class="dalil-title">~ Surah At-Taubah, Ayat 60</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
@@ -30,14 +63,16 @@
                         قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَـٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةًۭ
                         مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ (٦٠)</p>
                 </div>
+
                 <p class="dalil-translation">Sesungguhnya zakat itu hanyalah untuk orang-orang fakir, orang miskin, amil
                     zakat, orang yang dilunakkan hatinya (mualaf), untuk (memerdekakan) hamba sahaya, untuk (membebaskan)
                     orang yang berhutang, untuk jalan Allah dan untuk orang yang sedang dalam perjalanan, sebagai kewajiban
                     dari Allah. Allah Maha Mengetahui, Mahabijaksana.</p>
                 <button class="tafsir-button" data-title="Tafsir Muyassar Surah At-Taubah, Ayat 60"
-                    data-text="Sesungguhnya zakat-zakat wajib hanya diberikan kepada : orang-orang yang membutuhkan yang tidak memiliki apapun, kaum miskin yang tidak memiliki sesuatu yang mencukupi mereka dan menutupi kebutuhan mereka, para petugas yang sibuk mengumpulkannya, orang yang dilembutkan hatinya sehingga diharapkan keislamannya, atau diharapkan keimanannya bertambah kuat, atau orang yang diharapkan bermanfaat bagi kaum muslimin, atau kalian dapat menepis dengannya keburukan seseorang terhadap kaum muslimin, untuk membebaskan hamba sahaya dan budak-budak yang ingin menebus dirinya, orang-orang yang terkena tuntutan hutang dalam rangaka memperbaiki persengketaan, atau orang yang terbebani oleh hutang-hutang yang tidak dipakai untuk kerusakan maupun di hambur-hamburkan, lalu mereka kesulitan untuk melunasinya, para pejuang di jalan Allah, serta musafir yang kehabisan bekal perjalanan. Pembagian ini adalah merupakan kewajiabn yang diwajibkan oleh Allah dan ditetapkanNya. Dan Allah mahamengetahui maslahat-maslaahat hamba-hambaNya, Maha bijaksana dalam pengaturan dan ajaran syariatNya.">Tafsir</button>
+                    data-text="Sesungguhnya zakat-zakat wajib hanya diberikan kepada : Orang-orang yang membutuhkan yang tidak memiliki apapun, kaum miskin yang tidak memiliki sesuatu yang mencukupi mereka dan menutupi kebutuhan mereka, para petugas yang sibuk mengumpulkannya, orang yang dilembutkan hatinya sehingga diharapkan keislamannya, atau diharapkan keimanannya bertambah kuat, atau orang yang diharapkan bermanfaat bagi kaum muslimin, atau kalian dapat menepis dengannya keburukan seseorang terhadap kaum muslimin, untuk membebaskan hamba sahaya dan budak-budak yang ingin menebus dirinya, orang-orang yang terkena tuntutan hutang dalam rangaka memperbaiki persengketaan, atau orang yang terbebani oleh hutang-hutang yang tidak dipakai untuk kerusakan maupun di hambur-hamburkan, lalu mereka kesulitan untuk melunasinya, para pejuang di jalan Allah, serta musafir yang kehabisan bekal perjalanan. Pembagian ini adalah merupakan kewajiabn yang diwajibkan oleh Allah dan ditetapkanNya. Dan Allah mahamengetahui maslahat-maslaahat hamba-hambaNya, Maha bijaksana dalam pengaturan dan ajaran syariatNya.">Tafsir</button>
+
                 <button class="tatbhiq-button" data-title="Tatbhiq Surah At-Taubah, Ayat 60"
-                    data-text="Faedah yang dapat diambil dari ayat ini berdasarkan Tafsir As Sa'di sebagai berikut:
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
 
                     1. Delapan golongan yang disebutkan di atas jika disimpulkan menjadi dua bagian,
                     yaitu mereka yang diberikan zakat untuk memenuhi kebutuhan pribadinya (hajat khashshsah), seperti orang fakir, miskin, dsb.
@@ -54,65 +89,38 @@
                     ">Tatbhiq</button>
             </div>
 
-            <h3 class="dalil-title">~ Surah At-Tubah, Ayat 103</h3>
+            <h3 class="dalil-title">~ Surah At-Taubah, Ayat 103</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
                     <p>خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ
                         صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ (١٠٣)</p>
                 </div>
+
                 <p class="dalil-translation">Ambillah zakat dari harta mereka, guna membersihkan dan menyucikan mereka,
                     dan berdoalah untuk mereka. Sesungguhnya doamu itu (menumbuhkan) ketenteraman jiwa bagi mereka. Allah
                     Maha Mendengar, Maha Mengetahui.</p>
+
                 <div class="button-container">
                     <button class="tafsir-button" data-title="Tafsir Muyassar Surah At-Taubah, Ayat 103"
                         data-text="Ambilah (wahai nabi), dari sebagian harta benda orang-orang yang telah bertaubat yang mencampuradukan antara amal shalih dan perbuatan buruk lain, sedekah (zakat) yang membersihkan mereka dari kotoran dosa-dosa dan mengangkat mereka dari golongan orang-orang munafik menuju derajat orang-orang yang ikhlas, dan berdoalah kepada Allah bagi mereka untuk mengampuni dosa-dosa mereka, dan mintakanlah ampunan bagi mereka dari dosa-dosa itu. Sesungguhnya doamu dan permintaan ampunanmu akan menjadi rahmat dan ketenangan bagi mereka. Dan Allah maha mendengar tiap-tiap doa dan ucapan, maha mengetahui keadaan-keadaan hamba-hamba dan nita-niat mereka. Dan Dia akan memberikan balasan kepada setiap orang yang berbuat sesuai dengan perbuatannya.">Tafsir</button>
+
                     <button class="tatbhiq-button" data-title="Tatbhiq Surah At-Taubah, Ayat 103"
-                        data-text="Faedah yang dapat diambil dari ayat ini berdasarkan Tafsir As Sa'di sebagai berikut: Allah Subhaanahu wa Ta'aala memerintahkan Rasul-Nya dan orang yang menjadi penggantinya, seperti imam kaum muslimin untuk memungut zakat dari kaum mukmin demi membersihkan mereka dan menyempurnakan imannya. Maksudnya zakat itu membersihkan mereka dari dosa dan akhlak tercela, dari kekikiran, dan dari cinta yang berlebihan kepada harta benda. Zakat itu menyuburkan sifat-sifat kebaikan dalam hati mereka dan mengembangkan harta mereka. Yakni untuk kaum mukmin secara umum, dan kususnya kepada mereka yang menyerahkan zakat. Dalam ayat ini terdapat anjuran mendoakan mereka yang membayar zakat, baik oleh imam atau wakilnya, dan sebaiknya diperdengarkan agar hati orang yang menyerahkan zakat merasa tenteram. Ayat ini juga menunjukkan, bahwa dianjurkan menyampaikan kegembiraan di hati orang mukmin dan mendoakannya untuk menenangkan hatinya. Demikian juga agar kita menyemengatkan mereka yang berinfak dan beramal saleh dengan doa, pujian dsb.">Tatbhiq</button>
+                        data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Allah Subhaanahu wa Ta'aala memerintahkan Rasul-Nya dan orang yang menjadi penggantinya, seperti imam kaum muslimin untuk memungut zakat dari kaum mukmin demi membersihkan mereka dan menyempurnakan imannya. Maksudnya zakat itu membersihkan mereka dari dosa dan akhlak tercela, dari kekikiran, dan dari cinta yang berlebihan kepada harta benda. Zakat itu menyuburkan sifat-sifat kebaikan dalam hati mereka dan mengembangkan harta mereka. Yakni untuk kaum mukmin secara umum, dan kususnya kepada mereka yang menyerahkan zakat. Dalam ayat ini terdapat anjuran mendoakan mereka yang membayar zakat, baik oleh imam atau wakilnya, dan sebaiknya diperdengarkan agar hati orang yang menyerahkan zakat merasa tenteram. Ayat ini juga menunjukkan, bahwa dianjurkan menyampaikan kegembiraan di hati orang mukmin dan mendoakannya untuk menenangkan hatinya. Demikian juga agar kita menyemengatkan mereka yang berinfak dan beramal saleh dengan doa, pujian dsb.">Tatbhiq</button>
                 </div>
             </div>
-
-            <h3 class="dalil-title">~ Surah Al-Baqarah, Ayat 177</h3>
-            <div class="dalil-box">
-                <div class="dalil-content">
-                    <p>لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَـٰكِنَّ ٱلْبِرَّ
-                        مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَٱلْمَلَـٰٓئِكَةِ وَٱلْكِتَـٰبِ وَٱلنَّبِيِّـۧنَ
-                        وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينَ وَٱبْنَ
-                        ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ
-                        وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَـٰهَدُوا۟ ۖ وَٱلصَّـٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ
-                        وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَـٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُتَّقُونَ (١٧٧)
-                    </p>
-                </div>
-                <p class="dalil-translation">Kebajikan itu bukanlah mengahadapkan wajahmu ke arah timur dan ke barat, tetapi
-                    kebajikan itu ialah (kebajikan) orang yang beriman kepada Allah, hari akhir, malaikat-malaikat,
-                    kitab-kitab, dan nabi-nabi dan memberikan harta yang dicintainya kepada kerabat, anak yatim, orang-orang
-                    miskin, orang-orang yang dalam perjalanan (musafir), peminta-minta, dan untuk memerdekakan hamba sahaya,
-                    yang melaksanakan salat dan menunaikan zakat, orang-orang yang menepati janji apabila berjanji, dan
-                    orang yang sabar dalam kemelaratan, penderitaan dan pada masa peperangan. Mereka itulah orang-orang yang
-                    benar, dan mereka itulah orang-orang yang bertakwa.</p>
-                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 177"
-                    data-text="Bukanlah kebajikan di sisi Allah ﷻ itu dengan menghadap ke arah timur dan barat di dalam sholat, bila tidak berdasarkan perintah Allah dan syariat Nya. Akan tetapi kebajikan yang sepenuhnya adalah perbuatan orang yang beriman kepada Allah dan mengimani Nya sebagai Tuhan yang berhak disembah tanpa menyekutukan sesuatu dengan Nya, dan beriman kepada hari kebangkitan dan pembalasan, dan kepada seluruh malaikat, dan kepada semua kitab-kitab yang diturunkan, dan beriman kepada seluruh Nabi tanpa membeda-bedakan, dan memberikan hartanya secara sukarela (meskipun sangat besar kecintaannya pada harta tersebut) kepada kaum kerabat, anak-anak yatim yang membutuhkan bantuan yang telah ditinggal mati oleh ayah-ayah mereka ketika mereka belum mencapai usia baligh, dan kepada orang-orang miskin yang tidak memiliki sesuatu yang mencukupi dan menutupi kebutuhan mereka, dan kepada orang-orang musafir yang terlilit kebutuhan yang jauh dari keluarga dan hartanya, dan kepada mereka para peminta-minta yang terpaksa meminta-minta karena keterdesakan kebutuhan mereka, dan mengeluarkan hartanya dalam membebaskan budak dan tawanan, mendirikan shalat, dan membayar zakat yang wajib, dan orang-orang yang menepati janji janji, dan orang-orang yang bersabar dalam kondisi kemiskinan dan sakit mereka,dan  dalam peperangan yang berkecamuk keras. Maka orang-orang yang berkarakter demikian  itulah orang-orang yang benar dalam keimanan mereka, dan mereka itulah orang-orang yang takut terhadap siksaan Allah sehingga mereka menjauhi perbuatan maksiat-maksiat kepada Nya.">Tafsir</button>
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 177"
-                    data-text="Faedah yang dapat diambil dari ayat ini berdasarkan Tafsir As Sa'di sebagai berikut: 1. Mencukupkan diri dengan beberapa perkara agama tanpa mengerjakan perkara yang lain tidak disebut sebagai mukmin atau orang yang selamat.
-                    2. Rukun iman disebutkan dalam ayat ini, dan yang dimaksud dengan kitab adalah kitab-kitab.
-                    3. Penjelasan mengenai infaq yang pahalanya diharapkan pada hari kiamat, yaitu infaq kepada kerabat dekat dst.
-                    4. Penjelasan mengenai mulianya ibadah shalat dan zakat.
-                    5. Kewajiban untuk memenuhi perjanjian.
-                    6. Kewajiban bersabar, terutama saat peperangan berkecamuk.
-                    7. Ketakwaan itu adalah inti dari semua perkara, dan tujuan akhir dari orang-orang yang beramal shalih.
-                    ">Tatbhiq</button>
-            </div>
-
         </div>
 
     </section>
 
     <div id="popup-container">
+
         <div id="popup-content">
             <button id="close-popup">&times;</button>
             <h1 id="popup-title"></h1>
             <hr style="color: black; height: 3px; margin-bottom: 35px;">
             <p id="popup-text"></p>
         </div>
+
     </div>
     <!-- end of dalil al-quran section -->
 

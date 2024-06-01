@@ -202,12 +202,14 @@ hr
   font-size: 26px;
   color: black;
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .dalil .dalil-translation 
 {
   font-size: 16px;
   color: black;
+  line-height: 1.5;
 }
 
 /* Tombol Tafsir dan Tatbhiq */
@@ -229,8 +231,7 @@ hr
 .tafsir-button:hover,
 .tatbhiq-button:hover 
 {
-    background-color: rgb(50, 90, 160);
-    
+    background-color: rgb(50, 90, 160);   
 }
 
 #popup-container 
@@ -294,6 +295,7 @@ hr
   padding-right: 30px;
   text-align: justify;
   letter-spacing: 0.7px;
+  line-height: 1.7;
 }
 
 
@@ -403,12 +405,14 @@ hr
     font-size: 22px;
     color: black;
     margin-bottom: 10px;
+    line-height: 1.5;
   }
 
   .dalil .dalil-translation 
   {
     font-size: 14px;
     color: black;
+    line-height: 1.5;
   }
 
   .tafsir-button,
@@ -432,7 +436,7 @@ hr
     padding: 20px;
     width: 650px;
     height: 450px;
-    overflow-y: auto; /* Tampilkan scrollbar jika konten melebihi ukuran maksimum */
+    overflow-y: auto;
     position: relative;
   }
 
@@ -535,12 +539,14 @@ hr
     font-size: 18px;
     color: black;
     margin-bottom: 10px;
+    line-height: 1.5;
   }
 
   .dalil .dalil-translation 
   {
     font-size: 13px;
     color: black;
+    line-height: 1.5;
   }
 
   .tafsir-button,

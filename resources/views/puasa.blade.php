@@ -28,13 +28,16 @@
                     <p>(١٨٣)يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن
                         قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ</p>
                 </div>
+
                 <p class="dalil-translation">Wahai orang-orang yang beriman! Diwajibkan atas kamu berpuasa sebagaimana
                     diwajibkan atas orang sebelum kamu agar kamu bertakwa,</p>
+
                 <div class="button-container">
                     <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 183"
                         data-text="Wahai orang-orang yang beriman kepada Allah dan rasul Nya dan mengerjakan amal sholeh sesuai dengan ajaran syariat Nya, Allah telah mewajibkan berpuasa atas kalian sebagaimana telah mewajibkan atas umat sebelum kalian supaya kalian bertakwa kepada Tuhan kalian, maka kalian menjadikan antara diri kalian dengan perbuatan-perbuatan maksiat dinding pelindung dengan taat kepada Nya dan beribadah kepada Nya semata.">Tafsir</button>
+
                     <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 183"
-                        data-text="Faedah yang dapat diambil dari ayat ini berdasarkan Tafsir As Sa'di sebagai berikut:
+                        data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
 
                         1. Kewajiban untuk berpuasa di bulan Ramadhan.
                         2. Puasa mendidik mukmin untuk semakin bertakwa.
@@ -50,11 +53,13 @@
                         خَيْرًۭا فَهُوَ خَيْرٌۭ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌۭ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ (١٨٤)
                     </p>
                 </div>
+
                 <p class="dalil-translation">(Yaitu) beberapa hari tertentu. Maka barang siapa di antara kamu sakit atau
                     dalam perjalanan (lalu tidak berpuasa), maka (wajib mengganti) sebanyak hari (yang dia tidak berpuasa
                     itu) pada hari-hari yang lain. Dan bagi orang yang berat menjalankannya, wajib membayar fidyah, yaitu
                     memberi makan seorang miskin. Tetapi barang siapa dengan kerelaan hati mengerjakan kebajikan, maka itu
                     lebih baik baginya, dan puasamu itu lebih baik bagimu jika kamu mengetahui.</p>
+
                 <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 184"
                     data-text="Allah mewajibkan kepada kalian berpuasa pada hari-hari yang ditentukan
                     bilangannya yaitu hari-hari di bulan Rhamadhan. Maka barangsiapa diantara kalian ada yang sakit dan
@@ -67,8 +72,9 @@
                     Barangsiapa yang melebihkan jumlahnya dengan sukarela maka itu lebih baik bagi dirinya, dan puasa kalian
                     (walaupun dengan penuh kesulitan) maka itu lebih baik bagi kalian daripada memberikan fidyah, jika
                     kalian mengetahui keutamaan besar untuk puasa di sisi Allah ﷻ .">Tafsir</button>
+
                 <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 184"
-                    data-text="Faedah yang dapat diambil dari ayat ini berdasarkan Tafsir As Sa'di sebagai berikut:
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
 
                     Keringanan untuk tidak berpuasa bagi orang yang sakit dan bepergian (musafir).
                     Bagi wanita yang hamil dan menyusui maka firman Allah “Dan bagi orang-orang yang berat untuk menjalankannya (jika mereka tidak berpuasa)” (ayat 184) diperbolehkan untuk berbuka dan menggantinya di hari lain. Begitu juga orang yang sudah tua dan orang sakit yang sudah tidak bisa diharapkan untuk sembuh, boleh untuk berbuka dan tidak wajib untuk mengganti di hari lain, akan tetapi harus memberi makan setiap hari yang ditinggalkan satu orang miskin sebanyak dua telapak tangan penuh. Wanita hamil dan menyusui apabila mereka takut terhadap kesehatan janin dan anaknya atau terhadap dirinya, maka wajib baginya selain mengganti puasanya untuk memberi makan satu orang miskin.
@@ -84,6 +90,7 @@
                         ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ
                         تَشْكُرُونَ (١٨٥)</p>
                 </div>
+
                 <p class="dalil-translation">Bulan Ramadan adalah (bulan) yang di dalamnya diturunkan Alquran, sebagai
                     petunjuk bagi manusia dan penjelasan-penjelasan mengenai petunjuk itu dan pembeda (antara yang benar dan
                     yang batil). Karena itu, barang siapa di antara kamu mendapati bulan itu, maka berpuasalah. Dan barang
@@ -91,12 +98,14 @@
                     ditinggalkannya, pada hari-hari yang lain. Allah menghendaki kemudahan bagimu, dan tidak menghendaki
                     kesukaran bagimu. Hendaklah kamu mencukupkan bilangannya dan mengagungkan Allah atas petunjuk-Nya yang
                     diberikan kepadamu, agar kamu bersyukur.</p>
+
                 <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 185"
                     data-text="Bulan Ramadan adalah bulan dimana Allah mulai menurunkan al-quran pada malam kemuliaan (Lailatul Qadar), sebagai sumber hidayah bagi seluruh manusia menuju kepada kebenaran. Di dalamnya terdapat bukti petunjuk yang paling jelas yang mengantarkan kepada hidayah Allah dan pembeda antara kebenaran dengan kebatilan. Maka barangsiapa diantara kalian menyaksikan kehadiran bulan ini dalam keadaan sehat dan mukim hendaklah berpuasa pada siang harinya. dan diberikan kemudahan bagi orang sakit dan musafir untuk tidak berpuasa kemudian mereka berdua mengqadha yang sesuai dengan jumlah hari itu.
 
                     Allah ﷻ menghendaki keringanan dan kemudahan bagi kalian dalam ajaran ajaran syariat Nya, dan tidak menghendaki kesulitan keberatan dari kalian. Agar kalian menyempurnakan hitungan puasa selama sebulan penuh, dan agar kalian menutup ibadah puasa dengan bertakbir mengagungkan Allah pada hari raya Idul Fitri, serta supaya kalian mengagungkan Nya atas hidayah Nya kepada kalian, dan Agar kalian mensyukuri atas kenikmatan Nya yang tercurah pada kalian berupa hidayah taufik dan kemudahan.">Tafsir</button>
+
                 <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 185"
-                    data-text="Faedah yang dapat diambil dari ayat ini berdasarkan Tafsir As Sa'di sebagai berikut:
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
 
                     1. Keutamaan bulan Ramadhan dan keutamaan Al-Qur’an.
                     2. Kewajiban berpuasa Ramadhan bagi mukallaf. Makna mukallaf yaitu orang Islam yang berakal, baligh, dan bagi perempuan sedang tidak haidh atau nifas.
@@ -104,12 +113,7 @@
                     4. Kewajiban untuk mengganti puasa bagi yang tidak berpuasa karena udzur.
                     5. Kemudahan syariat Islam, jauh dari kesulitan dan kesusahan.
                     6. Disyariatkan untuk bertakbir pada malam ‘Ied dan pada saat hari raya ‘Ied. Takbir ini merupakan bagian dari bersyukur kepada Allah karena nikmat hidayah Islam.
-                    7. Ketaatan merupakan bentuk kesyukuran. Barangsiapa tidak taat kepada Allah dan rasul Nya maka tidak disebut sebagai orang yang bersyukur, dan bukan golongan orang-orang yang bersyukur.
-                    
-                    
-                    
-                    
-                    ">Tatbhiq</button>
+                    7. Ketaatan merupakan bentuk kesyukuran. Barangsiapa tidak taat kepada Allah dan rasul Nya maka tidak disebut sebagai orang yang bersyukur, dan bukan golongan orang-orang yang bersyukur.">Tatbhiq</button>
             </div>
 
         </div>
@@ -117,12 +121,14 @@
     </section>
 
     <div id="popup-container">
+
         <div id="popup-content">
             <button id="close-popup">&times;</button>
             <h1 id="popup-title"></h1>
             <hr style="color: black; height: 3px; margin-bottom: 35px;">
             <p id="popup-text"></p>
         </div>
+
     </div>
     <!-- end of dalil al-quran section -->
 
