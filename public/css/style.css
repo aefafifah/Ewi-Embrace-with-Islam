@@ -399,7 +399,6 @@ border-radius: 5px;
         width: 50%;
     }
 
-
 }
 
 .card {
@@ -474,3 +473,85 @@ border-radius: 5px;
     border-color: #dee2e6;
 }
 
+.about {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .daftar-surah {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category-content {
+    border: 2px solid #EADBC8;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex: 1 0 30%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .cta-button {
+    background-color: #eca966;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .cta-button:hover {
+    background-color: #5a5337;
+  }
+  
+  .surah-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .item-surah h2 {
+    margin: 10px 0 5px 0;
+    font-size: 1.5em;
+  }
+  
+  .item-surah h3 {
+    margin: 5px 0;
+    font-size: 1.2em;
+  }
+  
+  .item-surah p {
+    margin: 5px 0;
+  }
+  
+  .audio-container {
+    margin-top: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 769px) {
+    .category-content {
+      flex: 1 0 45%;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .category-content {
+      flex: 1 0 100%;
+    }
+  }

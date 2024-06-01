@@ -7,6 +7,7 @@
 
     <!-- Tambahkan stylesheet CSS di sini jika diperlukan -->
     <style>
+<style>
         body {
             font-family: "Arial", sans-serif;
             background-color: #f4f4f4;
@@ -15,8 +16,9 @@
         }
 
         h2 {
-            color: #007bff;
+            color: rgb(16, 44, 87);
             margin-bottom: 10px;
+            font-size: 24px;
         }
 
         p {
@@ -33,40 +35,42 @@
         li {
             margin-bottom: 20px;
             background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
         .panel {
-            margin-bottom: 20px;
-            border-radius: 4px;
-            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-            box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .panel-heading {
-    padding: 10px 15px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    background-color: #102c67;
-    border-color: #ddd;
-}
+            padding: 10px 15px;
+            background-color: #102c57;
+            color: #fff;
+            border-bottom: 2px solid #102c57;
+        }
 
-.panel-heading h2, .panel-heading h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    color: #fff;
-}
+        .panel-body {
+            padding: 15px;
+            background-color: #fefaf6;
+        }
 
         .verse {
-            font-size: 18px;
+            font-size: 30px;
             text-align: right;
             direction: rtl;
             padding: 10px;
             margin-bottom: 20px;
+            font-family: Scheherazade;
         }
-
         .translation {
             font-size: 16px;
             color: #666;
