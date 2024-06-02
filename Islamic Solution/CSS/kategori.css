@@ -299,21 +299,75 @@ hr
 }
 
 
-.tafsir
+.hadits
 {
   background-color: #f5f5f5;
 }
 
-.tafsir .tafsir-container
+.hadits .hadits-container
 {
   min-height: 90vh;
 }
 
-.tafsir h2
+.hadits h2
 {
   text-align: center;
   font-size: 40px;
   color: #102c57; 
+}
+
+hr
+{
+  width: 110px;
+  margin: 20px auto;
+  height: 4.5px;
+  background-color: #102c57;
+}
+
+.hadits .hadits-container 
+{
+  min-height: 90vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+.hadits .hadits-box 
+{
+  border: 2px solid #102c57;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 60px auto;
+  margin-top: 0px;
+}
+
+.hadits .hadits-title 
+{
+  font-size: 24px;
+  color: #102c57;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+
+.hadits .hadits-content 
+{
+  padding: 15px;
+  border-radius: 5px;
+  text-align: end;
+  font-size: 26px;
+  color: black;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.hadits .hadits-translation 
+{
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
 }
 
 
@@ -438,6 +492,33 @@ hr
     height: 450px;
     overflow-y: auto;
     position: relative;
+  }
+
+
+  .hadits .hadits-title 
+  {
+    font-size: 21px;
+    color: #102c57;
+    margin-bottom: 10px;
+    margin-left: 80px;
+  }
+
+  .hadits .hadits-content 
+  {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: end;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .hadits .hadits-translation 
+  {
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
   }
 
 }
@@ -627,6 +708,63 @@ hr
     padding-right: 15px;
     text-align: justify;
     letter-spacing: 0.7px;
+  }
+
+
+  .hadits h2
+  {
+    text-align: center;
+    font-size: 25px;
+    color: #102c57; 
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .hadits .hadits-container 
+  {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .hadits .hadits-box 
+  {
+    background-color: #fff;
+    border: 2px solid #102c57;
+    border-radius: 10px;
+    padding: 15px;
+    width: 99%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    margin-top: 0px;
+  }
+
+  .hadits .hadits-title 
+  {
+    font-size: 15px;
+    color: #102c57;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .hadits .hadits-content 
+  {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: end;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .hadits .hadits-translation 
+  {
+    font-size: 13px;
+    color: black;
+    line-height: 1.5;
   }
 
 }
