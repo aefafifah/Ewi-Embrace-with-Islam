@@ -93,23 +93,68 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. At Tirmidzi no. 2621</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>إنَّ العَهدَ الذي بيننا وبينهم الصَّلاةُ، فمَن تَرَكها فقدْ كَفَرَ
+                    </p>
+                </div>
+
+                <p class="hadits-translation">“Sesungguhnya perjanjian antara kita dan mereka (kaum musyrikin) adalah
+                    shalat. Barangsiapa yang meninggalkannya maka ia telah kafir” (HR. At Tirmidzi no. 2621)</p>
+            </div>
+
+            <h3 class="hadits-title">~ Riyadhus Sholihin, Kitab Al-Fadhail, Bab 193, Hadits 1081</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>وَعَنْ أَبِي هُرَيْرَةَ – رَضِيَ اللهُ عَنْهُ – ، قَالَ : قاَلَ رَسُولُ اللهِ – صَلَّى اللهُ عَلَيْهِ
+                        وَسَلَّمَ – : (( إنَّ أَوَّلَ مَا يُحَاسَبُ بِهِ العَبْدُ يَوْمَ القِيَامَةِ مِنْ عَمَلِهِ صَلاَتُهُ
+                        ، فَإنْ صَلُحَتْ ، فَقَدْ أفْلَحَ وأَنْجَحَ ، وَإنْ فَسَدَتْ ، فَقَدْ خَابَ وَخَسِرَ ، فَإِنِ
+                        انْتَقَصَ مِنْ فَرِيضَتِهِ شَيْءٌ ، قَالَ الرَّبُ – عَزَّ وَجَلَّ – : اُنْظُرُوا هَلْ لِعَبْدِي مِنْ
+                        تَطَوُّعٍ ، فَيُكَمَّلُ مِنْهَا مَا انْتَقَصَ مِنَ الفَرِيضَةِ ؟ ثُمَّ تَكُونُ سَائِرُ أعْمَالِهِ
+                        عَلَى هَذَا )) رَوَاهُ التِّرمِذِيُّ ، وَقَالَ : (( حَدِيثٌ حَسَنٌ ))</p>
+                </div>
+
+                <p class="hadits-translation">Abu Hurairah radhiyallahu ‘anhu berkata, Rasulullah shallallahu ‘alaihi wa
+                    sallam bersabda, “Sesungguhnya amal yang pertama kali dihisab pada seorang hamba pada hari kiamat adalah
+                    shalatnya. Maka, jika shalatnya baik, sungguh ia telah beruntung dan berhasil. Dan jika shalatnya rusak,
+                    sungguh ia telah gagal dan rugi. Jika berkurang sedikit dari shalat wajibnya, maka Allah Ta’ala
+                    berfirman, ‘Lihatlah apakah hamba-Ku memiliki shalat sunnah.’ Maka disempurnakanlah apa yang kurang dari
+                    shalat wajibnya. Kemudian begitu pula dengan seluruh amalnya.” (HR. Tirmidzi, ia mengatakan hadits
+                    tersebut hasan.) [HR. Tirmidzi, no. 413 dan An-Nasa’i, no. 466. Al-Hafizh Abu Thahir mengatakan bahwa
+                    hadits ini shahih.]</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Ahmad no. 22128</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>مَنْ تَرَكَ صَلاَةً مَكْتُوبَةً مُتَعَمِّداً فَقَدْ بَرِئَتْ مِنْهُ ذِمَّةُ اللَّهِ</p>
+                </div>
+
+                <p class="hadits-translation">“Barangsiapa meninggalkan shalat yang wajib dengan sengaja, maka janji Allah
+                    terlepas darinya. ” (HR. Ahmad no.22128. Dikatakan hasan lighoirihi oleh Syaikh Al Albani dalam Shohih
+                    At Targib wa At Tarhib no. 569)</p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

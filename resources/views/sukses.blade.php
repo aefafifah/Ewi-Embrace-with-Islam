@@ -107,23 +107,70 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. Bukhari, no. 1 dan Muslim, no. 1907</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>إنَّمَا الأعمَال بالنِّيَّاتِ وإِنَّما لِكُلِّ امريءٍ ما نَوَى فَمَنْ كَانَتْ هِجْرَتُهُ إلى اللهِ
+                        ورَسُولِهِ فهِجْرَتُهُ إلى اللهِ ورَسُوْلِهِ ومَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيْبُها أو امرأةٍ
+                        يَنْكِحُهَا فهِجْرَتُهُ إلى ما هَاجَرَ إليهِ</p>
+                </div>
+
+                <p class="hadits-translation">“Sesungguhnya setiap amalan tergantung pada niatnya. Setiap orang akan
+                    mendapatkan apa yang ia niatkan. Siapa yang hijrahnya karena Allah dan Rasul-Nya, maka hijrahnya untuk
+                    Allah dan Rasul-Nya. Siapa yang hijrahnya karena mencari dunia atau karena wanita yang dinikahinya, maka
+                    hijrahnya kepada yang ia tuju.” (HR. Bukhari dan Muslim)</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Ahmad 1:30, Tirmidzi no. 2344, Ibnu Majah no. 4164, dan Ibnu Hibban, no. 402</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>عَنْ عُمرَ بن الخطَّابِ – رَضِيَ اللهُ عَنْهُ – عَنِ النَّبيِّ – صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ –
+                        قَالَ : (( لَو أَنَّكُمْ تَوكَّلُوْنَ عَلَى اللهِ حَقَّ تَوَكُّلِهِ لَرَزَقَكُمْ كَمَا يَرزُقُ
+                        الطَّيرَ ، تَغدُو خِماصاً ، وتَروحُ بِطَاناً )) رَوَاهُ الإِمَامُ أَحْمَدُ وَالتِّرْمِذِيُّ
+                        وَالنَّسَائِيُّ وَابْنُ مَاجَهْ وَابْنُ حِبَّانَ فِي ” صَحِيْحِهِ ” وَالحَاكِمُ ، وَقَالَ
+                        التِّرمِذِيُّ : حَسَنٌ صَحِيْحٌ .
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">Dari Umar bin Al-Khaththab radhiyallahu ‘anhu, dari Nabi shallallahu ‘alaihi
+                    wa sallam, beliau bersabda, “Seandainya kalian benar-benar bertawakal kepada Allah, sungguh Allah akan
+                    memberikan kalian rezeki sebagaimana burung mendapatkan rezeki. Burung tersebut pergi di waktu pagi
+                    dalam keadaan lapar dan kembali di waktu sore dalam keadaan kenyang.” (HR. Ahmad, 1:30; Tirmidzi, no.
+                    2344; Ibnu Majah, no. 4164; dan Ibnu Hibban, no. 402.)
+                </p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Bukhari dan Muslim</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>مَنْ سَرَّهُ أَنْ يُبْسَطَ لَهُ فِي رِزْقِهِ، أَوْ يُنْسَأَ لَهُ فِي أَثَرِهِ، فَلْيَصِلْ رَحِمَهُ
+                    </p>
+                </div>
+
+                <p class="hadits-translation">Barangsiapa yang ingin dilapangkan rezekinya dan ditangguhkan ajalnya
+                    (dipanjangkan umurnya), hendaklah ia menyambung silaturahmi." (HR Bukhari dan Muslim)</p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

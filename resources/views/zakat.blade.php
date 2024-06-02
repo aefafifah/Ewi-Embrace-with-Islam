@@ -125,23 +125,73 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. Tirmidzi no. 1984</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>إِنَّ فِى الْجَنَّةِ غُرَفًا تُرَى ظُهُورُهَا مِنْ بُطُونِهَا وَبُطُونُهَا مِنْ ظُهُورِهَا : فَقَامَ
+                        أَعْرَابِىٌّ فَقَالَ لِمَنْ هِىَ يَا رَسُولَ اللَّهِ قَالَ : لِمَنْ أَطَابَ الْكَلاَمَ وَأَطْعَمَ
+                        الطَّعَامَ وَأَدَامَ الصِّيَامَ وَصَلَّى لِلَّهِ بِاللَّيْلِ وَالنَّاسُ نِيَامٌ.
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">Sesungguhnya di surga terdapat kamar yang luarnya dapat terlihat dari dalamnya
+                    dan dalamnya dapat terlihat dari luarnya.” Kemudian ada seorang badui berdiri lantas bertanya, “Kepada
+                    siapa (kamar tersebut) wahai Rasulullah?” Beliau bersabda, “Bagi orang yang berkata baik, memberi makan
+                    (di antaranya lewat zakat), rajin berpuasa, shalat karena Allah di malam hari di saat manusia
+                    sedang terlelap tidur.” (HR. Tirmidzi no. 1984)</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Ibnu Majah no. 4019</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>وَلَمْ يَمْنَعُوا زَكَاةَ أَمْوَالِهِمْ إِلاَّ مُنِعُوا الْقَطْرَ مِنَ السَّمَاءِ وَلَوْلاَ
+                        الْبَهَائِمُ لَمْ يُمْطَرُوا </p>
+                </div>
+
+                <p class="hadits-translation">“Tidaklah suatu kaum enggan mengeluarkan zakat dari harta-harta mereka,
+                    melainkan mereka akan dicegah dari mendapatkan hujan dari langit. Sekiranya bukan karena
+                    binatang-binatang ternak, niscaya mereka tidak diberi hujan.” (HR. Ibnu Majah no. 4019. Syaikh Al Albani
+                    mengatakan bahwa hadits ini hasan)</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Muslim no. 987</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>ممَا مِنْ صَاحِبِ ذَهَبٍ وَلاَ فِضَّةٍ لاَ يُؤَدِّى مِنْهَا حَقَّهَا إِلاَّ إِذَا كَانَ يَوْمُ
+                        الْقِيَامَةِ صُفِّحَتْ لَهُ صَفَائِحَ مِنْ نَارٍ فَأُحْمِىَ عَلَيْهَا فِى نَارِ جَهَنَّمَ فَيُكْوَى
+                        بِهَا جَنْبُهُ وَجَبِينُهُ وَظَهْرُهُ كُلَّمَا بَرَدَتْ أُعِيدَتْ لَهُ فِى يَوْمٍ كَانَ مِقْدَارُهُ
+                        خَمْسِينَ أَلْفَ سَنَةٍ حَتَّى يُقْضَى بَيْنَ الْعِبَادِ فَيُرَى سَبِيلُهُ إِمَّا إِلَى الْجَنَّةِ
+                        وَإِمَّا إِلَى النَّارِ </p>
+                </div>
+
+                <p class="hadits-translation">Siapa saja yang memiliki emas atau perak tapi tidak mengeluarkan zakatnya
+                    melainkan pada hari kiamat nanti akan dibuatkan untuknya lempengan dari api neraka, lalu dipanaskan
+                    dalam api neraka Jahannam, lalu disetrika dahi, rusuk dan punggungnya dengan lempengan tersebut. Setiap
+                    kali
+                    dingin akan dibuatkan lagi dan disetrikakan kembali kepadanya pada hari yang ukurannya sama dengan lima
+                    puluh ribu tahun. Kemudian ia melihat tempat kembalinya apakah ke surga atau ke neraka.(HR. Muslim
+                    no. 987)</p>
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

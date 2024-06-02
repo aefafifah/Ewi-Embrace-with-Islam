@@ -133,23 +133,73 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. Bukhari no. 38 dan Muslim no. 760</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ </p>
+                </div>
+
+                <p class="hadits-translation">“Barangsiapa berpuasa Ramadhan atas dasar iman dan mengharap pahala dari
+                    Allah, maka dosanya yang telah lalu akan diampuni.” (HR. Bukhari no. 38 dan Muslim no. 760).</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Bukhari no. 1896 dan Muslim no. 1152</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>إِنَّ فِى الْجَنَّةِ بَابًا يُقَالُ لَهُ الرَّيَّانُ ، يَدْخُلُ مِنْهُ الصَّائِمُونَ يَوْمَ
+                        الْقِيَامَةِ ، لاَ يَدْخُلُ مِنْهُ أَحَدٌ غَيْرُهُمْ يُقَالُ أَيْنَ الصَّائِمُونَ فَيَقُومُونَ ، لاَ
+                        يَدْخُلُ مِنْهُ أَحَدٌ غَيْرُهُمْ ، فَإِذَا دَخَلُوا أُغْلِقَ ، فَلَمْ يَدْخُلْ مِنْهُ أَحَدٌ
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">“Sesungguhnya di surga ada suatu pintu yang disebut “ar rayyan“. Orang-orang
+                    yang berpuasa akan masuk melalui pintu tersebut pada hari kiamat. Selain orang yang berpuasa tidak akan
+                    memasukinya. Nanti orang yang berpuasa akan diseru, “Mana orang yang berpuasa.” Lantas mereka pun
+                    berdiri, selain mereka tidak akan memasukinya. Jika orang yang berpuasa tersebut telah memasukinya, maka
+                    akan tertutup dan setelah itu tidak ada lagi yang memasukinya” (HR. Bukhari no. 1896 dan Muslim no.
+                    1152).
+
+                </p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. An-Nasa’i</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>عَنْ أَبي أُمَامَةَ قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ: بَيْنَا أَنَا نَائِمٌ إِذْ أَتَانِى
+                        رَجُلاَنِ فَأَخَذَا بِضَبْعَىَّ، ثُمَّ انْطُلِقَ بِى فَإِذَا أَنَا بِقَوْمٍ مُعَلَّقِينَ
+                        بِعَرَاقِيبِهِمْ مُشَقَّقَةٌ أَشْدَاقُهُمْ تَسِيلُ أَشْدَاقُهُمْ دَمًا. قُلْتُ: مَنْ هَؤُلاَءِ؟
+                        قَالَ: هَؤُلاَءِ الَّذِينَ يُفْطِرُونَ قَبْلَ تَحِلَّةِ صَوْمِهِمْ
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">“Dari Abu Umamah berkata, ‘Aku mendengar Rasulullah saw bersabda: ‘Pada saat
+                    aku tidur, aku bermimpi didatangi dua orang malaikat membawa pundakku. Kemudian mereka membawaku, saat
+                    itu aku mendapati suatu kaum yang bergantungan tubuhnya, dari mulutnya yang pecah keluar darah. Aku
+                    bertanya: ‘Siapa mereka?’ Ia menjawab: ‘Mereka adalah orang-orang yang berbuka puasa sebelum
+                    diperbolehkan waktunya berbuka puasa’,” (HR. An-Nasa’i).</p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

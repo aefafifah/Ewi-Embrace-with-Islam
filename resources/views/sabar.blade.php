@@ -103,23 +103,66 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR Bukhari No 1469</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>وَمَنْ يَسْتَعْفِفْ يُعِفَّهُ اللَّهُ، وَمَنْ يَسْتَغْنِ يُغْنِهِ اللَّهُ، وَمَنْ يَتَصَبَّرْ
+                        يُصَبِّرْهُ اللَّهُ، وَمَا أُعْطِيَ أَحَدٌ عَطَاءً خَيْرًا وَأَوْسَعَ مِنْ الصَّبْرِ
+
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">"Barangsiapa yang berusaha menjaga diri, maka Allah menjaganya, barangsiapa
+                    yang berusaha merasa cukup, maka Allah mencukupinya. Barangsiapa yang berusaha bersabar, maka Allah akan
+                    menjadikannya bisa bersabar dan tidak ada seorang pun yang dianugerahi sesuatu yang melebihi kesabaran."
+                    (HR Bukhari No 1469)</p>
+            </div>
+
+            <h3 class="hadits-title">~ Hr. Tirmidzi</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>وَاعْلَمْ أَنَّ النَّصْرَ مَعَ الصَّبْرِ، وَأَنَّ الْفَرَجَ مَعَ الْكَرْبِ، وَأَنَّ مَعَ الْعُسْرِ
+                        يُسْرًا</p>
+                </div>
+
+                <p class="hadits-translation">"Ketahuilah bahwasannya kemenangan itu bersama kesabaran, dan jalan keluar itu
+                    bersama kesulitan, dan bahwasanya bersama kesulitan ada kemudahan". (Hr. Tirmidzi) </p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Bukhari, No. 6424 Fathul Bari</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>عَنْ أَبِي هُرَيْرَةَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ يَقُولُ اللَّهُ
+                        تَعَالَى مَا لِعَبْدِي الْمُؤْمِنِ عِنْدِي جَزَاءٌ إِذَا قَبَضْتُ صَفِيَّهُ مِنْ أَهْلِ الدُّنْيَا
+                        ثُمَّ احْتَسَبَهُ إِلَّا الْجَنَّةُ</p>
+                </div>
+
+                <p class="hadits-translation">“Dari Abu Hurairah bahwa Rasulullah shallallahu alaihi wasallam bersabda:
+                    ‘Allah Ta’ala berfirman: Tidak ada balasan yang sesuai di sisi-Ku bagi hamba-Ku yang beriman, jika aku
+                    mencabut nyawa orang yang dicintainya di dunia, kemudian ia rela dan bersabar kecuali surga.” (HR.
+                    Bukhari, No. 6424 Fathul Bari) Shahih.</p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

@@ -304,9 +304,13 @@ hr
   background-color: #f5f5f5;
 }
 
-.hadits .hadits-container
+.hadits .hadits-container 
 {
-  min-height: 90vh;
+  min-height: 135vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
 }
 
 .hadits h2
@@ -322,15 +326,6 @@ hr
   margin: 20px auto;
   height: 4.5px;
   background-color: #102c57;
-}
-
-.hadits .hadits-container 
-{
-  min-height: 90vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 75px;
 }
 
 .hadits .hadits-box 
@@ -402,6 +397,7 @@ hr
     margin: 10px 0;
   }
 
+  
   .hero .hero-container 
   {
     min-height: 60vh;

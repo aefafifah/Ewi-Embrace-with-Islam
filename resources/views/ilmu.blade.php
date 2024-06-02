@@ -124,24 +124,62 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
-                d="
-                                                                            M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. Ibnu Majah no. 224</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>طَلَبُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ</p>
+                </div>
+
+                <p class="hadits-translation">"Menuntut ilmu itu wajib atas setiap Muslim" (HR. Ibnu Majah no. 224, dari
+                    sahabat Anas bin Malik radhiyallahu 'anhu, dishahihkan Al Albani dalam Shahiih al-Jaami'ish Shaghiir no.
+                    3913)</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Muslim</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>مَنْ سَلَكَ طَرِيْقًا يَلْتَمِسُ فِيْهِ عِلْمًا، سَهَّلَ اللهُ لَهُ بِهِ طَرِيْقًا إِلَى الْجَنَّةِ
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">"Barang siapa menelusuri jalan untuk mencari ilmu padanya, Allah akan
+                    memudahkan baginya jalan menuju surga." (HR. Muslim).
+
+                </p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Ahmad</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>مَنْ أَرَادَ الدُّنْيَا فَعَلَيْهِ بِاْلعِلْمِ، وَمَنْ أَرَادَ الآخِرَهَ فَعَلَيْهِ بِالْعِلْمِ،
+                        وَمَنْ أَرَادَهُمَا فَعَلَيْهِ باِلعِلْمِ</p>
+                </div>
+
+                <p class="hadits-translation">"Barangsiapa yang hendak menginginkan dunia, maka hendaklah ia menguasai ilmu.
+                    Barangsiapa menginginkan akhirat hendaklah ia menguasai ilmu, dan barangsiapa yang menginginkan keduanya
+                    (dunia dan akhirat) hendaklah ia menguasai ilmu," (HR. Ahmad).</p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

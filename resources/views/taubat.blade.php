@@ -33,7 +33,7 @@
                 <p class="dalil-translation">Katakanlah, "Wahai hamba-hamba-Ku yang melampaui batas terhadap diri mereka
                     sendiri! Janganlah kamu berputus asa dari rahmat Allah. Sesungguhnya Allah mengampuni dosa-dosa
                     semuanya. Sungguh, Dialah Yang Maha Pengampun, Maha Penyayang.</p>
-                < div class="button-container">
+                <div div class="button-container">
                     <button class="tafsir-button" data-title="Tafsir Jalalain Surah Az-Zumar, Ayat 53"
                         data-text="(Katakanlah, Hai hamba-hamba-Ku yang melampaui batas terhadap diri mereka sendiri,
                         janganlah kalian berputus asa) dapat dibaca Laa Taqnithuu atau Laa Taqnathuu; sebagian ahli qiraat
@@ -49,7 +49,7 @@
                         Terkadang manusia berputus asa terlebih dahulu sebelum mencoba untuk mengharapkan ridho dan ampunan-Nya. Banyak orang yang mengira Allah SWT tidak akan mengampuni dosa yang begitu banyaknya.
                         
                         Bahkan hati seolah sudah tertutup karena kedurhakaan dan perbuatan kelamnya. Tapi Allah SWT, akan mengampuni dan menerima taubat hamba-Nya.">Tatbhiq</button>
-                </>
+                </div>
             </div>
 
             <h3 class="dalil-title">~ Surah At-Tahrim, Ayat 8</h3>
@@ -140,24 +140,60 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
-                d="
-                                                                                                    M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. Bukhari no. 6309 dan Muslim no. 2747</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>اللَّهُ أَفْرَحُ بِتَوْبَةِ عَبْدِهِ مِنْ أَحَدِكُمْ سَقَطَ عَلَى بَعِيرِهِ ، وَقَدْ أَضَلَّهُ فِى
+                        أَرْضِ فَلاَةٍ </p>
+                </div>
+
+                <p class="hadits-translation">“Sesungguhnya Allah itu begitu bergembira dengan taubat hamba-Nya melebihi
+                    kegembiraan seseorang di antara kalian yang menemukan kembali untanya yang telah hilang di suatu tanah
+                    yang luas.” (HR. Bukhari no. 6309 dan Muslim no. 2747).</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Muslim</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>إِنَّ اللهَ عَزَّ وَجَلَّ يَبۡسُطُ يَدَهُ بِاللَّيۡلِ، لِيَتُوبَ مُسِيءُ النَّهَارِ. وَيَبۡسُطُ
+                        يَدَهُ بِالنَّهَارِ، لِيَتُوبَ مُسِيءُ اللَّيۡلِ، حَتَّىٰ تَطۡلُعَ الشَّمۡسُ مِنۡ مَغۡرِبِهَا</p>
+                </div>
+
+                <p class="hadits-translation">"Sesungghnya Allah SWT membentangkan tanganNya pada waktu malam untuk menerima
+                    taubat orang yang berbuat dosa pada siang hari, dan Allah membentangkan tanganNya pada waktu siang hari
+                    untuk menerima taubat orang yang berbuat dosa di malam hari hingga matahari terbit dari barat." (HR.
+                    Muslim)</p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Ibnu Majah</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>لَوْ أَخْطَأْتُمْ حَتَّى تَبْلُغَ خَطَايَاكُمْ السَّمَاءَ ثُمَّ تُبْتُمْ لَتَابَ عَلَيْكُمْ</p>
+                </div>
+
+                <p class="hadits-translation">"Sekiranya kalian melakukan kesalahan hingga mencapai langit dan bumi,
+                    kemudian kalian bertaubat, niscaya taubat kalian akan diterima." (HR. Ibnu Majah).</p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->

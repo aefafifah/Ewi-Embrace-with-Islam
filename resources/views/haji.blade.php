@@ -121,23 +121,68 @@
     <!-- end of dalil al-quran section -->
 
 
-    <!-- tafsir -->
-    <section class="tafsir">
+    <!-- Hadits -->
+    <section class="hadits">
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
-        <br><br><br><br>
-        <h2>Dalil Hadits & Tafsirnya</h2>
+        <br><br><br>
+
+        <h2>Dalil Hadits</h2>
         <hr>
-        <div class="tafsir-container">
+
+        <div class="hadits-container">
+            <h3 class="hadits-title">~ HR. Ahmad</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>تَعَجَّلُواْ الحَجَّ فَأِنَّ أَحَدَكُمْ لاَ يَدْرِي مَا يَعْرِضُ لَهُ
+                    </p>
+                </div>
+
+                <p class="hadits-translation">“Hendaklah kalian bersegera mengerjakan haji karena sesungguhnya seseorang
+                    tidak akan menyadari halangan yang akan merintanginya”. (HR. Ahmad). </p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. An Nasai no. 2631, Tirmidzi no. 810, Ahmad 1/387</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>تَابِعُوا بَيْنَ الْحَجِّ وَالْعُمْرَةِ فَإِنَّهُمَا يَنْفِيَانِ الْفَقْرَ وَالذُّنُوبَ كَمَا يَنْفِى
+                        الْكِيرُ خَبَثَ الْحَدِيدِ وَالذَّهَبِ وَالْفِضَّةِ وَلَيْسَ لِلْحَجَّةِ الْمَبْرُورَةِ ثَوَابٌ
+                        إِلاَّ الْجَنَّةُ
+
+                    </p>
+                </div>
+
+                <p class="hadits-translation">“Ikutkanlah umrah kepada haji, karena keduanya menghilangkan kemiskinan dan
+                    dosa-dosa sebagaimana pembakaran menghilangkan karat pada besi, emas, dan perak. Sementara tidak ada
+                    pahala bagi haji yang mabrur kecuali surga.” (HR. An Nasai no. 2631, Tirmidzi no. 810, Ahmad 1/387. Kata
+                    Syaikh Al Albani hadits ini hasan shahih)
+
+                </p>
+            </div>
+
+            <h3 class="hadits-title">~ HR. Tirmidzi</h3>
+            <div class="hadits-box">
+                <div class="hadits-content">
+                    <p>عن علي بن أبي طالب رضي الله عنه قال قال رسول الله : مَنْ مَلَكَ زَادًا وَرَاحَلَةً فَلَمْ يَحُجَّ
+                        فَلَا عَلَيْهِ أَنْ يَمُوْتَ يَهُودِيًا أَوْ نَصْرَانِيًا
+                    </p>
+                </div>
+
+                <p class="hadits-translation">Artinya: Dari Ali bin Abi Thalib, Rasulullah bersabda, "Siapa yang telah
+                    memiliki bekal dan kendaraan lalu dia tidak berhaji, hendaklah ia mati dalam keadaan menjadi orang
+                    Yahudi, atau Nasrani." (HR. Tirmidzi)
+                </p>
+
+            </div>
 
         </div>
 
     </section>
-    <!-- end of dalil container -->
+    <!-- end of Hadits Section -->
 
 
     <!-- dalil -->
