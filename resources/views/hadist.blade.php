@@ -7,7 +7,7 @@
         justify-content: center;
         gap: 20px;
         padding: 20px;
-        background-color: #f0f4f8;
+        background-color: #FEFAF6; /* Updated background color */
     }
 
     .hadis-box {
@@ -16,7 +16,7 @@
         padding: 20px;
         border: 1px solid #ddd;
         border-radius: 10px;
-        background-color: #ffffff;
+        background-color: #EADBC8; /* Updated background color */
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s, box-shadow 0.3s;
@@ -36,13 +36,14 @@
 
     .hadis-box:hover {
         transform: translateY(-5px);
+        background-color: #DAC0A3; /* Updated hover background color */
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     }
 
     .hadis-title {
         font-size: 22px;
         font-weight: bold;
-        color: #333;
+        color: #102C57; /* Updated text color */
         margin-bottom: 15px;
         border-bottom: 2px solid #4CAF50;
         padding-bottom: 10px;
@@ -56,7 +57,7 @@
     }
 
     .pagination button {
-        background-color: #4CAF50;
+        background-color: #102C57; /* Updated button background color */
         color: white;
         border: none;
         border-radius: 5px;
@@ -66,7 +67,7 @@
     }
 
     .pagination button:hover {
-        background-color: #45a049;
+        background-color: #084C6C; /* Updated button hover background color */
     }
 
     .hadith-group {
@@ -78,7 +79,7 @@
         list-style: none;
         padding: 10px;
         border-bottom: 1px solid #ddd;
-        background-color: #fafafa;
+        background-color: #FEFAF6; /* Updated background color */
         margin-bottom: 10px;
         border-radius: 5px;
         transition: background-color 0.3s;
@@ -94,7 +95,7 @@
 
     .hadith-number {
         font-weight: bold;
-        color: #4CAF50;
+        color: #4CAF50; /* Updated text color */
     }
 
     .hadith-arabic {
@@ -171,7 +172,6 @@
         </div>
     @endforeach
 </div>
-
 
 <script>
     function showHadithGroup(bookId, groupNumber) {

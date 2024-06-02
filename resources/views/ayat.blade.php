@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> {{ $response->name }}</title>
-
-    <!-- Tambahkan stylesheet CSS di sini jika diperlukan -->
+    <title>{{ $response->name }}</title>
     <style>
-<style>
         body {
             font-family: "Arial", sans-serif;
-            background-color: #f4f4f4;
+            background-color: #FEFAF6;
             padding: 20px;
             text-align: center;
         }
 
         h2 {
-            color: rgb(16, 44, 87);
+            color: #102C57;
             margin-bottom: 10px;
             font-size: 24px;
         }
@@ -34,15 +31,16 @@
 
         li {
             margin-bottom: 20px;
-            background-color: #fff;
+            background-color: #EADBC8;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             overflow: hidden;
-            transition: transform 0.3s;
+            transition: transform 0.3s, background-color 0.3s;
         }
 
         li:hover {
             transform: translateY(-5px);
+            background-color: #DAC0A3;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
@@ -53,14 +51,14 @@
 
         .panel-heading {
             padding: 10px 15px;
-            background-color: #102c57;
+            background-color: #102C57;
             color: #fff;
-            border-bottom: 2px solid #102c57;
+            border-bottom: 2px solid #102C57;
         }
 
         .panel-body {
             padding: 15px;
-            background-color: #fefaf6;
+            background-color: #FEFAF6;
         }
 
         .verse {
@@ -71,6 +69,7 @@
             margin-bottom: 20px;
             font-family: Scheherazade;
         }
+
         .translation {
             font-size: 16px;
             color: #666;
@@ -81,27 +80,29 @@
 <body>
     <h2>{{ $response->name }}</h2>
     <h2>({{ $response->name_translations->id }})</h2>
-    <p>{{ $response->number_of_ayah }} Ayat • Tempat: {{ $response->place }} • Tipe: {{ $response->type }} </p>
+    <p>{{ $response->number_of_ayah }} Ayat • Tempat: {{ $response->place }} • Tipe: {{ $response->type }}</p>
 
     <div class="panel panel-default">
-    <div class="panel-heading">
-        <h2>Verses:</h2>
+        <div class="panel-heading">
+            <h2>Verses:</h2>
+        </div>
+        <div class="panel-body">
+            <ul>
+                @foreach ($response->verses as $verse)
+                    <li>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3>{{ $response->name }} Ayat {{ $verse->number }}</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p class="verse">{{ $verse->text }}</p>
+                                <p class="translation">Terjemahan: {{ $verse->translation_id }}</p>
+                            </div>
+                        </div>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
     </div>
-    <div class="panel-body">
-        <ul>
-            @foreach ($response->verses as $verse)
-                <li>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3> {{ $response->name}} Ayat {{$verse->number}}</h3>
-                        </div>
-                        <div class="panel-body">
-                            <p class="verse">{{ $verse->text }}</p>
-                            <p class="translation">Terjemahan: {{ $verse->translation_id }}</p>
-                        </div>
-                    </div>
-                </li>
-            @endforeach
-    </ul>
 </body>
 </html>
