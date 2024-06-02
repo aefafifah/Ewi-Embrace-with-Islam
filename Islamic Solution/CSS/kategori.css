@@ -366,6 +366,81 @@ hr
 }
 
 
+/* Kategori Box */
+.playlist
+{
+  background-image: url(../Assets/PermalahanBG3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.playlist .playlist-container 
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.playlist h2 
+{
+  color: #364f6b;
+  font-size: 40px;
+}
+
+.playlist
+{
+  text-align: center;
+}
+
+.video-box 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video
+{
+  flex: 1 0 33%;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.video:hover 
+{
+  transform: scale(1.03);
+}
+
+.video-content 
+{
+  border: 2px solid #EADBC8;
+  border-radius: 7px;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.video iframe {
+  border: 0px;
+  padding: 7px;
+  width: 354px;
+  height: 220px; 
+  object-fit: cover; 
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.video h3 
+{
+  font-size: 17px;
+  margin-bottom: 15px;
+  padding: 7px;
+}
+
 /* Responsive Tablet*/
 @media screen and (max-width: 769px) 
 {
@@ -517,6 +592,68 @@ hr
     line-height: 1.5;
   }
 
+
+  .playlist h2 
+  {
+    color: #364f6b;
+    font-size: 45px;
+  }
+
+  .playlist
+  {
+    text-align: center;
+  }
+
+  .video-box 
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .video
+  {
+    flex: 1 0 50%;
+    padding: 20px;
+    position: relative;
+    transition: transform 0.3s ease;}
+
+  .video:hover 
+  {
+    transform: scale(1.03);
+  }
+
+  .video-content 
+  {
+    border: 2px solid #EADBC8;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+
+  .video iframe {
+    border: 0px;
+    padding: 7px;
+    width: 340px;
+    height: 200px; 
+    object-fit: cover; 
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .video h3 
+  {
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding: 7px;
+  }
+  
+
 }
 
 
@@ -527,6 +664,7 @@ hr
   body 
   {
     text-align: center;
+    align-items: center;
   }
 
   .hero .hero-container 
@@ -762,5 +900,70 @@ hr
     color: black;
     line-height: 1.5;
   }
+
+
+  .playlist h2 
+  {
+    color: #364f6b;
+    font-size: 25px;
+  }
+
+  .playlist
+  {
+    text-align: center;
+  }
+
+  .video-box 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .video
+  {
+    flex: 1 0 100%;
+    padding: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+
+  .video:hover 
+  {
+    transform: scale(1.03);
+  }
+
+  .video-content 
+  {
+    border: 2px solid #EADBC8;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center ;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin: 0 auto; /* Center the video content */
+  }
+
+  .video iframe {
+    border: 0px;
+    padding: 7px;
+    width: 275px;
+    height: 200px; 
+    object-fit: cover; 
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .video h3 
+  {
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding: 7px;
+  }
+  
 
 }
