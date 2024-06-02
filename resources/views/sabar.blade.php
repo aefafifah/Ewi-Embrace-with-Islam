@@ -175,63 +175,65 @@
             <div class="video-box">
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
+
+
 
 
             </div>
