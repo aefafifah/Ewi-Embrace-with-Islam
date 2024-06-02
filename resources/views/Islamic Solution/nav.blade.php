@@ -1,9 +1,8 @@
 <link rel="stylesheet" href="css/navStyle.css">
-
 <nav>
-
     <div class="wrapper">
-        <div class="logo"><a href=''>Embrace with Islam.</a></div>
+        <div class="logo"><a href="Assets/Ewi Logo.png"><img src="Ewi Logo Fix.png" alt="Logo"
+                    style="z-index: 10000000000"></a></div>
         <div class="menu">
             <ul>
                 <li><a href="/" class="tbl-biru">Home</a></li>
@@ -26,5 +25,4 @@
             </ul>
         </div>
     </div>
-
 </nav>
