@@ -281,7 +281,7 @@ form button[type="submit"]:hover {
     function getWhatsAppLink() {
         let phoneNumber = '6281217332804';
         let audioURL = document.getElementById('audioPreview').src;
-        let whatsAppLink = 'https://wa.me/' + phoneNumber + '?text=Listen%20to%20my%20recording:%20' + encodeURIComponent(audioURL);
+        let whatsAppLink = 'https://wa.me/' + phoneNumber + '?text=Saya Sudah Siap Setor!';
         window.open(whatsAppLink);
     }
 </script>
