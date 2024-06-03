@@ -22,15 +22,13 @@ body {
     float: left;
     font-family: courier;
     color: #102C57;
-    z-index: 1000000000;
 }
 
 .logo img {
     display: block;
     width: 80px;
     height: auto;
-    padding-right : 300px;
-    z-index: 100000000;
+    
 }
 .menu {
     float: right;
