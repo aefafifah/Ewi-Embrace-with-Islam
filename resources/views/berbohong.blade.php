@@ -25,57 +25,62 @@
         <hr>
 
         <div class="dalil-container">
-            <h3 class="dalil-title">~ Surah Maryam, Ayat 59</h3>
+            <h3 class="dalil-title">~ Surah Al-Baqarah, Ayat 10</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ
-                        يَلْقَوْنَ غَيًّا (٥٩)</p>
+                    <p>فِى قُلُوبِهِم مَّرَضٌۭ فَزَادَهُمُ ٱللَّهُ مَرَضًۭا ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟
+                        يَكْذِبُونَ (١٠)</p>
                 </div>
 
-                <p class="dalil-translation">Kemudian datanglah setelah mereka, pengganti yang mengabaikan salat dan
-                    memperturutkan nafsunya, maka mereka kelak akan tersesat</p>
+                <p class="dalil-translation">Dalam hati mereka terdapat penyakit, lalu Allah menambah penyakitnya itu, dan
+                    mereka mendapat azab yang pedih, karena mereka berdusta.</p>
 
                 <div class="button-container">
-                    <button class="tafsir-button" data-title="Tafsir Jalalain Surah Maryam, Ayat 59"
-                        data-text="Maka datanglah sesudah mereka pengganti yang jelek yang menyia-nyiakan salat dengan cara meninggalkannya seperti orang-orang Yahudi dan Nasrani, dan memperturutkan hawa nafsunya dengan gemar melakukan perbuatan-perbuatan maksiat, maka mereka kelak akan menemui kesesatan. Ghayya adalah nama sebuah lembah di neraka Jahanam, mereka akan dijerumuskan ke dalamnya. ">Tafsir</button>
+                    <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 10"
+                        data-text="Di dalam hati mereka terdapat keraguan dan kerusakan akibatnya mereka diuji Allah dengan berbuat berbagai macam maksiat yang mewajibkan adanya siksaan bagi mereka, sehingga Allah pun menambah keraguan pada hati mereka dan bagi mereka siksaan yang menyedihkan akibat kedustaan dan kemunafikan mereka.">Tafsir</button>
 
-                    <button class="tatbhiq-button" data-title="Tatbhiq Surah Maryam, Ayat 59"
+                    <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 10"
                         data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
-                    Jika shalat yang menjadi tiang agama, timbangan keimanan dan keikhlasan kepada Rabbul ‘alamin, yang merupakan amalan yang paling utama setelah tauhid sudah berani ditinggalkan, maka sudah tentu amalan yang lain lebih diabaikan.
-                    Demikianlah ketika shalat sudah ditinggalkan, ia tidak punya lagi pegangan, sehingga ketika ada arus deras yang menghampirinya, maka ia terbawa olehnya ke mana saja.">Tatbhiq</button>
+                        Sebagai bentuk hukuman untuk mereka di dunia dan di Akhirat, Allah mengancam mereka dengan adzab yang pedih karena pendustaan dan kekufuran yang mereka lakukan.">Tatbhiq</button>
                 </div>
             </div>
 
-            <h3 class="dalil-title">~ Surah Al-Muddassir, Ayat 42 - 43</h3>
+            <h3 class="dalil-title">~ Surah Al-Baqarah, Ayat 42</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>مَا سَلَكَكُمْ فِى سَقَرَ (٤٢) قَالُوا۟ لَمْ نَكُنْ مِنَ ٱلْمُصَلِّينَ (٤٣)</p>
+                    <p>وَلَا تَلْبِسُوا۟ ٱلْحَقَّ بِٱلْبَـٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ (٤٢)</p>
                 </div>
 
-                <p class="dalil-translation">Apa yang menyebabkan kamu masuk ke dalam (neraka) Saqar ? Mereka menjawab,
-                    "Dahulu kami tidak termasuk orang-orang yang melaksanakan salat"</p>
+                <p class="dalil-translation">Dan janganlah kalian campuradukkan kebenaran dengan kebatilan dan (janganlah)
+                    kalian sembunyikan kebenaran, sedangkan kalian mengetahuinya.</p>
 
-                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Muddassir, Ayat 42 - 43"
-                    data-text="Setiap jiwa tergadai dan tergantung dengan apa yang diusahakannya, baik berupa kebaikan atau keburukan, ia tidak bebas sebelum menunaikan kewajiban dan hukuman yang harus dijalaninya, kecuali orang-orang Muslim yang ikhlas dari golongan kanan yang telah membebaskan leher mereka dengan ketaatan, mereka di dalam surga-surga yang sifatnya tidak dijangkau (oleh nalar). Sebagian bertanya kepada sebagian yang lain tentang orang-orang kafir yang berbuat jahat terhadap diri mereka sendiri, “Apa yang membuat kalian masuk ke dalam Neraka Saqar dan membuat kalian merasakan panasnya?” para penjahat itu menjawab, “Di dunia kami tidak termasuk orang-orang yang mendirikan shalat.''">Tafsir</button>
+                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 42"
+                    data-text="Dan janganlah kalian mencampur adukkan kebenaran yang telah Aku jelaskan kepada kalian dengan kebatilan yang kalian ada adakan sendiri. Hindarilah tindakan menyembunyikan kebenaran yang sudah jelas tentang sifat-sifat nabi Allah dan rasul-Nya Muhammad shallallahu alaihi wasallam yang ada di kitab-kitab Suci kalian, sementara kalian mendapatkannya tertulis di kalangan kalian,  seperti yang  kalian ketahui dari isi kitab suci yang ada di tangan kalian.">Tafsir</button>
 
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Muddassir, Ayat 42 - 43"
-                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Sempurnalah kenyamanan dan keamanan hingga mereka saling berhadap-hadapan dan bertanya satu sama lain, dan percakapan mereka sampai pada pertanyaan tentang orang-orang yang berdosa, bagaimana keadaan mereka, apakah mereka telah mendapatkan apa yang diancamkan Allah pada mereka? Sebagian mereka berkata kepada yang lain, apakah kalian melihat mereka? Mereka pun melihat orang-orang berdosa berada di tengah-tengah Neraka Saqar dalam keadaan tersiksa. Para penduduk surga bertanya pada mereka, “Apakah yang memasukkan kamu ke dalam Saqar (neraka),” yakni apa yang membuatmu masuk ke dalamnya, karena dosa apa kalian mendapatkan neraka? Mereka menjawab, “Kami dahulu tidak termasuk orang-orang yang mengerjakan shalat''">Tatbhiq</button>
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 42"
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Allah juga melarang mereka agar tidak mencampur adukkan antara kebenaran dengan kebathilan, untuk membela kebenaran dan menjauhkan kebathilan yang menyebabkan mereka tidak beriman keapada Muhammad ﷺ.
+                    Kewajiban untuk menjelaskan kebenaran dan keharaman menyembunyikan kebenaran.">Tatbhiq</button>
             </div>
 
-            <h3 class="dalil-title">~ Surah Al-Ma'un, Ayat 4 - 5</h3>
+            <h3 class="dalil-title">~ Surah Al-Ahzab, Ayat 70 - 71</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>فَوَيْلٌۭ لِّلْمُصَلِّينَ (٤) ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ (٥)</p>
+                    <p>يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَقُولُوا۟ قَوْلًۭا سَدِيدًۭا (٧٠) يُصْلِحْ
+                        لَكُمْ أَعْمَـٰلَكُمْ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ فَازَ
+                        فَوْزًا عَظِيمًا (٧١)</p>
                 </div>
 
                 <p class="dalil-translation">Maka celakalah orang yang salat, (yaitu) orang-orang yang lalai terhadap
                     salatnya.</p>
 
-                <button class="tafsir-button" data-title="Tafsir Jalalain Surah Al-Ma'un, Ayat 4 - 5"
-                    data-text="Maka kecelakaanlah bagi orang-orang yang shalat. Yaitu orang-orang yang lalai dari shalatnya, artinya mengakhirkan shalat dari waktunya. ">Tafsir</button>
+                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Ahzab, Ayat 70 - 71"
+                    data-text="Wahai orang-orang yang membenarkan Allah dan RasulNya serta melaksanakan SyariatNya, taatilah Allah dan jauhilah kemaksiatan kepadaNya, agar kalian tidak ditimpa hukumanNya, dan ucapkanlah dalam segala urusan kalian dan keadaan kalian kata-kata yang lurus sesuai dengan kebenaran, bersih dari kedustaan dan kebatilan. Dan Bila kalian bertakwa kepada Allah dan berkata benar, niscaya Allah akan memperbaiki amal-amal perbuatan kalian dan mengampuni dosa-dosa kalian. Barangsiapa menaati Allah dan rasulNya dalam perintah dan larangan, maka dia telah beruntung dengan mendapatkan kehormatan besar di dunia dan di akhirat. ">Tafsir</button>
 
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Ma'un, Ayat 4 - 5"
-                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Maka kecelakaanlah bagi orang-orang yang shalat, yaitu orang-orang yang konsisten menegakkan shalat, tapi mereka adalah orang – orang yang lalai dari shalatnya, yaitu menyia-nyiakannya, tidak shalat hingga waktunya berlalu dan tidak memenuhi rukun-rukunnya. Hal itu disebabkan mereka tidak mengindahkan titah Allah, karena mereka menyiakan-nyiakan shalat yang merupakan ketaatan paling utama. Melalaikan shalat membuat pelakunya berhak mendapatkan celaan dan hinaan. Lain halnya dengan lupa pada saat shalat, karena siapa saja bisa lupa.">Tatbhiq</button>
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Ahzab, Ayat 70 - 71"
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Allah Subhaanahu wa Ta'aala menerintahkan kaum mukmin agar bertakwa kepada-Nya dalam setiap keadaan mereka, ketika sembunyi atau terang-terangan. Demikian pula mengajak mereka berkata benar, yakni perkataan yang sesuai kebenaran atau mendekatinya ketika sulit dipastikan. Termasuk ke dalam perkataan yang benar adalah membaca Al Qur’an, berdzikr, beramar ma’ruf dan bernahi mungkar, mempelajari ilmu dan mengajarkannya, berusaha sesuai dengan kebenaran dalam berbagai masalah ilmiah, menempuh jalan yang mengarah kepadanya serta sarana yang dapat membantu kepadanya. Termasuk perkataan yang benar pula adalah ucapan yang lembut dan halus ketika berbicara dengan orang lain dan ucapan yang mengandung nasihat serta isyarat kepada yang lebih bermaslahat. Selanjutnya Allah Subhaanahu wa Ta'aala menyebutkan manfaat dari bertakwa kepada-Nya dan mengucapkan perkataan yang benar.
+                    Yang demikian menjadi sebab baiknya amal yang dilakukan dan jalan agar diterima, karena menggunakan takwa menjadikan semua amal diterima, sebagaimana firman Allah Ta’ala, “Sesungguhnya Allah hanya menerima dari orang-orang yang bertakwa.” (Terj. Al Maa’idah: 27) Di samping itu, dengan takwa, Allah akan memberi taufik kepada seseorang untuk beramal saleh, menjaga amal tersebut dari yang merusaknya, menjaga pahalanya dan melipatgandakannya, sebagaimana jika seseorang meremehkan ketakwaan dan perkataan yang benar menjadikan sebab rusaknya amal, tidak diterimanya dan tidak ada pengaruhnya.
+                    Dosa merupakan penyebab binasanya seseorang, maka dengan takwa Allah akan ampuni dosa-dosa itu, perkara menjadi lurus dan semua yang dikhawatirkan terjadi hilang.
+                    ">Tatbhiq</button>
             </div>
 
         </div>
@@ -107,47 +112,59 @@
         <hr>
 
         <div class="hadits-container">
-            <h3 class="hadits-title">~ HR. At Tirmidzi no. 2621</h3>
+            <h3 class="hadits-title">~ HR. Abu Dawud no.4989)</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>إنَّ العَهدَ الذي بيننا وبينهم الصَّلاةُ، فمَن تَرَكها فقدْ كَفَرَ
+                    <p>عَنْ عَبْدِ اللهِ بنِ مَسْعُوْد رَضِيَ اللهُ عَنْهُ قَالَ : قَالَ رَسُوْلُ اللهِ صَلَّى اللهُ
+                        عَلَيْهِ وَسَلَّمَ : عَلَيْكُمْ بِالصِّدْقِ ، فَإِنَّ الصِّدْقَ يَهْدِيْ إِلَى الْبِرِّ ، وَإِنَّ
+                        الْبِرَّ يَهْدِيْ إِلَى الْجَنَّةِ ، وَمَا يَزَالُ الرَّجُلُ يَصْدُقُ وَيَتَحَرَّى الصِّدْقَ حَتَّى
+                        يُكْتَبَ عِنْدَ اللهِ صِدِّيْقًا ، وَإِيَّاكُمْ وَالْكَذِبَ ، فَإِنَّ الْكَذِبَ يَهْدِيْ إِلَى
+                        الْفُجُوْرِ ، وَإِنَّ الْفُجُوْرَ يَهْدِيْ إِلَى النَّارِ ، وَمَا يَزَالُ الرَّجُلُ يَكْذِبُ
+                        وَيَتَحَرَّى الْكَذِبَ حَتَّى يُكْتَبَ عِنْدَ اللهِ كَذَّابًا
                     </p>
                 </div>
 
-                <p class="hadits-translation">“Sesungguhnya perjanjian antara kita dan mereka (kaum musyrikin) adalah
-                    shalat. Barangsiapa yang meninggalkannya maka ia telah kafir” (HR. At Tirmidzi no. 2621)</p>
+                <p class="hadits-translation">Dari ‘Abdullah bin Mas’ud Radhiyallahu anhuma, ia berkata: “Rasulullah
+                    Shallallahu ‘alaihi wa sallam bersabda, ‘Hendaklah kalian selalu berlaku jujur, karena kejujuran membawa
+                    kepada kebaikan, dan kebaikan mengantarkan seseorang ke Surga. Dan apabila seorang selalu berlaku jujur
+                    dan tetap memilih jujur, maka akan dicatat di sisi Allah sebagai orang yang jujur. Dan jauhilah oleh
+                    kalian berbuat dusta, karena dusta membawa seseorang kepada kejahatan, dan kejahatan mengantarkan
+                    seseorang ke Neraka. Dan jika seseorang senantiasa berdusta dan memilih kedustaan maka akan dicatat di
+                    sisi Allah sebagai pendusta (pembohong).” (Abu Dawud no.4989)</p>
             </div>
 
-            <h3 class="hadits-title">~ Riyadhus Sholihin, Kitab Al-Fadhail, Bab 193, Hadits 1081</h3>
+            <h3 class="hadits-title">~ HR. Bukhari</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>وَعَنْ أَبِي هُرَيْرَةَ – رَضِيَ اللهُ عَنْهُ – ، قَالَ : قاَلَ رَسُولُ اللهِ – صَلَّى اللهُ عَلَيْهِ
-                        وَسَلَّمَ – : (( إنَّ أَوَّلَ مَا يُحَاسَبُ بِهِ العَبْدُ يَوْمَ القِيَامَةِ مِنْ عَمَلِهِ صَلاَتُهُ
-                        ، فَإنْ صَلُحَتْ ، فَقَدْ أفْلَحَ وأَنْجَحَ ، وَإنْ فَسَدَتْ ، فَقَدْ خَابَ وَخَسِرَ ، فَإِنِ
-                        انْتَقَصَ مِنْ فَرِيضَتِهِ شَيْءٌ ، قَالَ الرَّبُ – عَزَّ وَجَلَّ – : اُنْظُرُوا هَلْ لِعَبْدِي مِنْ
-                        تَطَوُّعٍ ، فَيُكَمَّلُ مِنْهَا مَا انْتَقَصَ مِنَ الفَرِيضَةِ ؟ ثُمَّ تَكُونُ سَائِرُ أعْمَالِهِ
-                        عَلَى هَذَا )) رَوَاهُ التِّرمِذِيُّ ، وَقَالَ : (( حَدِيثٌ حَسَنٌ ))</p>
+                    <p>رَأَيْتُ رَجُلَيْنِ أَتَيَانِي، قَالاَ: اَلَّذِى رَأَيْتَهُ يُشَقُّ شِدْقُهُ فَكَذَّابٌ، يَكْذِبُ
+                        بِالْكَذْبَةِ تُحْمَلُ عَنْهُ حَتَّى تَبْلُغُ الآفَاقَ، فَيُصْنَعُ بِهِ إِلَى يَوْمِ الْقِيَامَةِ
+                    </p>
                 </div>
 
-                <p class="hadits-translation">Abu Hurairah radhiyallahu ‘anhu berkata, Rasulullah shallallahu ‘alaihi wa
-                    sallam bersabda, “Sesungguhnya amal yang pertama kali dihisab pada seorang hamba pada hari kiamat adalah
-                    shalatnya. Maka, jika shalatnya baik, sungguh ia telah beruntung dan berhasil. Dan jika shalatnya rusak,
-                    sungguh ia telah gagal dan rugi. Jika berkurang sedikit dari shalat wajibnya, maka Allah Ta’ala
-                    berfirman, ‘Lihatlah apakah hamba-Ku memiliki shalat sunnah.’ Maka disempurnakanlah apa yang kurang dari
-                    shalat wajibnya. Kemudian begitu pula dengan seluruh amalnya.” (HR. Tirmidzi, ia mengatakan hadits
-                    tersebut hasan.) [HR. Tirmidzi, no. 413 dan An-Nasa’i, no. 466. Al-Hafizh Abu Thahir mengatakan bahwa
-                    hadits ini shahih.]</p>
+                <p class="hadits-translation">"Aku melihat dalam mimpi dua orang Malaikat, keduanya berkata: “Orang yang
+                    engkau lihat mulutnya dikoyak hingga telinga, adalah seorang pembohong. Ia berbohong hingga
+                    kebohongannya tersebut dibebankan kepadanya hingga mencapai ufuk, maka dibuatlah ia diberi beban seperti
+                    itu hingga hari kiamat.” (HR. Bukhari).</p>
             </div>
 
-            <h3 class="hadits-title">~ HR. Ahmad no. 22128</h3>
+            <h3 class="hadits-title">~ HR. Bukhari</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>مَنْ تَرَكَ صَلاَةً مَكْتُوبَةً مُتَعَمِّداً فَقَدْ بَرِئَتْ مِنْهُ ذِمَّةُ اللَّهِ</p>
+                    <p>
+                        عَنْ حَكِيمِ بْنِ حِزَامٍ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ
+                        عَلَيْهِ
+                        وَسَلَّمَ الْبَيِّعَانِ بِالْخِيَارِ مَا لَمْ يَتَفَرَّقَا أَوْ قَالَ حَتَّى يَتَفَرَّقَا فَإِنْ
+                        صَدَقَا وَبَيَّنَا بُورِكَ لَهُمَا فِي بَيْعِهِمَا وَإِنْ كَتَمَا وَكَذَبَا مُحِقَتْ بَرَكَةُ
+                        بَيْعِهِمَا. رواه البخاري</p>
                 </div>
 
-                <p class="hadits-translation">“Barangsiapa meninggalkan shalat yang wajib dengan sengaja, maka janji Allah
-                    terlepas darinya. ” (HR. Ahmad no.22128. Dikatakan hasan lighoirihi oleh Syaikh Al Albani dalam Shohih
-                    At Targib wa At Tarhib no. 569)</p>
+                <p class="hadits-translation">Dari Hakim bin Hizam r.a., ia berkata, Rasulullah ﷺ bersabda, “Penjual dan
+                    pembeli masih dalam khiyar (memilih antara membeli atau tidak), selama mereka berdua belum pisah,
+                    atau
+                    beliau bersabda, sampai mereka berdua pisah. Jika mereka jujur dan saling menjelaskan, maka
+                    diberkahilah
+                    untuk keduanya dalam transaksi mereka. Jika mereka menyembunyikan dan berbohong, maka keberkahan
+                    transaksi mereka sirna.” (H.R. Bukhari)</p>
 
             </div>
 
@@ -167,61 +184,61 @@
             <div class="video-box">
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
