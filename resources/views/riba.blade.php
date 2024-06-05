@@ -25,57 +25,73 @@
         <hr>
 
         <div class="dalil-container">
-            <h3 class="dalil-title">~ Surah Maryam, Ayat 59</h3>
+            <h3 class="dalil-title">~ Surah Al-Baqarah, Ayat 275</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ
-                        يَلْقَوْنَ غَيًّا (٥٩)</p>
+                    <p>ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ
+                        ٱلشَّيْطَـٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ
+                        وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌۭ مِّن رَّبِّهِۦ
+                        فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ
+                        ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ (٢٧٥)</p>
                 </div>
 
-                <p class="dalil-translation">Kemudian datanglah setelah mereka, pengganti yang mengabaikan salat dan
-                    memperturutkan nafsunya, maka mereka kelak akan tersesat</p>
+                <p class="dalil-translation">Orang-orang yang memakan riba tidak dapat berdiri melainkan seperti berdirinya
+                    orang yang kesurupan setan karena gila. Yang demikian itu karena mereka berkata bahwa jual beli itu
+                    sama dengan riba. Padahal Allah telah menghalalkan jual beli dan mengharamkan riba. Barang siapa
+                    mendapat peringatan dari Tuhannya, lalu dia berhenti, maka apa yang telah di perolehnya dahulu menjadi
+                    miliknya dan urusannya (terserah) kepada Allah. Barang siapa mengulangi, maka mereka itu penghuni
+                    neraka, mereka kekal di dalamnya.</p>
 
                 <div class="button-container">
-                    <button class="tafsir-button" data-title="Tafsir Jalalain Surah Maryam, Ayat 59"
-                        data-text="Maka datanglah sesudah mereka pengganti yang jelek yang menyia-nyiakan salat dengan cara meninggalkannya seperti orang-orang Yahudi dan Nasrani, dan memperturutkan hawa nafsunya dengan gemar melakukan perbuatan-perbuatan maksiat, maka mereka kelak akan menemui kesesatan. Ghayya adalah nama sebuah lembah di neraka Jahanam, mereka akan dijerumuskan ke dalamnya. ">Tafsir</button>
+                    <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Baqarah, Ayat 275"
+                        data-text="Orang-orang yang bermuamalah dengan riba (yaitu tambahan dari modal pokok), mereka itu tidaklah bangkit berdiri di akhirat kelak dari kubur-kubur mereka, kecuali sebagaimana berdirinya orang-orang yang dirasuki setan karena penyakit gila. Hal itu karena sesungguhnya mereka mengatakan, “Sesungguhnya jual beli itu sama dengan praktek ribawi dalam kehalalan keduanya, karena masing-masing menyebabkan bertambahnya kekayaan.” Maka Allah mendustakan mereka dan menjelaskan bahwa Dia menghalalkan jual beli dan mengharamkan transaksi ribawi, karena dalam jual beli terdapat manfaat bagi orang-orang secara individual dan masyarakat, dan karena dalam praktek riba terkandung unsur pemanfaatan kesempatan dalam kesempitan, hilangnya harta dan kehancuran. Maka siapa saja yang telah sampai padanya larangan Allah terkait riba, lalu dia menghindarinya, maka baginya keuntungan yang telah berlalu sebelum ketetapan pengaraman. Tidak ada dosa atas dirinya padanya. Dan urusannya dikembalikan kepada Allah terkait apa yang akan terjadi pada dirinya pada masa yang akan datang. Apabila dia komitmen terus di atas taubatnya, maka Allah tidak akan menghilangkan pahala orang-orang yang berbuat baik. Dan barangsiapa kembali kepada praktek riba dan menjalankannya setelah sampai kepadanya larangan Allah tentang itu, maka sungguh dia pantas memperoleh siksaan dan hujjah telah tegak nyata di hadapannya. Oleh sebab itu, Allah berfirman, “Maka mereka itu adalah para penghuni neraka; mereka kekal di dalamnya.”
+                        ">Tafsir</button>
 
-                    <button class="tatbhiq-button" data-title="Tatbhiq Surah Maryam, Ayat 59"
+                    <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Baqarah, Ayat 275"
                         data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
-                    Jika shalat yang menjadi tiang agama, timbangan keimanan dan keikhlasan kepada Rabbul ‘alamin, yang merupakan amalan yang paling utama setelah tauhid sudah berani ditinggalkan, maka sudah tentu amalan yang lain lebih diabaikan.
-                    Demikianlah ketika shalat sudah ditinggalkan, ia tidak punya lagi pegangan, sehingga ketika ada arus deras yang menghampirinya, maka ia terbawa olehnya ke mana saja.">Tatbhiq</button>
+                        Penjelasan tentang hukuman yang dirasakan para pemakan riba pada hari kiamat, karena mereka telah menghalalkan riba dan memakannya serta tidak mau bertaubat dari riba.
+                        Keharaman riba dan setiap harta yang haram karena telah terdapat ayat yang berisikan ancaman yang keras.
+                        Menetapkan sifat cinta bagi Allah Ta’ala dan Dia mencintai wali-waliNya yaitu orang-orang yang beriman dan taat. Begitu juga Allah membenci musuh-musuhNya yaitu orang-orang kafir kepadaNya dan bermaksiat dengan memakan riba dan melakukan dosa-dosa besar lainnya. Kehalalan jual beli apabila terpenuhi syarat-syaratnya yang disebutkan dalam kitab-kitab fiqh.
+                        Barangsiapa yang bertaubat dari riba akan diterima taubatnya.">Tatbhiq</button>
                 </div>
             </div>
 
-            <h3 class="dalil-title">~ Surah Al-Muddassir, Ayat 42 - 43</h3>
+            <h3 class="dalil-title">~ Surah Ali Imran, Ayat 130</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>مَا سَلَكَكُمْ فِى سَقَرَ (٤٢) قَالُوا۟ لَمْ نَكُنْ مِنَ ٱلْمُصَلِّينَ (٤٣)</p>
+                    <p>يَـٰٓأَيُّهَا ٱلَّذِينَ ءامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًۭا مُّضَـٰعَفَةًۭ ۖ
+                        وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ (١٣٠)</p>
                 </div>
 
-                <p class="dalil-translation">Apa yang menyebabkan kamu masuk ke dalam (neraka) Saqar ? Mereka menjawab,
-                    "Dahulu kami tidak termasuk orang-orang yang melaksanakan salat"</p>
+                <p class="dalil-translation">Wahai orang-orang yang beriman! Janganlah kamu memakan riba dengan berlipat
+                    ganda dan bertakwalah kepada Allah agar kamu beruntung.</p>
 
-                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Muddassir, Ayat 42 - 43"
-                    data-text="Setiap jiwa tergadai dan tergantung dengan apa yang diusahakannya, baik berupa kebaikan atau keburukan, ia tidak bebas sebelum menunaikan kewajiban dan hukuman yang harus dijalaninya, kecuali orang-orang Muslim yang ikhlas dari golongan kanan yang telah membebaskan leher mereka dengan ketaatan, mereka di dalam surga-surga yang sifatnya tidak dijangkau (oleh nalar). Sebagian bertanya kepada sebagian yang lain tentang orang-orang kafir yang berbuat jahat terhadap diri mereka sendiri, “Apa yang membuat kalian masuk ke dalam Neraka Saqar dan membuat kalian merasakan panasnya?” para penjahat itu menjawab, “Di dunia kami tidak termasuk orang-orang yang mendirikan shalat.''">Tafsir</button>
+                <button class="tafsir-button" data-title="Tafsir Jalalain Surah Ali Imran, Ayat 130"
+                    data-text="(Hai orang-orang yang beriman, janganlah kamu memakan riba dengan berlipat ganda) bacaannya ada yang memakai alif dan ada pula yang tidak, maksudnya ialah memberikan tambahan pada harta yang diutang yang ditangguhkan pembayarannya dari tempo yang telah ditetapkan (dan bertakwalah kamu kepada Allah) dengan menghindarinya (supaya kamu beroleh keberuntungan) atau hasil yang gemilang.">Tafsir</button>
 
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Muddassir, Ayat 42 - 43"
-                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Sempurnalah kenyamanan dan keamanan hingga mereka saling berhadap-hadapan dan bertanya satu sama lain, dan percakapan mereka sampai pada pertanyaan tentang orang-orang yang berdosa, bagaimana keadaan mereka, apakah mereka telah mendapatkan apa yang diancamkan Allah pada mereka? Sebagian mereka berkata kepada yang lain, apakah kalian melihat mereka? Mereka pun melihat orang-orang berdosa berada di tengah-tengah Neraka Saqar dalam keadaan tersiksa. Para penduduk surga bertanya pada mereka, “Apakah yang memasukkan kamu ke dalam Saqar (neraka),” yakni apa yang membuatmu masuk ke dalamnya, karena dosa apa kalian mendapatkan neraka? Mereka menjawab, “Kami dahulu tidak termasuk orang-orang yang mengerjakan shalat''">Tatbhiq</button>
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah Ali Imran, Ayat 130"
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Menurut sebagian besar ulama adalah bahwa riba itu selamanya haram, walaupun tidak berlipat ganda. Riba yang dimaksud dalam ayat ini adalah Riba nasiah yang umum terjadi dalam masyarakat Arab zaman jahiliyah, yaitu ketika orang yang berhutang sudah jatuh tempo harus membayar, namun ia belum mampu, orang yang memberi pinjaman berkata, ''Kamu
+                    mau membayar hutangmu atau saya tambah lagi waktunya namun hutangmu juga bertambah''">Tatbhiq</button>
             </div>
 
-            <h3 class="dalil-title">~ Surah Al-Ma'un, Ayat 4 - 5</h3>
+            <h3 class="dalil-title">~ Surah Ar-Rum, Ayat 39</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>فَوَيْلٌۭ لِّلْمُصَلِّينَ (٤) ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ (٥)</p>
+                    <p>وَمَآ ءاتَيْتُم مِّن رِّبًۭا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ
+                        وَمَآ ءاتَيْتُم مِّن زَكَوٰةٍۢ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ (٣٩)
+                    </p>
                 </div>
 
-                <p class="dalil-translation">Maka celakalah orang yang salat, (yaitu) orang-orang yang lalai terhadap
-                    salatnya.</p>
+                <p class="dalil-translation">Dan suatu riba (tambahan) yang kamu berikan agar harta manusia bertambah, maka
+                    tidak bertambah dalam pandangan Allah. Dan apa yang kamu berikan berupa zakat yang kamu maksudkan untuk
+                    memperoleh keridaan Allah, maka itulah orang-orang yang melipatgandakan (pahalanya).</p>
 
-                <button class="tafsir-button" data-title="Tafsir Jalalain Surah Al-Ma'un, Ayat 4 - 5"
-                    data-text="Maka kecelakaanlah bagi orang-orang yang shalat. Yaitu orang-orang yang lalai dari shalatnya, artinya mengakhirkan shalat dari waktunya. ">Tafsir</button>
+                <button class="tafsir-button" data-title="Tafsir Jalalain Surah Ar-Rum, Ayat 39"
+                    data-text="(Dan sesuatu riba atau tambahan yang kalian berikan) umpamanya sesuatu yang diberikan atau dihadiahkan kepada orang lain supaya orang lain memberi kepadanya balasan yang lebih banyak dari apa yang telah ia berikan; pengertian sesuatu dalam ayat ini dinamakan tambahan yang dimaksud dalam masalah muamalah (agar dia menambah pada harta manusia) yakni orang-orang yang memberi itu, lafal yarbuu artinya bertambah banyak (maka riba itu tidak menambah) tidak menambah banyak (di sisi Allah) yakni tidak ada pahalanya bagi orang-orang yang memberikannya. (Dan apa yang kalian berikan berupa zakat) yakni sedekah (untuk mencapai) melalui sedekah itu (keridaan Allah, maka itulah orang-orang yang melipatgandakan) pahalanya sesuai dengan apa yang mereka kehendaki. Di dalam ungkapan ini terkandung makna sindiran bagi orang-orang yang diajak bicara atau mukhathabin. ">Tafsir</button>
 
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Ma'un, Ayat 4 - 5"
-                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Maka kecelakaanlah bagi orang-orang yang shalat, yaitu orang-orang yang konsisten menegakkan shalat, tapi mereka adalah orang – orang yang lalai dari shalatnya, yaitu menyia-nyiakannya, tidak shalat hingga waktunya berlalu dan tidak memenuhi rukun-rukunnya. Hal itu disebabkan mereka tidak mengindahkan titah Allah, karena mereka menyiakan-nyiakan shalat yang merupakan ketaatan paling utama. Melalaikan shalat membuat pelakunya berhak mendapatkan celaan dan hinaan. Lain halnya dengan lupa pada saat shalat, karena siapa saja bisa lupa.">Tatbhiq</button>
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah Ar-Rum, Ayat 39"
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Setelah Allah menyebutkan amal yang maksudnya mencari keridhaan Allah, seperti infak, maka Allah Subhaanahu wa Ta'aala menyebutkan amal yang maksudnya adalah untuk memperoleh keuntungan duniawi.
+                    Yakni ketika kamu memberikan harta dengan maksud agar orang yang kamu beri harta itu menggantikan dengan yang lebih banyak dari yang kamu berikan, maka balasannya tidaklah berkembang di sisi Allah, karena hilangnya syarat untuk diterima, yaitu ikhlas. Amal yang maksudnya memperoleh keuntungan duniawi, seperti agar kedudukannya tinggi, atau karena riya’ kepada manusia, maka semua itu tidaklah bertambah di hadapan Allah.">Tatbhiq</button>
             </div>
 
         </div>
@@ -107,47 +123,46 @@
         <hr>
 
         <div class="hadits-container">
-            <h3 class="hadits-title">~ HR. At Tirmidzi no. 2621</h3>
+            <h3 class="hadits-title">~ HR. Muslim no. 1598</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>إنَّ العَهدَ الذي بيننا وبينهم الصَّلاةُ، فمَن تَرَكها فقدْ كَفَرَ
+                    <p>عَنْ جَابِرٍ ، قَالَ : لَعَنَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ آكِلَ الرِّبَا،
+                        وَمُؤْكِلَهُ، وَكَاتِبَهُ، وَشَاهِدَيْهِ. وَقَالَ : هُمْ سَوَاءٌ
                     </p>
                 </div>
 
-                <p class="hadits-translation">“Sesungguhnya perjanjian antara kita dan mereka (kaum musyrikin) adalah
-                    shalat. Barangsiapa yang meninggalkannya maka ia telah kafir” (HR. At Tirmidzi no. 2621)</p>
+                <p class="hadits-translation">Dari Jabir (diriwayatkan bahwa) ia berkata: “Rasulullah saw melaknat pemakan
+                    riba, yang memberikannya, pencatatnya dan saksi-saksinya. Rasulullah SAW mengatakan, ‘mereka itu sama.”
+                    (HR. Muslim no. 1598)</p>
             </div>
 
-            <h3 class="hadits-title">~ Riyadhus Sholihin, Kitab Al-Fadhail, Bab 193, Hadits 1081</h3>
+            <h3 class="hadits-title">~ HR. Bukhari, no. 2766 dan Muslim, no. 89</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>وَعَنْ أَبِي هُرَيْرَةَ – رَضِيَ اللهُ عَنْهُ – ، قَالَ : قاَلَ رَسُولُ اللهِ – صَلَّى اللهُ عَلَيْهِ
-                        وَسَلَّمَ – : (( إنَّ أَوَّلَ مَا يُحَاسَبُ بِهِ العَبْدُ يَوْمَ القِيَامَةِ مِنْ عَمَلِهِ صَلاَتُهُ
-                        ، فَإنْ صَلُحَتْ ، فَقَدْ أفْلَحَ وأَنْجَحَ ، وَإنْ فَسَدَتْ ، فَقَدْ خَابَ وَخَسِرَ ، فَإِنِ
-                        انْتَقَصَ مِنْ فَرِيضَتِهِ شَيْءٌ ، قَالَ الرَّبُ – عَزَّ وَجَلَّ – : اُنْظُرُوا هَلْ لِعَبْدِي مِنْ
-                        تَطَوُّعٍ ، فَيُكَمَّلُ مِنْهَا مَا انْتَقَصَ مِنَ الفَرِيضَةِ ؟ ثُمَّ تَكُونُ سَائِرُ أعْمَالِهِ
-                        عَلَى هَذَا )) رَوَاهُ التِّرمِذِيُّ ، وَقَالَ : (( حَدِيثٌ حَسَنٌ ))</p>
+                    <p>عَنْ أَبِى هُرَيْرَةَ – رضى الله عنه – عَنِ النَّبِىِّ – صلى الله عليه وسلم – قَالَ « اجْتَنِبُوا
+                        السَّبْعَ الْمُوبِقَاتِ » . قَالُوا يَا رَسُولَ اللَّهِ ، وَمَا هُنَّ قَالَ « الشِّرْكُ بِاللَّهِ ،
+                        وَالسِّحْرُ ، وَقَتْلُ النَّفْسِ الَّتِى حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ ، وَأَكْلُ الرِّبَا ،
+                        وَأَكْلُ مَالِ الْيَتِيمِ ، وَالتَّوَلِّى يَوْمَ الزَّحْفِ ، وَقَذْفُ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ
+                        الْغَافِلاَتِ</p>
                 </div>
 
-                <p class="hadits-translation">Abu Hurairah radhiyallahu ‘anhu berkata, Rasulullah shallallahu ‘alaihi wa
-                    sallam bersabda, “Sesungguhnya amal yang pertama kali dihisab pada seorang hamba pada hari kiamat adalah
-                    shalatnya. Maka, jika shalatnya baik, sungguh ia telah beruntung dan berhasil. Dan jika shalatnya rusak,
-                    sungguh ia telah gagal dan rugi. Jika berkurang sedikit dari shalat wajibnya, maka Allah Ta’ala
-                    berfirman, ‘Lihatlah apakah hamba-Ku memiliki shalat sunnah.’ Maka disempurnakanlah apa yang kurang dari
-                    shalat wajibnya. Kemudian begitu pula dengan seluruh amalnya.” (HR. Tirmidzi, ia mengatakan hadits
-                    tersebut hasan.) [HR. Tirmidzi, no. 413 dan An-Nasa’i, no. 466. Al-Hafizh Abu Thahir mengatakan bahwa
-                    hadits ini shahih.]</p>
+                <p class="hadits-translation">Dari Abu Hurairah radhiyallahu ‘anhu, dari Nabi shallallahu ‘alaihi wa sallam,
+                    beliau bersabda, “Jauhilah tujuh dosa yang membinasakan (al-muubiqaat).” Mereka berkata, “Wahai
+                    Rasulullah, apa saja dosa yang membinasakan tersebut?” Beliau bersabda, “(1) Syirik kepada Allah, (2)
+                    sihir, (3) membunuh jiwa yang haram untuk dibunuh kecuali jika lewat jalan yang benar, (4) makan riba,
+                    (5) makan harta anak yatim, (6) lari dari medan perang, (7) qadzaf (menuduh wanita mukminah yang
+                    baik-baik dengan tuduhan zina).” (HR. Bukhari, no. 2766 dan Muslim, no. 89).</p>
             </div>
 
-            <h3 class="hadits-title">~ HR. Ahmad no. 22128</h3>
+            <h3 class="hadits-title">~ HR. Hakim, no. 2259</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>مَنْ تَرَكَ صَلاَةً مَكْتُوبَةً مُتَعَمِّداً فَقَدْ بَرِئَتْ مِنْهُ ذِمَّةُ اللَّهِ</p>
+                    <p>الرِّبَا ثَلاَثَةٌ وَسَبْعُونَ بَابًا؛ أَيْسَرُهَا مِثلُ أَن يَنْكِحَ الرَّجُل أُمَّه، وَإنّ أَربَى
+                        الرِّبَا عِرضُ الرَّجُل الـمُسْلِم</p>
                 </div>
 
-                <p class="hadits-translation">“Barangsiapa meninggalkan shalat yang wajib dengan sengaja, maka janji Allah
-                    terlepas darinya. ” (HR. Ahmad no.22128. Dikatakan hasan lighoirihi oleh Syaikh Al Albani dalam Shohih
-                    At Targib wa At Tarhib no. 569)</p>
+                <p class="hadits-translation">“Riba itu ada 73 pintu (dosa). Yang paling ringan adalah semisal dosa
+                    seseorang yang menzinai ibu kandungnya sendiri.” (HR. Al-Hakim no. 2259).</p>
 
             </div>
 
@@ -167,61 +182,61 @@
             <div class="video-box">
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
                     </div>
                 </div>
 
