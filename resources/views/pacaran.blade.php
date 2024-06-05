@@ -25,57 +25,101 @@
         <hr>
 
         <div class="dalil-container">
-            <h3 class="dalil-title">~ Surah Maryam, Ayat 59</h3>
+            <h3 class="dalil-title">~ Surah Al-Isra, Ayat 32</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ
-                        يَلْقَوْنَ غَيًّا (٥٩)</p>
+                    <p>وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةًۭ وَسَآءَ سَبِيلًۭا (٣٢)</p>
                 </div>
 
-                <p class="dalil-translation">Kemudian datanglah setelah mereka, pengganti yang mengabaikan salat dan
-                    memperturutkan nafsunya, maka mereka kelak akan tersesat</p>
+                <p class="dalil-translation">Janganlah kamu mendekati zina. Sesungguhnya (zina) itu adalah perbuatan keji
+                    dan jalan terburuk.</p>
 
                 <div class="button-container">
-                    <button class="tafsir-button" data-title="Tafsir Jalalain Surah Maryam, Ayat 59"
-                        data-text="Maka datanglah sesudah mereka pengganti yang jelek yang menyia-nyiakan salat dengan cara meninggalkannya seperti orang-orang Yahudi dan Nasrani, dan memperturutkan hawa nafsunya dengan gemar melakukan perbuatan-perbuatan maksiat, maka mereka kelak akan menemui kesesatan. Ghayya adalah nama sebuah lembah di neraka Jahanam, mereka akan dijerumuskan ke dalamnya. ">Tafsir</button>
+                    <button class="tafsir-button" data-title="Tafsir Jalalain Surah Al-Isra, Ayat 32"
+                        data-text="(Dan janganlah kalian mendekati zina) larangan untuk melakukannya jelas lebih keras lagi (sesungguhnya zina itu adalah suatu perbuatan yang keji) perbuatan yang buruk (dan seburuk-buruknya) sejelek-jelek (jalan) adalah perbuatan zina itu.">Tafsir</button>
 
-                    <button class="tatbhiq-button" data-title="Tatbhiq Surah Maryam, Ayat 59"
+                    <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Isra, Ayat 32"
                         data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut:
-                    Jika shalat yang menjadi tiang agama, timbangan keimanan dan keikhlasan kepada Rabbul ‘alamin, yang merupakan amalan yang paling utama setelah tauhid sudah berani ditinggalkan, maka sudah tentu amalan yang lain lebih diabaikan.
-                    Demikianlah ketika shalat sudah ditinggalkan, ia tidak punya lagi pegangan, sehingga ketika ada arus deras yang menghampirinya, maka ia terbawa olehnya ke mana saja.">Tatbhiq</button>
+                        Haram melakukan hal yang dapat mengantar kepada zina seperti: memandang dengan syahwat, berbicara dengan perempuan asing, dan menyentuhnya. Serta haramnya zina, dan ini lebih ditekankan lagi.
+                        ">Tatbhiq</button>
                 </div>
             </div>
 
-            <h3 class="dalil-title">~ Surah Al-Muddassir, Ayat 42 - 43</h3>
+            <h3 class="dalil-title">~ Surah An-Nur, ayat 30</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>مَا سَلَكَكُمْ فِى سَقَرَ (٤٢) قَالُوا۟ لَمْ نَكُنْ مِنَ ٱلْمُصَلِّينَ (٤٣)</p>
+                    <p>قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَـٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ
+                        لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ (٣٠)</p>
                 </div>
 
-                <p class="dalil-translation">Apa yang menyebabkan kamu masuk ke dalam (neraka) Saqar ? Mereka menjawab,
-                    "Dahulu kami tidak termasuk orang-orang yang melaksanakan salat"</p>
+                <p class="dalil-translation">Katakanlah kepada laki-laki yang beriman, agar mereka menjaga pandangannya, dan
+                    memelihara kemaluannya, yang demikian itu lebih suci bagi mereka. Sungguh, Allah Maha Mengetahui apa
+                    yang mereka perbuat.</p>
 
-                <button class="tafsir-button" data-title="Tafsir Muyassar Surah Al-Muddassir, Ayat 42 - 43"
-                    data-text="Setiap jiwa tergadai dan tergantung dengan apa yang diusahakannya, baik berupa kebaikan atau keburukan, ia tidak bebas sebelum menunaikan kewajiban dan hukuman yang harus dijalaninya, kecuali orang-orang Muslim yang ikhlas dari golongan kanan yang telah membebaskan leher mereka dengan ketaatan, mereka di dalam surga-surga yang sifatnya tidak dijangkau (oleh nalar). Sebagian bertanya kepada sebagian yang lain tentang orang-orang kafir yang berbuat jahat terhadap diri mereka sendiri, “Apa yang membuat kalian masuk ke dalam Neraka Saqar dan membuat kalian merasakan panasnya?” para penjahat itu menjawab, “Di dunia kami tidak termasuk orang-orang yang mendirikan shalat.''">Tafsir</button>
+                <button class="tafsir-button" data-title="Tafsir Muyassar Surah An-Nur, Ayat 30"
+                    data-text="Katakanlah wahai Nabi, kepada laki-laki Mukmin agar mereka menundukkan pandangan-pandangan mereka dari wanita-wanita dan aurat-aurat yang tidak halal bagi mereka, memelihara kemaluan mereka dari perkara yang diharamkan Allah, seperti zina, homoseksual dan membuka aurat serta perkara terlarang lainnya. Yang demikian itu lebih suci bagi mereka. Sesungguhnya Allah Maha Mengetahui apa yang mereka perbuat terkait perkara yang Allah perintahkan kepada mereka dan perkara yang Allah melarang mereka darinya.">Tafsir</button>
 
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Muddassir, Ayat 42 - 43"
-                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Sempurnalah kenyamanan dan keamanan hingga mereka saling berhadap-hadapan dan bertanya satu sama lain, dan percakapan mereka sampai pada pertanyaan tentang orang-orang yang berdosa, bagaimana keadaan mereka, apakah mereka telah mendapatkan apa yang diancamkan Allah pada mereka? Sebagian mereka berkata kepada yang lain, apakah kalian melihat mereka? Mereka pun melihat orang-orang berdosa berada di tengah-tengah Neraka Saqar dalam keadaan tersiksa. Para penduduk surga bertanya pada mereka, “Apakah yang memasukkan kamu ke dalam Saqar (neraka),” yakni apa yang membuatmu masuk ke dalamnya, karena dosa apa kalian mendapatkan neraka? Mereka menjawab, “Kami dahulu tidak termasuk orang-orang yang mengerjakan shalat''">Tatbhiq</button>
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah An-Nur, Ayat 30"
+                    data-text="Syaikh As Sa’diy berkata, “(Yakni) lebih suci, lebih baik dan lebih mengembangkan amal mereka, karena barang siapa yang menjaga kemaluan dan pandangannya, maka ia akan bersih dari kotoran yang menodai para pelaku perbuatan keji, dan amalnya pun akan bersih disebabkan meninggalkan hal yang haram yang diiinginkan hawa nafsu dan didorong olehnya. Barang siapa yang meninggalkan sesuatu karena Allah, maka Allah akan menggantinya dengan yang lebih baik darinya. Oleh karena itu, barang siapa yang menundukkan pandangannya dari yang haram, maka Allah akan menyinari bashirahnya (mata hatinya), dan lagi karena seorang hamba apabila menjaga kemaluan dan pandangannya dari yang haram serta pengantarnya meskipun ada dorongan syahwat kepadanya, maka tentu ia dapat menjaga yang lain. Oleh karena itulah Allah sebut sebagai penjagaan. Sesuatu yang dijaga jika penjaganya tidak berusaha mengawasi dan memeliharanya dan tidak melakukan sebab yang dapat membuatnya terjaga, maka sesuatu itu tidak akan terjaga. Demikian pula pandangan dan kemaluan, jika seorang hamba tidak berusaha menjaga keduanya, maka keduanya dapat menjatuhkannya ke dalam cobaan dan ujian. Perhatikanlah bagaimana Allah memerintahkan menjaga kemaluan secara mutlak, karena ia tidak diperbolehkan dalam salah satu di antara sekian keadaan, adapun pandangan, Dia berfirman, “Yaghuddhuu min abshaarihim (Agar mereka menundukkan pandangan).” Menggunakan huruf “min” yang menunjukkan sebagian, karena dibolehkan memandang dalam sebagian keadaan karena dibutuhkan, seperti melihatnya saksi, melihatnya pelaku, melihatnya seorang pelamar, dsb. Selanjutnya, Allah Subhaanahu wa Ta'aala mengingatkan kepada mereka pengetahuan-Nya terhadap amal mereka agar mereka berusaha menjaga diri mereka dari hal-hal yang diharamkan.”">Tatbhiq</button>
             </div>
 
-            <h3 class="dalil-title">~ Surah Al-Ma'un, Ayat 4 - 5</h3>
+            <h3 class="dalil-title">~ Surah An-Nur, Ayat 31</h3>
             <div class="dalil-box">
                 <div class="dalil-content">
-                    <p>فَوَيْلٌۭ لِّلْمُصَلِّينَ (٤) ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ (٥)</p>
+                    <p>وَقُل لِّلْمُؤْمِنَـٰتِ يَغْضُضْنَ مِنْ أَبْصَـٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ
+                        زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ وَلَا
+                        يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ
+                        أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ
+                        أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُنَّ أَوِ ٱلتَّـٰبِعِينَ
+                        غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ
+                        عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ
+                        وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ (٣١)</p>
                 </div>
 
-                <p class="dalil-translation">Maka celakalah orang yang salat, (yaitu) orang-orang yang lalai terhadap
-                    salatnya.</p>
+                <p class="dalil-translation">Dan katakanlah kepada para perempuan yang beriman, agar mereka menjaga
+                    pandangannya, dan memelihara kemaluannya, dan janganlah menampakkan perhiasannya (auratnya), kecuali
+                    yang (biasa) terlihat. Dan hendaklah mereka menutupkan kain kerudung ke dadanya, dan janganlah
+                    menampakkan perhiasannya (auratnya), kecuali kepada suami mereka, atau ayah mereka, atau ayah suami
+                    mereka, atau putra-putra mereka, atau putra-putra suami mereka, atau saudara-saudara laki-laki mereka,
+                    atau putra-putra saudara laki-laki mereka, atau putra-putra saudara perempuan mereka, atau para
+                    perempuan (sesama Islam) mereka, atau hamba sahaya yang mereka miliki, atau para pelayan laki-laki (tua)
+                    yang tidak mempunyai hasrat (terhadap perempuan), atau anak-anak yang belum mengerti tentang aurat
+                    perempuan. Dan janganlah mereka menghentakkan kakinya agar diketahui perhiasan yang mereka sembunyikan.
+                    Dan bertobatlah kamu semua kepada Allah, wahai orang-orang yang beriman, agar kamu beruntung.</p>
 
-                <button class="tafsir-button" data-title="Tafsir Jalalain Surah Al-Ma'un, Ayat 4 - 5"
-                    data-text="Maka kecelakaanlah bagi orang-orang yang shalat. Yaitu orang-orang yang lalai dari shalatnya, artinya mengakhirkan shalat dari waktunya. ">Tafsir</button>
+                <button class="tafsir-button" data-title="Tafsir Jalalain Surah An-Nur, Ayat 31"
+                    data-text="(Dan katakanlah kepada wanita yang beriman, ''Hendaklah mereka menahan pandangannya) daripada
+                    hal-hal yang tidak dihalalkan bagi mereka melihatnya (dan memelihara kemaluannya) dari hal-hal yang
+                    tidak dihalalkan untuknya (dan janganlah mereka menampakkan) memperlihatkan (perhiasannya, kecuali yang
+                    biasa tampak daripadanya) yaitu wajah dan dua telapak tangannya, maka kedua perhiasannya itu boleh
+                    dilihat oleh lelaki lain, jika tidak dikhawatirkan adanya fitnah. Demikianlah menurut pendapat yang
+                    membolehkannya. Akan tetapi menurut pendapat yang lain hal itu diharamkan secara mutlak, sebab merupakan
+                    sumber terjadinya fitnah. Pendapat yang kedua ini lebih kuat demi untuk menutup pintu fitnah. (Dan
+                    hendaklah mereka menutupkan kain kerudung ke dadanya) hendaknya mereka menutupi kepala, leher dan dada
+                    mereka dengan kerudung atau jilbabnya (dan janganlah menampakkan perhiasannya) perhiasan yang
+                    tersembunyi, yaitu selain dari wajah dan dua telapak tangan (kecuali kepada suami mereka) bentuk jamak
+                    dari lafal Ba'lun artinya suami (atau ayah mereka, atau ayah suami mereka, atau putra-putra mereka, atau
+                    putra-putra suami mereka, atau saudara-saudara mereka, atau putra-putra saudara-saudara mereka, atau
+                    putra-putra saudara-saudara perempuan mereka, atau wanita-wanita Islam atau budak-budak yang mereka
+                    miliki) diperbolehkan bagi mereka melihatnya kecuali anggota tubuh antara pusar dan lututnya, anggota
+                    tersebut haram untuk dilihat oleh mereka selain dari suaminya sendiri. Dikecualikan dari lafal
+                    Nisaaihinna, yaitu perempuan-perempuan yang kafir, bagi wanita Muslimat tidak boleh membuka aurat di
+                    hadapan mereka. Termasuk pula ke dalam pengertian Maa Malakat Aymaanuhunna, yaitu hamba sahaya laki-laki
+                    miliknya (atau pelayan-pelayan laki-laki) yakni pembantu-pembantu laki-laki (yang tidak) kalau dibaca
+                    Ghairi berarti menjadi sifat dan kalau dibaca Ghaira berarti menjadi Istitsna (mempunyai keinginan)
+                    terhadap wanita (dari kalangan kaum laki-laki) seumpamanya penis masing-masing tidak dapat bereaksi
+                    (atau anak-anak) lafal Ath-Thifl bermakna jamak sekalipun bentuk lafalnya tunggal (yang masih belum
+                    mengerti) belum memahami (tentang aurat wanita) belum mengerti persetubuhan, maka kaum wanita boleh
+                    menampakkan aurat mereka terhadap orang-orang tersebut selain antara pusar dan lututnya. (Dan janganlah
+                    mereka memukulkan kaki mereka agar diketahui perhiasan yang mereka sembunyikan) yaitu berupa gelang
+                    kaki, sehingga menimbulkan suara gemerincing. (Dan bertobatlah kamu sekalian kepada Allah, hai
+                    orang-orang yang beriman) dari apa yang telah kalian kerjakan, yaitu sehubungan dengan pandangan yang
+                    dilarang ini dan hal-hal lainnya yang dilarang (supaya kalian beruntung''') maksudnya selamat dari hal
+                    tersebut karena tobat kalian diterima. Pada ayat ini ungkapan Mudzakkar mendominasi atas Muannats.">Tafsir</button>
 
-                <button class="tatbhiq-button" data-title="Tatbhiq Surah Al-Ma'un, Ayat 4 - 5"
-                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: Maka kecelakaanlah bagi orang-orang yang shalat, yaitu orang-orang yang konsisten menegakkan shalat, tapi mereka adalah orang – orang yang lalai dari shalatnya, yaitu menyia-nyiakannya, tidak shalat hingga waktunya berlalu dan tidak memenuhi rukun-rukunnya. Hal itu disebabkan mereka tidak mengindahkan titah Allah, karena mereka menyiakan-nyiakan shalat yang merupakan ketaatan paling utama. Melalaikan shalat membuat pelakunya berhak mendapatkan celaan dan hinaan. Lain halnya dengan lupa pada saat shalat, karena siapa saja bisa lupa.">Tatbhiq</button>
+                <button class="tatbhiq-button" data-title="Tatbhiq Surah An-Nur, Ayat 31"
+                    data-text="Faedah yang dapat diambil dari ayat ini adalah sebagai berikut: 
+                    Ayat ini memberikan pedoman yang jelas kepada para perempuan yang beriman tentang bagaimana menjaga diri mereka dengan baik dalam kehidupan sehari-hari. Mereka diminta untuk menjaga pandangan mereka, memelihara kemaluan, dan menutup aurat mereka kecuali kepada orang-orang tertentu yang diizinkan oleh agama. Penggunaan hijab juga ditekankan sebagai tindakan yang penting untuk menjaga kesucian dan kehormatan diri. Selain itu, ayat ini juga mengatur hubungan sosial antara perempuan dengan kerabat laki-laki mereka, menegaskan bahwa aurat hanya boleh diperlihatkan kepada orang-orang yang diizinkan oleh syariat Islam. Dalam konteks spiritual, ayat ini mengajak seluruh orang beriman untuk bertaubat kepada Allah sebagai langkah penting menuju keberuntungan di dunia dan akhirat. Dengan memahami dan mengamalkan ajaran yang terkandung dalam ayat ini, para perempuan muslim dapat menjaga diri mereka dengan baik dan memperoleh berkah serta keberuntungan dari Allah.">Tatbhiq</button>
             </div>
 
         </div>
@@ -98,7 +142,8 @@
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
-                d="M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                d="
+                                                                                                                        M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
         <br><br><br>
@@ -107,47 +152,42 @@
         <hr>
 
         <div class="hadits-container">
-            <h3 class="hadits-title">~ HR. At Tirmidzi no. 2621</h3>
+            <h3 class="hadits-title">~ HR. Muslim</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>إنَّ العَهدَ الذي بيننا وبينهم الصَّلاةُ، فمَن تَرَكها فقدْ كَفَرَ
+                    <p>رَنْ أَبِي مَعْبَدٍ، قَالَ: سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ: سَمِعْتُ النَّبِيَّ صَلَّى اللهُ
+                        عَلَيْهِ وَسَلَّمَ يَخْطُبُ يَقُولُ: «لَا يَخْلُوَنَّ رَجُلٌ بِامْرَأَةٍ إِلَّا وَمَعَهَا ذُو
+                        مَحْرَمٍ، وَلَا تُسَافِرِ الْمَرْأَةُ إِلَّا مَعَ ذِي مَحْرَم
+
                     </p>
                 </div>
 
-                <p class="hadits-translation">“Sesungguhnya perjanjian antara kita dan mereka (kaum musyrikin) adalah
-                    shalat. Barangsiapa yang meninggalkannya maka ia telah kafir” (HR. At Tirmidzi no. 2621)</p>
+                <p class="hadits-translation">“Tidak boleh antara laki-laki dan wanita berduaan kecuali disertai oleh
+                    muhrimnya, dan seorang wanita tidak boleh bepergian kecuali ditemani oleh muhramnya.”(HR. Muslim)</p>
             </div>
 
-            <h3 class="hadits-title">~ Riyadhus Sholihin, Kitab Al-Fadhail, Bab 193, Hadits 1081</h3>
+            <h3 class="hadits-title">~ HR. Ath-Thabrani</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>وَعَنْ أَبِي هُرَيْرَةَ – رَضِيَ اللهُ عَنْهُ – ، قَالَ : قاَلَ رَسُولُ اللهِ – صَلَّى اللهُ عَلَيْهِ
-                        وَسَلَّمَ – : (( إنَّ أَوَّلَ مَا يُحَاسَبُ بِهِ العَبْدُ يَوْمَ القِيَامَةِ مِنْ عَمَلِهِ صَلاَتُهُ
-                        ، فَإنْ صَلُحَتْ ، فَقَدْ أفْلَحَ وأَنْجَحَ ، وَإنْ فَسَدَتْ ، فَقَدْ خَابَ وَخَسِرَ ، فَإِنِ
-                        انْتَقَصَ مِنْ فَرِيضَتِهِ شَيْءٌ ، قَالَ الرَّبُ – عَزَّ وَجَلَّ – : اُنْظُرُوا هَلْ لِعَبْدِي مِنْ
-                        تَطَوُّعٍ ، فَيُكَمَّلُ مِنْهَا مَا انْتَقَصَ مِنَ الفَرِيضَةِ ؟ ثُمَّ تَكُونُ سَائِرُ أعْمَالِهِ
-                        عَلَى هَذَا )) رَوَاهُ التِّرمِذِيُّ ، وَقَالَ : (( حَدِيثٌ حَسَنٌ ))</p>
+                    <p>عَنْ أَبِي العَلاَءِ حَدَثَنِي مَعْقِلُ بْنُ يَسَارٍ قَالَ قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ
+                        وَسَلَّمَ لَأَنْ يُطْعَنَ فِي رَأْسِ رَجُلٍ بِمِخْيَطٍ مِنْ حَدِيدٍ خَيْرٌ لَهُ مِنْ أَنْ يَمَسَّ
+                        امْرَأَةً لَا تَحِلُّ لَهُ [رواه الطبراني والبيهقي، ورجال الطبراني ثقات رجال الصحيح]</p>
                 </div>
 
-                <p class="hadits-translation">Abu Hurairah radhiyallahu ‘anhu berkata, Rasulullah shallallahu ‘alaihi wa
-                    sallam bersabda, “Sesungguhnya amal yang pertama kali dihisab pada seorang hamba pada hari kiamat adalah
-                    shalatnya. Maka, jika shalatnya baik, sungguh ia telah beruntung dan berhasil. Dan jika shalatnya rusak,
-                    sungguh ia telah gagal dan rugi. Jika berkurang sedikit dari shalat wajibnya, maka Allah Ta’ala
-                    berfirman, ‘Lihatlah apakah hamba-Ku memiliki shalat sunnah.’ Maka disempurnakanlah apa yang kurang dari
-                    shalat wajibnya. Kemudian begitu pula dengan seluruh amalnya.” (HR. Tirmidzi, ia mengatakan hadits
-                    tersebut hasan.) [HR. Tirmidzi, no. 413 dan An-Nasa’i, no. 466. Al-Hafizh Abu Thahir mengatakan bahwa
-                    hadits ini shahih.]</p>
+                <p class="hadits-translation">Dari Abu ‘Ala menceritakan padaku Ma’qil bin Yasar (diriwayatkan), ia berkata,
+                    Rasulullah saw bersabda, “ditusuknya kepala seseorang dengan pasak dari besi, sungguh lebih baik baginya
+                    daripada menyentuh wanita yang bukan mahramnya” (HR. ath-Thabrani dalam al-Mu‘jam al-Kabir 20: 212).</p>
             </div>
 
-            <h3 class="hadits-title">~ HR. Ahmad no. 22128</h3>
+            <h3 class="hadits-title">~ HR. Ibnu Majah no. 1920</h3>
             <div class="hadits-box">
                 <div class="hadits-content">
-                    <p>مَنْ تَرَكَ صَلاَةً مَكْتُوبَةً مُتَعَمِّداً فَقَدْ بَرِئَتْ مِنْهُ ذِمَّةُ اللَّهِ</p>
+                    <p>لَمْ نَرَ لِلْمُتَحَابَّيْنِ مِثْلَ النِّكَاحِ
+                    </p>
                 </div>
 
-                <p class="hadits-translation">“Barangsiapa meninggalkan shalat yang wajib dengan sengaja, maka janji Allah
-                    terlepas darinya. ” (HR. Ahmad no.22128. Dikatakan hasan lighoirihi oleh Syaikh Al Albani dalam Shohih
-                    At Targib wa At Tarhib no. 569)</p>
+                <p class="hadits-translation">Kami tidak pernah mengetahui solusi untuk dua orang yang saling mencintai
+                    selain pernikahan.” (HR. Ibnu Majah no. 1920. Dikatakan shahih oleh Syaikh Al Albani)</p>
 
             </div>
 
@@ -167,61 +207,61 @@
             <div class="video-box">
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
                     </div>
                 </div>
 
