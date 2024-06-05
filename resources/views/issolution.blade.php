@@ -106,7 +106,7 @@
                     <div class="category-content">
                         <img src="Assets/shalat.png" alt="Category 1">
                         <h3>Hukum Meninggalkan Shalat</h3>
-                        <a href="/shalat"><button>Lebih Lanjut</button></a>
+                        <a href="Kategori/shalat.html"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@
                     <div class="category-content">
                         <img src="Assets/zakat.jpeg" alt="Category 2">
                         <h3>Hukum Zakat</h3>
-                        <a href="/zakat"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@
                     <div class="category-content">
                         <img src="Assets/puasa.jpg" alt="Category 2">
                         <h3>Hukum Berpuasa</h3>
-                        <a href="/puasa"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -130,7 +130,39 @@
                     <div class="category-content">
                         <img src="Assets/haji.png" alt="Category 2">
                         <h3>Hukum Haji</h3>
-                        <a href="/haji"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category-content">
+                        <img src="Assets/Pacaran.jpg" alt="Category 1">
+                        <h3 style="padding: 5px;">Hukum Pacaran</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category-content">
+                        <img src="Assets/Riba.jpg" alt="Category 2">
+                        <h3>Hukum Riba</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category-content">
+                        <img src="Assets/Berbohong.png" alt="Category 2">
+                        <h3>Hukum Berbohong</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <div class="category-content">
+                        <img src="Assets/Mencuri.jpg" alt="Category 2">
+                        <h3 style="padding: 5px;">Hukum Mencuri</h3>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -138,7 +170,7 @@
                     <div class="category-content">
                         <img src="Assets/sabar.jpeg" alt="Category 1">
                         <h3 style="padding: 5px;">Bersabar Menghadapi Ujian</h3>
-                        <a href="/sabar"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -146,7 +178,7 @@
                     <div class="category-content">
                         <img src="Assets/taubat.png" alt="Category 2">
                         <h3>Taubat Maksiat</h3>
-                        <a href="/taubat"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -154,7 +186,7 @@
                     <div class="category-content">
                         <img src="Assets/Pendidikan.jpg" alt="Category 2">
                         <h3>Menuntut Ilmu</h3>
-                        <a href="/ilmu"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
 
@@ -162,7 +194,7 @@
                     <div class="category-content">
                         <img src="Assets/Sukses.jpg" alt="Category 2">
                         <h3 style="padding: 5px;">Kiat Sukses Dunia & Akhirat</h3>
-                        <a href="/sukses"><button>Lebih Lanjut</button></a>
+                        <a href="#"><button>Lebih Lanjut</button></a>
                     </div>
                 </div>
             </div>
