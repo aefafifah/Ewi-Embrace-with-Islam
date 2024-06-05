@@ -39,6 +39,23 @@ Route::get('/haji', function () {
     return view('haji');
 });
 
+Route::get('/pacaran', function () {
+    return view('pacaran');
+});
+
+Route::get('/riba', function () {
+    return view('riba');
+});
+
+Route::get('/berbohong', function () {
+    return view('berbohong');
+});
+
+Route::get('/mencuri', function () {
+    return view('mencuri');
+});
+
+
 Route::get('/sabar', function () {
     return view('sabar');
 });
@@ -80,4 +97,3 @@ Route::put('/verses/{day_number}', [MemController::class, 'update'])->name('vers
 
 
 return view('test');
-
