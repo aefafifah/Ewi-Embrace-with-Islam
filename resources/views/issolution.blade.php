@@ -2,6 +2,23 @@
 @section('content')
     <link rel="stylesheet" href="css/issostyle.css">
 
+    <script>
+        function searchTopic() {
+            var searchText = document.getElementById("search-input").value.toLowerCase();
+            var categories = document.querySelectorAll(".category");
+
+            categories.forEach(function(category) {
+                var title = category.querySelector("h3").innerText.toLowerCase();
+
+                if (title.includes(searchText)) {
+                    category.style.display = "block";
+                } else {
+                    category.style.display = "none";
+                }
+            });
+        }
+    </script>
+
 
     <!-- Hero Section-->
     <section class="hero">
@@ -101,6 +118,12 @@
         <div class="container">
             <br><br><br><br><br><br><br>
             <h2>Pilih Topik Anda</h2>
+
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Cari kategori topik...">
+                <button onclick="searchTopic()">Cari</button>
+            </div>
+
             <div class="category-box">
                 <div class="category">
                     <div class="category-content">
