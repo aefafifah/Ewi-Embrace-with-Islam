@@ -102,6 +102,61 @@
             color: #333;
             font-size: 16px;
         }
+
+        /* Responsive CSS */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            .form-group label {
+                width: 100px;
+                font-size: 14px;
+            }
+            .form-group input,
+            .form-group select {
+                padding: 8px;
+                font-size: 14px;
+            }
+            button {
+                padding: 10px;
+                font-size: 14px;
+            }
+            #result {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .form-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .form-group label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            .form-group input,
+            .form-group select {
+                width: 100%;
+                padding: 8px;
+            }
+            button {
+                padding: 8px;
+                font-size: 12px;
+            }
+            th, td {
+                font-size: 12px;
+            }
+            .reference {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -251,6 +306,5 @@
     </script>
 </body>
 </html>
-
 
 @endsection

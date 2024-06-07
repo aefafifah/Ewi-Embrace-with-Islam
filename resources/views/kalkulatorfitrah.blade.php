@@ -10,27 +10,27 @@
 
     <!-- Icon Section -->
     <div class="icon-container">
-        <a href="#form-penghasilan" class="icon-item">
-        <img src="Assets/Penghasilan.svg" alt="Penghasilan">
+        <a href="#form-penghasilan" class="icon-item" onclick="ubahJenisZakat('penghasilan')">
+            <img src="{{ asset('Assets/Penghasilan.svg') }}" alt="Penghasilan">
             <p>Penghasilan</p>
         </a>
-        <div class="icon-item" onclick="ubahJenisZakat('tabungan')">
-            <img src="Assets/Tabungan.svg" alt="Tabungan">
+        <a href="#form-tabungan" class="icon-item" onclick="ubahJenisZakat('tabungan')">
+            <img src="{{ asset('Assets/Tabungan.svg') }}" alt="Tabungan">
             <p>Tabungan</p>
-        </div>
-        <a href="#form-perdagangan" class="icon-item">
-        <img src="Assets/Perdagangan.svg" alt="Perdagangan">
+        </a>
+        <a href="#form-perdagangan" class="icon-item" onclick="ubahJenisZakat('perdagangan')">
+            <img src="{{ asset('Assets/Perdagangan.svg') }}" alt="Perdagangan">
             <p>Perdagangan</p>
         </a>
-        <a href="#form-emas" class="icon-item">
-            <img src="Assets/Emas.svg" alt="Emas">
+        <a href="#form-emas" class="icon-item" onclick="ubahJenisZakat('emas')">
+            <img src="{{ asset('Assets/Emas.svg') }}" alt="Emas">
             <p>Emas</p>
         </a>
     </div>
     <!-- End of Icon Section -->
 
     <label for="jenis-zakat">Jenis Zakat:</label>
-    <select id="jenis-zakat" onchange="ubahJenisZakat()">
+    <select id="jenis-zakat" onchange="ubahJenisZakat(this.value)">
         <option value="penghasilan">PENGHASILAN</option>
         <option value="tabungan">TABUNGAN</option>
         <option value="perdagangan">PERDAGANGAN</option>
@@ -61,6 +61,11 @@
         </form>
     </div>
 
+    <div id="hasil-penghasilan" class="hasil-section" style="display: none;">
+        <h3>Hasil Perhitungan Zakat Penghasilan</h3>
+        <p id="penghasilan-result"></p>
+    </div>
+
     <div id="form-tabungan" class="form-section" style="display: none;">
         <form id="tabungan-form">
             <label for="jumlah-tabungan">Jumlah Tabungan</label>
@@ -74,6 +79,11 @@
         </form>
     </div>
     
+    <div id="hasil-tabungan" class="hasil-section" style="display: none;">
+        <h3>Hasil Perhitungan Zakat Tabungan</h3>
+        <p id="tabungan-result"></p>
+    </div>
+
     <div id="form-perdagangan" class="form-section" style="display: none;">
         <form id="perdagangan-form">
             <label for="aset-lancar">Aset Lancar</label>
@@ -94,6 +104,11 @@
         </form>
     </div>
 
+    <div id="hasil-perdagangan" class="hasil-section" style="display: none;">
+        <h3>Hasil Perhitungan Zakat Perdagangan</h3>
+        <p id="perdagangan-result"></p>
+    </div>
+
     <div id="form-emas" class="form-section" style="display: none;">
         <form id="emas-form">
             <label for="berat-emas">Berat Emas (gram)</label>
@@ -112,12 +127,18 @@
             <button type="button" onclick="hitungZakat('emas')">Hitung Zakat</button>
         </form>
     </div>
+
+    <div id="hasil-emas" class="hasil-section" style="display: none;">
+        <h3>Hasil Perhitungan Zakat Emas</h3>
+        <p id="emas-result"></p>
+    </div>
 </div>
 
 <style>
 /* Additional CSS for the icons */
 .icon-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
@@ -160,11 +181,45 @@
 .icon-item p:hover:after {
     width: 100%;
 }
+
+/* Additional CSS for the results */
+.hasil-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.hasil-section h3 {
+    margin-top: 0;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .icon-container {
+        gap: 10px;
+    }
+    .icon-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-item p {
+        font-size: 12px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input, select, button {
+        font-size: 14px;
+    }
+}
 </style>
 
 <script>
-    function ubahJenisZakat() {
-        var jenisZakat = document.getElementById('jenis-zakat').value;
+    function ubahJenisZakat(jenisZakat) {
         var formSections = document.querySelectorAll('.form-section');
         formSections.forEach(function(section) {
             section.style.display = 'none';
@@ -189,19 +244,22 @@
             document.getElementById('jumlah-penghasilan').value = jumlahPenghasilan;
             var nisabBulanan = parseFloat(document.getElementById('nisab-bulan').value);
             if (jumlahPenghasilan >= nisabBulanan) {
-                alert("Zakat yang harus dibayar: Rp. " + (jumlahPenghasilan * 0.025));
+                var zakat = jumlahPenghasilan * 0.025;
+                document.getElementById('penghasilan-result').innerText = "Zakat yang harus dibayar: Rp. " + zakat;
             } else {
-                alert("Penghasilan Anda belum mencapai nisab untuk zakat penghasilan.");
+                document.getElementById('penghasilan-result').innerText = "Penghasilan Anda belum mencapai nisab untuk zakat penghasilan.";
             }
+            document.getElementById('hasil-penghasilan').style.display = 'block';
         } else if (jenis === 'tabungan') {
             let jumlahTabungan = parseFloat(document.getElementById('jumlah-tabungan').value) || 0;
             let nisabTabungan = parseFloat(document.getElementById('nisab-tabungan').value);
             if (jumlahTabungan >= nisabTabungan) {
                 let zakat = jumlahTabungan * 0.025;
-                alert('Zakat yang harus dikeluarkan: Rp. ' + zakat);
+                document.getElementById('tabungan-result').innerText = 'Zakat yang harus dikeluarkan: Rp. ' + zakat;
             } else {
-                alert('Jumlah tabungan tidak mencapai nisab');
+                document.getElementById('tabungan-result').innerText = 'Jumlah tabungan tidak mencapai nisab';
             }
+            document.getElementById('hasil-tabungan').style.display = 'block';
         } else if (jenis === 'perdagangan') {
             var asetLancar = parseFloat(document.getElementById('aset-lancar').value) || 0;
             var laba = parseFloat(document.getElementById('laba').value) || 0;
@@ -209,10 +267,12 @@
             document.getElementById('jumlah-perdagangan').value = jumlahPerdagangan;
             var nisabTahunPerdagangan = parseFloat(document.getElementById('nisab-tahun-perdagangan').value);
             if (jumlahPerdagangan >= nisabTahunPerdagangan) {
-                alert("Zakat yang harus dibayar: Rp. " + (jumlahPerdagangan * 0.025));
+                var zakat = jumlahPerdagangan * 0.025;
+                document.getElementById('perdagangan-result').innerText = "Zakat yang harus dibayar: Rp. " + zakat;
             } else {
-                alert("Aset Perdagangan Anda belum mencapai nisab untuk zakat perdagangan.");
+                document.getElementById('perdagangan-result').innerText = "Aset Perdagangan Anda belum mencapai nisab untuk zakat perdagangan.";
             }
+            document.getElementById('hasil-perdagangan').style.display = 'block';
         } else if (jenis === 'emas') {
             var beratEmas = parseFloat(document.getElementById('berat-emas').value) || 0;
             var hargaEmas = parseFloat(document.getElementById('harga-emas').value) || 0;
@@ -220,10 +280,12 @@
             document.getElementById('jumlah-emas').value = jumlahEmas;
             var nisabEmas = parseFloat(document.getElementById('nisab-emas').value);
             if (beratEmas >= nisabEmas) {
-                alert("Zakat yang harus dibayar: Rp. " + (jumlahEmas * 0.025));
+                var zakat = jumlahEmas * 0.025;
+                document.getElementById('emas-result').innerText = "Zakat yang harus dibayar: Rp. " + zakat;
             } else {
-                alert("Berat emas Anda belum mencapai nisab untuk zakat emas.");
+                document.getElementById('emas-result').innerText = "Berat emas Anda belum mencapai nisab untuk zakat emas.";
             }
+            document.getElementById('hasil-emas').style.display = 'block';
         }
     }
 </script>

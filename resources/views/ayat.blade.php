@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $response->name }}</title>
+@extends('layout.master')
+
+@section('content')
     <style>
         body {
             font-family: "Arial", sans-serif;
@@ -47,6 +44,7 @@
         .panel {
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
         .panel-heading {
@@ -54,6 +52,7 @@
             background-color: #102C57;
             color: #fff;
             border-bottom: 2px solid #102C57;
+            font-size: 18px;
         }
 
         .panel-body {
@@ -75,9 +74,54 @@
             color: #666;
             text-align: left;
         }
+
+        /* Responsive CSS */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .panel-heading {
+                font-size: 16px;
+            }
+
+            .verse {
+                font-size: 24px;
+            }
+
+            .translation {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 18px;
+            }
+
+            .panel-heading {
+                font-size: 14px;
+            }
+
+            .verse {
+                font-size: 20px;
+                padding: 5px;
+            }
+
+            .translation {
+                font-size: 12px;
+            }
+        }
     </style>
-</head>
-<body>
+
     <h2>{{ $response->name }}</h2>
     <h2>({{ $response->name_translations->id }})</h2>
     <p>{{ $response->number_of_ayah }} Ayat • Tempat: {{ $response->place }} • Tipe: {{ $response->type }}</p>
@@ -104,5 +148,4 @@
             </ul>
         </div>
     </div>
-</body>
-</html>
+@endsection
