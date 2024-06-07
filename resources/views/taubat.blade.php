@@ -216,51 +216,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/XsDPzGvB1DQ?si=UX6rWMFbq1Y-vSxm"
+                        <iframe src="https://www.youtube.com/embed/bmI8bFPyvLU?si=o6C2CCCVhW5LNWZs"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Inilah Cara Taubat Terbaik - Ustadz Adi Hidayat</h3>
+                        <h3>Jika Dosa Berulang, Maka Ulangilah Bertaubat - Khalid Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/XsDPzGvB1DQ?si=UX6rWMFbq1Y-vSxm"
+                        <iframe src="https://www.youtube.com/embed/sv8yBZI2zEs?si=7ao8VSCRBZnNcCGL"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Inilah Cara Taubat Terbaik - Ustadz Adi Hidayat</h3>
+                        <h3>Allah Menunggu Taubat Kita - Ust. Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/XsDPzGvB1DQ?si=UX6rWMFbq1Y-vSxm"
+                        <iframe src="https://www.youtube.com/embed/_Y-_vToQ2S0?si=4aHtS9GMK-4vtAj2"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Inilah Cara Taubat Terbaik - Ustadz Adi Hidayat</h3>
+                        <h3>Renungan Ketika Kita Banyak Dosa Dan Jauh Dari Allah - Buya Yahya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/XsDPzGvB1DQ?si=UX6rWMFbq1Y-vSxm"
+                        <iframe src="https://www.youtube.com/embed/btf80DE5yfs?si=_ouLZWRchzNqB300"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Inilah Cara Taubat Terbaik - Ustadz Adi Hidayat</h3>
+                        <h3>Renungan yang Menyentuh Hati: Masihkah Ada Taubat Untukku ?</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/XsDPzGvB1DQ?si=UX6rWMFbq1Y-vSxm"
+                        <iframe src="https://www.youtube.com/embed/ShPLCsLSyp0?si=xDU9NrU25XnWCNfF"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Inilah Cara Taubat Terbaik - Ustadz Adi Hidayat</h3>
+                        <h3>Allah Mencintai Hijrahnya Seorang Hamba - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 

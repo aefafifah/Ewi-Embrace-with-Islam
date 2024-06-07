@@ -143,7 +143,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="
-                                                                                                                        M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                                                                                                                                                        M0,160L60,160C120,160,240,160,360,181.3C480,203,600,245,720,229.3C840,213,960,139,1080,112C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
             </path>
         </svg>
         <br><br><br>
@@ -217,51 +217,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
+                        <iframe src="https://www.youtube.com/embed/kv6zEeiGf_0?si=M28dq9A0YTlFFE0O"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
+                        <h3>Kenapa Pacaran Itu Dilarang - Ustadz Adi Hidayat Lc MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
+                        <iframe src="https://www.youtube.com/embed/sRbScKkrLss?si=bMb1lkprT_SVGlLf"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
+                        <h3>Adakah Pacaran Islami ? - Felix Siauw</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
+                        <iframe src="https://www.youtube.com/embed/Ei41tP_KUrA?si=MgayfRYG3ZL2gD_q"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
+                        <h3>Nasehat Buat Yang Masih Berpacaran - Ustadz Dr. Syafiq Riza Basalamah, M.A.</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
+                        <iframe src="https://www.youtube.com/embed/9SM8XZ6ovxo?si=9Fu0W7h-WMA25zql"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
+                        <h3>Bahayanya Pacaran - Buya Yahya Menjawab</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/15ALL2x-2ro?si=dFUJJvYDm3FOxi2f"
+                        <iframe src="https://www.youtube.com/embed/jk3puuHE3d0?si=M_AKC4Ew6IWonf7j"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Apa Hukum Pacaran? - Ustadz Syafiq Riza Basalamah</h3>
+                        <h3>Udah Putusin Aja - Felix Siauw</h3>
                     </div>
                 </div>
 

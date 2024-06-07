@@ -222,51 +222,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/4r8ch6alXO0?si=J-tcXc5wEI17OXNA"
+                        <iframe src="https://www.youtube.com/embed/U-dbZa4rq-o?si=ebrA2r4M8g8kbbei"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Puasa Ramadhan - Ustadz Khairullah Anwar Luthfi, Lc</h3>
+                        <h3>Puasa di Bulan Ramadhan Itu Wajib Hukumnya - Ustadz DR Syafiq Riza Basalamah MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/4r8ch6alXO0?si=J-tcXc5wEI17OXNA"
+                        <iframe src="https://www.youtube.com/embed/YAkgqwjrAYE?si=UsewGqcMqN_tzoQw"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Puasa Ramadhan - Ustadz Khairullah Anwar Luthfi, Lc</h3>
+                        <h3>Hukum Membatalkan Puasa Secara Sengaja - Ustadz Abdur Rasyid, M.Pd.I</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/4r8ch6alXO0?si=J-tcXc5wEI17OXNA"
-                            title="YouTube video player"
+                        <iframe src="https://www.youtube.com/embed/m97SDRxy8GM?si=V4sRh-YS_zXeXUTa"
+                            title="YouTube video player" title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Puasa Ramadhan - Ustadz Khairullah Anwar Luthfi, Lc</h3>
+                        <h3>Mengapa Kita Berpuasa ? - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/4r8ch6alXO0?si=J-tcXc5wEI17OXNA"
+                        <iframe src="https://www.youtube.com/embed/n342_SoSsqI?si=UEDfpZKlbDnJCmzq"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Puasa Ramadhan - Ustadz Khairullah Anwar Luthfi, Lc</h3>
+                        <h3>Keutamaan Dan Manfaat Puasa | Ustadz Khalid Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/4r8ch6alXO0?si=J-tcXc5wEI17OXNA"
+                        <iframe src="https://www.youtube.com/embed/OuLGC0U6om0?si=NEBUuA0cXvZqXZOS"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Puasa Ramadhan - Ustadz Khairullah Anwar Luthfi, Lc</h3>
+                        <h3>10 Hal Yang Membatalkan Puasa – Poster Dakwah Yufid Tv</h3>
                     </div>
                 </div>
 

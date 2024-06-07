@@ -202,51 +202,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/sVN5WeBxyl4?si=na5han-LEWJjerIV"
+                        <iframe src="https://www.youtube.com/embed/lKyFbXp8_fE?si=gD1sj4mFB_BS_za2"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban Menuntut Ilmu - 5 Menit yang Menginspirasi</h3>
+                        <h3>Keutamaan Menuntut Ilmu - Ustadz Abu Yahya Badru Salam, Lc</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/sVN5WeBxyl4?si=na5han-LEWJjerIV"
+                        <iframe src="https://www.youtube.com/embed/l3KEORbVUXs?si=5S5vudd5vBdKmUUJ"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban Menuntut Ilmu - 5 Menit yang Menginspirasi</h3>
+                        <h3>Cara Cepat Pandai Dalam Islam - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/sVN5WeBxyl4?si=na5han-LEWJjerIV"
-                            title="YouTube video player"
+                        <iframe src="https://www.youtube.com/embed/ajfitdWyKhE?si=dxZYBW0KXVF8e_47"
+                            title="YouTube video player" title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban Menuntut Ilmu - 5 Menit yang Menginspirasi</h3>
+                        <h3>7 Adab Menuntut Ilmu -Ustadz Abdul Somad, Lc., MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/sVN5WeBxyl4?si=na5han-LEWJjerIV"
+                        <iframe src="https://www.youtube.com/embed/cqQLLnlnbTI?si=5JWCEJ5X--6CKrTX"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban Menuntut Ilmu - 5 Menit yang Menginspirasi</h3>
+                        <h3>Obat malas Dalam Menuntut Ilmu - Syaikh Shalih Fauzan Al-Fauzan</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/sVN5WeBxyl4?si=na5han-LEWJjerIV"
+                        <iframe src="https://www.youtube.com/embed/Ov4Ypvvgf6Q?si=TzUHpPaeeAc5XcYR"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban Menuntut Ilmu - 5 Menit yang Menginspirasi</h3>
+                        <h3>Jangan Insecure, Penuntut Ilmu Harus Optimis! - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 

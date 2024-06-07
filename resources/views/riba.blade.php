@@ -192,51 +192,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
+                        <iframe src="https://www.youtube.com/embed/0LzAvDUZ-es?si=OZBkaQ9qht9HRgrY"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
+                        <h3>Jenis Riba dan Cara Menghindarinya - Buya Yahya Menjawab</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
+                        <iframe src="https://www.youtube.com/embed/UeCmS9IzAq0?si=UucMWkOJyetUiQ6d"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
+                        <h3>Besarnya Dosa Riba - Ustadz Dr. Syafiq Riza Basalamah M.A</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
+                        <iframe src="https://www.youtube.com/embed/sQ2nXo77FNY?si=Tw_QJUoC98tUNCMk"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
+                        <h3>Konsep Hukum Riba - Ust. Adi Hidayat. Lc, MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
-                            title="YouTube video player"
+                        <iframe src="https://www.youtube.com/embed/21mEPSD4UPA?si=t_b82Yb_keQCLYJy"
+                            title="YouTube video player" title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
+                        <h3>Masih Berani⁉️ Ngeri nya Azab Riba‼️ - Ustadz Syahid Abdullah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/7EYcV1atYEA?si=gLJYxtYZntorJg9D"
+                        <iframe src="https://www.youtube.com/embed/P10kQfBJnhY?si=clII0HnrspIM1RJ6"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Minhajul Muslim #133: Bab Muamalah, Pasal Ke-3, Riba dan Praktiknya</h3>
+                        <h3>Bahaya Riba dan Solusinya - Ustadz Ammi Nur Baits, S.T., B.A.</h3>
                     </div>
                 </div>
 

@@ -229,51 +229,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/DpSb0xvsMO8?si=kx7E-q7U8dVPSZZ4"
+                        <iframe src="https://www.youtube.com/embed/Wq9-N0EreGQ?si=wIsiTpgWG66XvNbT"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Dosa Mencuri Barang Orang Lain - Ustadz Adi Hidayat</h3>
+                        <h3>Dosa Mencuri - Ustadz Yusuf Abu Ubaidah As-Sidawit</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/DpSb0xvsMO8?si=kx7E-q7U8dVPSZZ4"
+                        <iframe src="https://www.youtube.com/embed/m9ivULFQb90?si=5lACCKFZHvzKVVDE"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Dosa Mencuri Barang Orang Lain - Ustadz Adi Hidayat</h3>
+                        <h3>Apakah Mencuri Diperbolehkan dalam Keadaan Terdesak?</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/DpSb0xvsMO8?si=kx7E-q7U8dVPSZZ4"
+                        <iframe src="https://www.youtube.com/embed/tkvZ7s5uOx4?si=3GqttHMuGOzbVEgh"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Dosa Mencuri Barang Orang Lain - Ustadz Adi Hidayat</h3>
+                        <h3>Mengambil Yang Bukan Haknya - Ustadz Adi Hidayat Lc MAt</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/DpSb0xvsMO8?si=kx7E-q7U8dVPSZZ4"
+                        <iframe src="https://www.youtube.com/embed/wthqxQdvIPk?si=OOZOfhLtAExM6ALn"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Dosa Mencuri Barang Orang Lain - Ustadz Adi Hidayat</h3>
+                        <h3>Dosa Mencuri, Apakah Masih Bisa Diampuni Allah ? - Ustadz Abdul Somad, Lc. MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/DpSb0xvsMO8?si=kx7E-q7U8dVPSZZ4"
+                        <iframe src="https://www.youtube.com/embed/3E3XBEvajd4?si=eJdCzY4eXr4zBsqm"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Dosa Mencuri Barang Orang Lain - Ustadz Adi Hidayat</h3>
+                        <h3>Cara Bertaubat dari Dosa Mencuri - Buya Yahya Menjawab</h3>
                     </div>
                 </div>
 

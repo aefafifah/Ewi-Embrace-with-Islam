@@ -194,51 +194,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
+                        <iframe src="https://www.youtube.com/embed/F7VE5scVtuQ?si=h2gaX9wl-QRAsL30"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
+                        <h3>Larangan Berdusta dan Berkata Bohong - Ustadz Abdullah Roy</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
+                        <iframe src="https://www.youtube.com/embed/LIKtAMQpGO8?si=M9KZ9RiPrlOim5qL"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
+                        <h3>Tidak ada Kebahagiaan dalam Kebohongan - Aagym</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
+                        <iframe src="https://www.youtube.com/embed/EoMomgyqh_Q?si=7ksX4T2J_-5jKiRY"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
+                        <h3>Jangan Berbohong Walaupun itu Sangat Kecil - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
+                        <iframe src="https://www.youtube.com/embed/T8-azfsiHYk?si=uLwGJnMQIuPLreOb"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
+                        <h3>Kejujuran Akan Menyelamatkan Kita - Ustadz Abdul Somad</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/nsmvAGr1rgA?si=l4J-3cD6zXrAIY9Z"
+                        <iframe src="https://www.youtube.com/embed/Az2JGKoubJ0?si=F8F0HiSW1ZJuYqHL"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>HATI-HATI!!! YANG SUKA BERBOHONG PASTI AKAN CELAKA - Ustadz Adi Hidayat</h3>
+                        <h3>Belajar Kejujuran Dari Manusia Super Jujur - Ustadz Abdullah Zaen, Lc., MA</h3>
                     </div>
                 </div>
 

@@ -177,51 +177,52 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/_mXoJ1_Fcys?si=yhmHlltHstDCztcA"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Dosa Meninggalkan Shalat - Ustadz Dr. Syafiq Riza Basalamah, Lc., M.A.</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/KPufZMMeYtA?si=Gm6DpENTV1e0Qyd1"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Hukum Meninggalkan Shalat karena Sedang Malas dan Futur - Syaikh Shalih bin Muhammad Al-Luhaidan
+                        </h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/wt8KAbeQJ5k?si=I5wjsNNS7HXSCazs"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Fiqh Sholat: Cara, Makna & Hikmah Sujud - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/BQaIQK5jaew?si=lddILpr0gYvOzaUt"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Beningkan Hati Dengan Solat - Ustadz Hanan Attaki</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/yk-HVtmZGv0?si=__vPx0YD9S6twoBM"
+                        <iframe src="https://www.youtube.com/embed/mqNMnOUl3Dc?si=9WHxxnHYX7UOQQlX"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Hukum Meninggalkan Sholat Wajib - Ustadz Adi Hidayat</h3>
+                        <h3>Keutamaan Shalat 5 Waktu - Poster Dakwah Yufid TV</h3>
                     </div>
                 </div>
 

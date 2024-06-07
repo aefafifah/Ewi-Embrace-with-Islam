@@ -185,51 +185,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
+                        <iframe src="https://www.youtube.com/embed/Lp2kQz4Fc14?si=TBzpfJjfEovJ04p0"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
+                        <h3>Bersabarlah Rencana Allah Jauh Lebih Baik - Ust. Adi Hidayat, Lc.,M.A.</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
+                        <iframe src="https://www.youtube.com/embed/_zMHFNzd8Gc?si=jK8ya3QaBozWhEec"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
+                        <h3>Mukmin Antara Syukur dan Sabar - Ustadz Khalid Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
+                        <iframe src="https://www.youtube.com/embed/ivd0WhKM6oQ?si=Cq-JhEaAVEE7WJ5B"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
+                        <h3>Supaya Menjadi Sabar Yang Benar-Benar Ikhlas - Ustadz Rifky Ja'far Thalib</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
+                        <iframe src="https://www.youtube.com/embed/DSYKAvuZaNA?si=5NS6CdfZQkgc7Ctz"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
+                        <h3>Sabar yang Indah - Ustadz DR Syafiq Riza Basalamah MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/tNQ3URZ9hF4?si=L1gAQkteSMIoX89L"
+                        <iframe src="https://www.youtube.com/embed/B3MvJSSeWf0?si=u2vzJt9gkp8VKb-j"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Berjuta Kebaikan Dibalik Sabar - Ustadz Hanan Attaki</h3>
+                        <h3>Ketika Ujian Hidup Terasa Begitu Berat - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 

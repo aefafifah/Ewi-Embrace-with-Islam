@@ -214,11 +214,31 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/46S9TtyFn48?si=6NyM7OxxaTmdDLc1"
+                        <iframe src="https://www.youtube.com/embed/yEsGb9VUFrg?si=o5IVaHkQH_MMK6_9"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3> Hukum Tidak Membayar Zakat - Ustadz Ammi Nur Baits</h3>
+                        <h3>Cara Menghitung Zakat Mal yang Benar - Yufid TV</h3>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video-content">
+                        <iframe src="https://www.youtube.com/embed/eFv-uxJk5Gk?si=5NUhejLiNMmKPWXu"
+                            title="YouTube video player"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h3>Tutorial Zakat Fitri: Makna & Cara Mengeluarkan - Ustadz Adi Hidayat</h3>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video-content">
+                        <iframe src="https://www.youtube.com/embed/ph2kDpni8b8?si=kVeWxNNoFPHsVrc9"
+                            title="YouTube video player"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h3>Orang Miskin Wajib Bayar Zakat Fitrah ? (Syarat Wajib Zakat Fitrah)</h3>
                     </div>
                 </div>
 
@@ -228,37 +248,17 @@
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3> Hukum Tidak Membayar Zakat - Ustadz Ammi Nur Baits</h3>
+                        <h3>Harta Yang Wajib Dizakati - Hikmah Buya Yahya</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/46S9TtyFn48?si=6NyM7OxxaTmdDLc1"
+                        <iframe src="https://www.youtube.com/embed/Y9AaG78wt_4?si=tJxaDuzDvP0svYmA"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3> Hukum Tidak Membayar Zakat - Ustadz Ammi Nur Baits</h3>
-                    </div>
-                </div>
-
-                <div class="video">
-                    <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/46S9TtyFn48?si=6NyM7OxxaTmdDLc1"
-                            title="YouTube video player"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3> Hukum Tidak Membayar Zakat - Ustadz Ammi Nur Baits</h3>
-                    </div>
-                </div>
-
-                <div class="video">
-                    <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/46S9TtyFn48?si=6NyM7OxxaTmdDLc1"
-                            title="YouTube video player"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3> Hukum Tidak Membayar Zakat - Ustadz Ammi Nur Baits</h3>
+                        <h3>Siapa Para Penerima Zakat ? - Ustadz Ammi Nur Baits</h3>
                     </div>
                 </div>
 

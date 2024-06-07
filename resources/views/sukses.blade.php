@@ -193,51 +193,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/uUsdnBYwO_w?si=ARAlDzyFSMhA8GAC"
+                        <iframe src="https://www.youtube.com/embed/3doWq3XdhI8?si=5fdzqBby1EAr9pxu"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kiat Sukses Dunia Akhirat - Ustadz Muhammad Zuhdi Binseff, Lc.</h3>
+                        <h3>Kunci Sukses Di segala Bidang- Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/uUsdnBYwO_w?si=ARAlDzyFSMhA8GAC"
+                        <iframe src="https://www.youtube.com/embed/zm5CK0xl_10?si=WsSlwQWLDCvxlsY2"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kiat Sukses Dunia Akhirat - Ustadz Muhammad Zuhdi Binseff, Lc.</h3>
+                        <h3>Kunci Sukses Dunia Akhirat - Syekh Ali Jaber.</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/uUsdnBYwO_w?si=ARAlDzyFSMhA8GAC"
+                        <iframe src="https://www.youtube.com/embed/ZNr9uAL-RAU?si=zt392NRmTurTRTCm"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kiat Sukses Dunia Akhirat - Ustadz Muhammad Zuhdi Binseff, Lc.</h3>
+                        <h3>Kejar Akhirat Dunia kau Dapat - Ustadz DR Syafiq Riza Basalamah MA</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/uUsdnBYwO_w?si=ARAlDzyFSMhA8GAC"
+                        <iframe src="https://www.youtube.com/embed/KmKAmeEITlo?si=mZTtWxHh38cyLkkO"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kiat Sukses Dunia Akhirat - Ustadz Muhammad Zuhdi Binseff, Lc.</h3>
+                        <h3>Islam dan Sukses - Ustadz Khalid Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/uUsdnBYwO_w?si=ARAlDzyFSMhA8GAC"
+                        <iframe src="https://www.youtube.com/embed/7BlzoC-NMk0?si=EEqcL_Dr762VFUdx"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kiat Sukses Dunia Akhirat - Ustadz Muhammad Zuhdi Binseff, Lc.</h3>
+                        <h3>Kunci Sukses dan Bahagia di Tiga Alam - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 

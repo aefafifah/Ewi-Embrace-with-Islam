@@ -205,51 +205,51 @@
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/FDzUQ0e38S4?si=JdVcCQXbwxJDZhjN"
+                        <iframe src="https://www.youtube.com/embed/enr3LYanuwc?si=feJFrZpd9R2Kp4qG"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban dan Keutamaan Ibadah Haji - Buya Yahya</h3>
+                        <h3>Makna Haji Mabrur & Cara Meraihnya - Ustadz Adi Hidayat</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/FDzUQ0e38S4?si=JdVcCQXbwxJDZhjN"
+                        <iframe src="https://www.youtube.com/embed/D-YL1Z3xTM4?si=k9y4yNtGdDOdCSQW"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban dan Keutamaan Ibadah Haji - Buya Yahya</h3>
+                        <h3>Ibadah Haji - Ustadz Khalid Basalamah</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/FDzUQ0e38S4?si=JdVcCQXbwxJDZhjN"
+                        <iframe src="https://www.youtube.com/embed/XJ1s0iwxlYw?si=-S39bGAUhZjXSMyz"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban dan Keutamaan Ibadah Haji - Buya Yahya</h3>
+                        <h3>Haji yang Paling Afdhal (UTAMA) - Ustadz Ahmad Zainuddin, Lc.</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/FDzUQ0e38S4?si=JdVcCQXbwxJDZhjN"
+                        <iframe src="https://www.youtube.com/embed/nvC38GQBYsk?si=XFEUqrTnIAHVucj-"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban dan Keutamaan Ibadah Haji - Buya Yahya</h3>
+                        <h3>Pahala Ibadah Haji Paling Sempurna - Ustaz Shamsuri Ahmad</h3>
                     </div>
                 </div>
 
                 <div class="video">
                     <div class="video-content">
-                        <iframe src="https://www.youtube.com/embed/FDzUQ0e38S4?si=JdVcCQXbwxJDZhjN"
+                        <iframe src="https://www.youtube.com/embed/ONcLt1WqAfQ?si=B-KgpReXldEsxxIh"
                             title="YouTube video player"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <h3>Kewajiban dan Keutamaan Ibadah Haji - Buya Yahya</h3>
+                        <h3>Nasehat Ketika Berada di Tanah Suci - Ustadz Abdul Somad</h3>
                     </div>
                 </div>
 
