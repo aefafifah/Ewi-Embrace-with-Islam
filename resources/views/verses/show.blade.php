@@ -7,96 +7,132 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: rgb(234, 219, 200);
+            background-color: #f7f7f7;
             color: #333;
             padding: 20px;
+            margin: 0;
         }
 
         h1 {
-            color: rgb(16, 44, 87);
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
 
         th, td {
-            border: 1px solid rgb(16, 44, 87);
+            border: 1px solid #ddd;
             padding: 10px;
             text-align: left;
         }
 
         th {
-            background-color: rgb(218, 192, 163);
-            color: rgb(16, 44, 87);
+            background-color: #f2f2f2;
         }
 
         tr:nth-child(even) {
-            background-color: rgb(240, 229, 211);
+            background-color: #f9f9f9;
         }
 
-        a {
+        .button {
             display: inline-block;
-            margin-top: 20px;
-            background-color:#218838;
-            color: #fff;
-            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 15px;
+            border: none;
             border-radius: 5px;
             text-decoration: none;
             transition: background-color 0.3s ease;
+            cursor: pointer;
         }
 
-        a:hover {
-            background-color: rgb(16, 44, 87);
+        .button:hover {
+            background-color: #45a049;
         }
 
         .no-journal {
             margin-top: 20px;
             font-size: 18px;
+            text-align: center;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .add-button {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            margin-bottom: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-<h1>Jurnal Hafalan</h1>
+<div class="container">
+    <div class="back-button">
+        <a href="{{ route('test.indexId', ['id' => $id]) }}" class="button">Back</a>
+    </div>
 
-@if($verseProgresses->isEmpty())
-    <p class="no-journal">Tidak ada jurnal untuk hari ini.</p>
-@else
-    <table>
-        <thead>
-            <tr>
-                <th>Hari ke</th>
-                <th>Keterangan Hafalan Ayat</th>
-                <th>Status</th>
-                <th>Action</th> <!-- Kolom untuk action -->
-            </tr>
-        </thead>
-        <tbody>
-            @foreach($verseProgresses as $verseProgress)
+    <h1>Jurnal Hafalan</h1>
+
+    @if($verseProgresses->isEmpty())
+        <p class="no-journal">Tidak ada jurnal untuk hari ini.</p>
+    @else
+        <table>
+            <thead>
                 <tr>
-                    <td>{{ $verseProgress->day_number }}</td>
-                    <td>
-                        <ul>
-                            <li>{{ $verseProgress->hafalan_ayat }}</li>
-                        </ul>
-                    </td>
-                    <td>{{ $verseProgress->is_finished ? 'Yes' : 'No' }}</td>
-                    <td> <!-- Tambahkan kolom untuk action -->
-                        <form action="{{ route('verses.destroy', ['day_number' => $verseProgress->day_number, 'hafalan_ayat' => $verseProgress->id]) }}" method="POST">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit">Hapus</button>
-                        </form>
-                    </td>
+                    <th>Hari ke</th>
+                    <th>Keterangan Hafalan Ayat</th>
+                    <th>Status</th>
+                    <th>Action</th>
                 </tr>
-            @endforeach
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach($verseProgresses as $verseProgress)
+                    <tr>
+                        <td>{{ $verseProgress->day_number }}</td>
+                        <td>
+                            <ul>
+                                <li>{{ $verseProgress->hafalan_ayat }}</li>
+                            </ul>
+                        </td>
+                        <td>{{ $verseProgress->is_finished ? 'Yes' : 'No' }}</td>
+                        <td class="action-buttons">
+                            <form action="{{ route('verses.destroy', ['day_number' => $verseProgress->day_number, 'hafalan_ayat' => $verseProgress->id]) }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="button">Hapus</button>
+                            </form>
+                            <a href="{{ route('verses.edit', ['day_number' => $verseProgress->day_number]) }}" class="button">Edit</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    @endif
 
-    <!-- Tambahkan tautan ke halaman edit -->
-    <a href="{{ route('verses.edit', ['day_number' => $verseProgresses->first()->day_number]) }}">Edit</a>
-@endif
+    {{-- <div class="add-button">
+        <a href="{{ route('verses.create') }}" class="button">Tambah Jurnal</a>
+    </div> --}}
+</div>
 </body>
 </html>

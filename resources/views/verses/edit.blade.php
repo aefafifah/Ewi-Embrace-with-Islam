@@ -65,34 +65,36 @@
 </style>
 </head>
 <body>
-<h1>Edit Jurnal Hari: {{ $verseProgresses->first()->day_number }}</h1>
+    @foreach($verseProgresses->unique('day_number') as $verseProgress)
+    <h1>Edit Jurnal Hari: {{ $verseProgress->day_number }}</h1>
 
-<form action="{{ route('verses.update', ['day_number' => $verseProgresses->first()->day_number]) }}" method="POST">
-    @csrf
-    @method('PUT')
+    <form action="{{ route('verses.update', ['day_number' => $verseProgress->day_number]) }}" method="POST">
+        @csrf
+        @method('PUT')
 
-    <table>
-        <thead>
-            <tr>
-                <th>Keterangan Hafalan Ayat</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach($verseProgresses as $verseProgress)
+        <table>
+            <thead>
                 <tr>
-                    <td>
-                        <input type="text" name="hafalan_ayat[{{ $verseProgress->id }}]" id="hafalan_ayat_{{ $verseProgress->id }}" value="{{ $verseProgress->hafalan_ayat }}" required>
-                    </td>
-                    <td>
-                        <input type="checkbox" name="is_finished[{{ $verseProgress->id }}]" id="is_finished_{{ $verseProgress->id }}" {{ $verseProgress->is_finished ? 'checked' : '' }}>
-                    </td>
+                    <th>Keterangan Hafalan Ayat</th>
+                    <th>Status</th>
                 </tr>
-            @endforeach
-        </tbody>
-    </table>
-    <button type="submit">Update</button>
-</form>
+            </thead>
+            <tbody>
+                @foreach($verseProgresses->where('day_number', $verseProgress->day_number) as $progress)
+                    <tr>
+                        <td>
+                            <input type="text" name="hafalan_ayat[{{ $progress->id }}]" id="hafalan_ayat_{{ $progress->id }}" value="{{ $progress->hafalan_ayat }}" required>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="is_finished[{{ $progress->id }}]" id="is_finished_{{ $progress->id }}" {{ $progress->is_finished ? 'checked' : '' }}>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+        <button type="submit">Update</button>
+    </form>
 
-<a href="{{ route('verses.show', ['day_number' => $verseProgresses->first()->day_number]) }}">Back to Verse Progress</a>
-</body>
+    <a href="{{ route('verses.show', ['id' => $test_id]) }}">Back to Verse Progress</a>
+    @endforeach
+    </body>
