@@ -1,20 +1,13 @@
+/* Style umum untuk lebar layar 1440px */
 #contact {
     background: #dedede;
-    padding:50px 0px 50px 0px;
+    padding: 50px 0;
 }
-
-.footer {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
 
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    width: 90%;
 }
 
 .footer {
@@ -43,9 +36,8 @@
     margin-top: 5px;
 }
 
-#contact h3
-{
-    font-family: 'comic sans ms';
+#contact h3 {
+    font-family: 'Open Sans',sans-serif;
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
@@ -53,3 +45,79 @@
     width: 100%;
     line-height: 50px;
 }
+
+/* Media queries untuk lebar layar 768px atau lebih kecil */
+@media (max-width: 768px) {
+
+    #contact {
+        background: #dedede;
+        padding: 25px 0;
+    }
+    .wrapper {
+        width: 90%; /* Sesuaikan lebar untuk ukuran layar yang lebih kecil */
+    }
+
+    .footer {
+        align-items: center; /* Pusatkan item dalam footer */
+        padding: 10px; /* Sesuaikan padding */
+    }
+
+    .footer-section {
+        margin-bottom: 20px; /* Tambahkan jarak antara section footer */
+    }
+
+    #contact h3 {
+        font-size: 24px; /* Sesuaikan ukuran font untuk layar lebih kecil */
+        line-height: 30px; /* Sesuaikan line-height */
+    }
+
+    .footer-section h3 {
+        font-size: 20px; /* Sesuaikan ukuran font untuk footer section */
+    }
+
+    .footer-section p {
+        font-size: 14px; /* Sesuaikan ukuran font untuk paragraf */
+    }
+
+    .form-control {
+        padding: 8px; /* Sesuaikan padding untuk input form */
+    }
+}
+
+/* Media queries untuk lebar layar 425px atau lebih kecil */
+@media (max-width: 425px) {
+    #contact {
+        background: #dedede;
+        padding: 25px 49px;
+    }
+    .wrapper {
+        width: 90%; /* Sesuaikan lebar untuk ukuran layar yang lebih kecil */
+    }
+
+    .footer {
+        align-items: center; /* Pusatkan item dalam footer */
+        padding: 5px; /* Sesuaikan padding */
+    }
+
+    .footer-section {
+        margin-bottom: 20px; /* Tambahkan jarak antara section footer */
+    }
+
+    #contact h3 {
+        font-size: 24px; /* Sesuaikan ukuran font untuk layar lebih kecil */
+        line-height: 30px; /* Sesuaikan line-height */
+    }
+
+    .footer-section h3 {
+        font-size: 20px; /* Sesuaikan ukuran font untuk footer section */
+    }
+
+    .footer-section p {
+        font-size: 14px; /* Sesuaikan ukuran font untuk paragraf */
+    }
+
+    .form-control {
+        padding: 5px; /* Sesuaikan padding untuk input form */
+    }
+}
+

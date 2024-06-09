@@ -7,7 +7,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Arial',sans-serif;
+
 }
 
 .wrapper {
@@ -20,7 +21,7 @@ body {
     font-size: 44px;
     font-weight: 800;
     float: left;
-    font-family: courier;
+    font-family: 'Arial',sans-serif;
     color: #102C57;
 }
 
@@ -111,12 +112,12 @@ section {
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
+    font-family: 'Arial',sans-serif;
     color: #364f6b;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'Arial',sans-serif;
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -183,7 +184,7 @@ p {
 }
 
 .kartu-tutor p {
-    font-family: 'comic sans ms';
+    font-family: 'Arial',sans-serif;
     font-weight: 800;
     font-size: 25px;
     text-align: center;
@@ -226,7 +227,7 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
+    font-family: 'Arial',sans-serif;
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
@@ -244,6 +245,11 @@ h3 {
     padding: 20px 0;
     background-color: gray;
     color: #fff;
+}
+#menu-toggle {
+    display: none; /* Hide by default for larger screens */
+    cursor: pointer;
+    font-size: 24px;
 }
 
 /* Kontainer untuk daftar Surah */
@@ -339,7 +345,7 @@ border-radius: 5px;
 }
 
 .hadith-arabic {
-    font-family: 'Amiri', serif; /* Ganti dengan font Arabic yang Anda sukai */
+    font-family: 'Arial',sans-serif;
     font-size: 18px;
     line-height: 1.8;
     direction: rtl; /* Right-to-left direction */
@@ -478,13 +484,13 @@ border-radius: 5px;
     padding: 20px 10px;
     text-align: center;
   }
-  
+
   .daftar-surah {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+
   .category-content {
     border: 2px solid #EADBC8;
     border-radius: 7px;
@@ -500,7 +506,7 @@ border-radius: 5px;
     margin: 10px;
     box-sizing: border-box;
   }
-  
+
   .cta-button {
     background-color: #eca966;
     color: #ffffff;
@@ -512,46 +518,145 @@ border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-top: 10px;
   }
-  
+
   .cta-button:hover {
     background-color: #5a5337;
   }
-  
+
   .surah-container h1 {
     margin-bottom: 20px;
   }
-  
+
   .item-surah h2 {
     margin: 10px 0 5px 0;
     font-size: 1.5em;
   }
-  
+
   .item-surah h3 {
     margin: 5px 0;
     font-size: 1.2em;
   }
-  
+
   .item-surah p {
     margin: 5px 0;
   }
-  
+
   .audio-container {
     margin-top: 10px;
   }
-  
+
   .pagination {
     margin-top: 20px;
   }
-  
+
   /* Responsive adjustments */
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 768px) {
     .category-content {
       flex: 1 0 45%;
     }
-  }
-  
-  @media screen and (max-width: 426px) {
+
+    .wrapper {
+        width: 90%; /* Gunakan 90% dari lebar viewport */
+        margin: 0 auto; /* Atur margin atas dan bawah menjadi 0, dan otomatis di tengah */
+        position: relative; /* Tetapkan posisi ke relatif */
+        max-width: 1100px; /* Batasi lebar maksimum untuk mempertahankan kejelasan konten */
+    }
+
+     .logo img {
+       display:none;
+    }
+
+    a.tbl-biru {
+        padding: 10px 15px; /* Sesuaikan padding untuk ukuran layar yang lebih kecil */
+        margin-top: 10px; /* Sesuaikan margin atas jika diperlukan */
+    }
+    .menu {
+        width: auto; /* Reset width */
+        float: right; /* Align the menu to the right */
+    }
+
+    #menu-toggle {
+        display: block; /* Display the toggle menu icon */
+        float: right; /* Align the toggle menu icon to the right */
+        margin-top: 20px; /* Adjust the top margin */
+        margin-right: 20px; /* Adjust the right margin */
+        cursor: pointer; /* Add cursor pointer */
+    }
+
+    nav ul {
+        display: none; /* Hide the menu items by default */
+    }
+
+    nav ul.show {
+        display: flex; /* Mengatur tata letak kontainer menjadi flex */
+    flex-direction: column; /* Menetapkan arah tata letak menjadi vertikal */
+    align-content: center;
+    }
+
+    nav ul li {
+        display: flex; /* Mengatur tata letak kontainer menjadi flex */
+    flex-direction: row; /* Menetapkan arah tata letak menjadi vertikal */
+    }
+
+    nav ul li a {
+        top:200px;
+        display: block; /* Display the menu item links as block elements */
+        padding: 10px; /* Add padding to the menu item links */
+    }
+
+    .dropdown-menu {
+        position: static; /* Change the position of dropdown menu to static */
+        display: none; /* Hide the dropdown menu by default */
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block; /* Hide the dropdown menu on hover */
+    }
+}
+
+
+  @media screen and (max-width: 425px) {
     .category-content {
       flex: 1 0 100%;
     }
+
+    .wrapper {
+        width: 100%; /* Gunakan 100% dari lebar viewport */
+        padding: 0; /* Hilangkan padding */
+    }
+
+    nav {
+        width: 100%; /* Gunakan lebar penuh untuk nav */
+        margin: 0; /* Hilangkan margin */
+        padding: 0; /* Hilangkan padding */
+    }
+
+    .menu {
+        width: 100%; /* Gunakan lebar penuh untuk menu */
+    }
+
+    nav ul {
+        width: 100%; /* Gunakan lebar penuh untuk ul */
+        padding: 0; /* Hilangkan padding */
+        margin: 0; /* Hilangkan margin */
+    }
+
+    nav ul.show {
+        display: flex; /* Mengatur tata letak kontainer menjadi flex */
+        flex-direction: column; /* Menetapkan arah tata letak menjadi vertikal */
+        align-items: flex-start; /* Rata kiri */
+    }
+
+    nav ul li {
+        width: 100%; /* Gunakan lebar penuh untuk li */
+    }
+
+    nav ul li a {
+        width: 100%; /* Gunakan lebar penuh untuk tautan */
+    }
+
+    #menu-toggle {
+        margin-right: 0; /* Atur margin kanan ke 0 */
+    }
+
   }
