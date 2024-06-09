@@ -4,7 +4,7 @@
         <div class="footer">
             <div class="footer-section">
                 <h3>Akses Kelas Premium?</h3>
-                <p>Dapatkan bimbingan lebih intensif bersama mentor-mentor berpengalaman!</p>
+                <p style="margin: 15px 0;">Dapatkan bimbingan lebih intensif bersama mentor-mentor berpengalaman!</p>
                 <form action="/" method="POST">
                     @csrf <!-- Laravel CSRF Protection -->
                     <div class="row">

@@ -21,7 +21,7 @@
 <body>
     @include('Islamic Solution.nav')
     @yield('content')
-    @include('layout.footer')
+    @include('Islamic Solution.footer')
 </body>
 
 </html>
