@@ -43,6 +43,13 @@
 
     <!-- Responsive CSS -->
     <style>
+
+        body{
+            background-image: url('https://img.freepik.com/free-vector/mandala-illustration_53876-81805.jpg?t=st=1717911207~exp=1717914807~hmac=616f22c6a27d66670f919975100976fead8bf21ade3a336dea5ccf9a879e85ff&w=1380');
+            background-size :contain;
+            /* background-repeat :; */
+        }
+
         @media (max-width: 768px) {
             .item-surah {
                 width: calc(50% - 20px);

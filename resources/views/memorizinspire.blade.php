@@ -3,13 +3,18 @@
 @section('content')
 <style>
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1500') no-repeat center center/cover;
-        color: white;
+        background: #DAC0A3 no-repeat center center/cover;
+        /* color: white; */
         padding: 100px 0; /* Menambahkan padding di bagian atas dan bawah hero */
         text-align: center;
-        border-radius: 10px;
+        /* border-radius: 10px; */
     }
-
+    body {
+        background-image: url('https://img.freepik.com/free-vector/mandala-illustration_53876-81805.jpg?t=st=1717911207~exp=1717914807~hmac=616f22c6a27d66670f919975100976fead8bf21ade3a336dea5ccf9a879e85ff&w=1380');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial',sans-serif;
+    }
     .hero-content {
         width: 80%;
         margin: auto;
@@ -33,71 +38,64 @@
         gap: 30px;
         margin-top: 50px; /* Menambahkan margin atas untuk memberikan ruang antara hero dan langkah-langkah */
     }
+    .steps-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-    .step {
-        background-color: rgba(255, 255, 255, 0.95); /* Menurunkan kecerahan background */
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-        max-width: 300px;
-        width: 100%;
-        text-align: left;
-        min-height: 300px; /* Menentukan ketinggian minimum */
-    }
+.step {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    .step:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-    .step h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        cursor: pointer; /* Menambahkan cursor pointer ketika di hover */
-    }
+.step h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .step h2 span {
-        font-size: 0.8rem;
-        margin-left: 10px;
-        color: #888;
-    }
 
-    .step ul {
-        list-style: none;
-        padding: 0;
-    }
 
-    .step ul li {
-        padding: 10px;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        background-color: rgba(218, 192, 163, 0.8);
-        color: #333;
-    }
+.step-detail {
+    display: none;
+    padding-top: 10px;
+}
 
-    .step ul li strong {
-        color: #2e7d32;
-    }
+.step:hover .step-detail {
+    display: block;
+}
 
-    .custom-button {
-        display: inline-block; /* Mengubah display menjadi inline-block */
-        width: 200px; /* Sesuaikan lebar sesuai kebutuhan */
-        text-align: center;
-        padding: 15px 20px; /* Menyesuaikan padding tombol */
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-        margin-top: 50px; /* Menambahkan margin atas */
-    }
+/* Desain Tombol Go to Quran */
+/* Desain Tombol Go to Quran */
+.custom-button {
+    display: inline-block;
+    background-color: #102C57;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin: 20px auto; /* Membuat margin kiri dan kanan otomatis (terpusat horizontal) */
+}
 
-    .custom-button:hover {
-        background-color: #0056b3;
-    }
+.custom-button:hover {
+    background-color: #DAC0A3;
+}
+
 
     .step-detail {
         display: none;
@@ -222,8 +220,9 @@
 
 <div class="steps">
     <!-- Langkah 1 -->
+    <div class="steps-container">
     <div class="step">
-        <h2 data-step="step1" onclick="toggleStepDetail('step1')">1. Akses Fitur Memorizinspire <span>Click me!</span></h2>
+        <h2 data-step="step1" onclick="toggleStepDetail('step1')">1. Akses Fitur Memorizinspire </h2>
         <div id="step1" class="step-detail">
             <ul>
                 <li>Siapkan <strong>Niat</strong> untuk menghafal</li>
@@ -235,7 +234,7 @@
     </div>
     <!-- Langkah 2 -->
     <div class="step">
-        <h2 data-step="step2" onclick="toggleStepDetail('step2')">2. Mulai Menghafal <span>Click me!</span></h2>
+        <h2 data-step="step2" onclick="toggleStepDetail('step2')">2. Mulai Menghafal </h2>
         <div id="step2" class="step-detail">
             <ul>
                 <li>Tiga ayat akan ditampilkan secara otomatis.</li>
@@ -247,7 +246,7 @@
     </div>
     <!-- Langkah 3 -->
     <div class="step">
-        <h2 data-step="step3" onclick="toggleStepDetail('step3')">3. Siap Setor <span>Click me!</span></h2>
+        <h2 data-step="step3" onclick="toggleStepDetail('step3')">3. Siap Setor </h2>
         <div id="step3" class="step-detail">
             <ul>
                 <li>Jika sudah siap, klik <strong>Siap Setor</strong> untuk konfirmasi ke mentor.</li>
@@ -257,9 +256,9 @@
             </ul>
         </div>
     </div>
+    <a href="{{ route('quran.index') }}" class="custom-button">Go to Quran</a>
+    </div>
 </div>
-<!-- Tombol Go to Quran -->
-<a href="{{ route('quran.index') }}" class="custom-button">Go to Quran</a>
 
 <!-- JavaScript -->
 <script>
