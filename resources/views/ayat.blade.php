@@ -2,14 +2,14 @@
 
 @section('content')
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://img.freepik.com/free-vector/mandala-illustration_53876-81805.jpg?t=st=1717911207~exp=1717914807~hmac=616f22c6a27d66670f919975100976fead8bf21ade3a336dea5ccf9a879e85ff&w=1380');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-body{
-    margin:0;
-    padding:0;
-    background-image: url('https://img.freepik.com/free-vector/mandala-illustration_53876-81805.jpg?t=st=1717911207~exp=1717914807~hmac=616f22c6a27d66670f919975100976fead8bf21ade3a336dea5ccf9a879e85ff&w=1380');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
         .ayat-h2 {
             color: #102C57;
             margin-bottom: 10px;
@@ -58,14 +58,15 @@ body{
             font-size: 18px;
         }
 
-        .ayat-panel-heading h2{
-            color:#FEFAF6;
+        .ayat-panel-heading h2 {
+            color: #FEFAF6;
             text-align: center;
         }
 
-        .ayat-panel-heading h3{
-            color:#FEFAF6;
+        .ayat-panel-heading h3 {
+            color: #FEFAF6;
         }
+
         .ayat-panel-body {
             padding: 15px;
             background-color: #FEFAF6;
@@ -77,7 +78,7 @@ body{
             direction: rtl;
             padding: 10px;
             margin-bottom: 20px;
-            font-family: 'Arial',sans-serif;
+            font-family: 'Arial', sans-serif;
         }
 
         .ayat-translation {

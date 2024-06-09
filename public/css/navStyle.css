@@ -28,6 +28,7 @@ body {
     display: block;
     width: 80px;
     height: auto;
+    
 }
 .menu {
     float: right;
@@ -105,9 +106,30 @@ a.tbl-biru {
     font-weight: bold;
 }
 
+a.tbl-pink {
+    background: #102C57;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
 a.tbl-biru:hover {
     background: #102C57;
     text-decoration: none;
+}
+
+#menu-toggle {
+    display: none; /* Hide by default for larger screens */
+    cursor: pointer;
+    font-size: 24px;
 }
 
 
@@ -147,10 +169,99 @@ a.tbl-biru:hover {
     .category-content {
       flex: 1 0 45%;
     }
+
+    .wrapper {
+        width: 90%; /* Gunakan 90% dari lebar viewport */
+        margin: 0 auto; /* Atur margin atas dan bawah menjadi 0, dan otomatis di tengah */
+        position: relative; /* Tetapkan posisi ke relatif */
+        max-width: 1100px; /* Batasi lebar maksimum untuk mempertahankan kejelasan konten */
+    }
+
+    .logo img {
+        display:none;
+     }
+
+     .menu {
+        width: auto; /* Reset width */
+        float: right; /* Align the menu to the right */
+    }
+
+    #menu-toggle {
+        display: block; /* Display the toggle menu icon */
+        float: right; /* Align the toggle menu icon to the right */
+        margin-top: 20px; /* Adjust the top margin */
+        margin-right: 20px; /* Adjust the right margin */
+        cursor: pointer; /* Add cursor pointer */
+    }
+
+    nav ul {
+        display: none; /* Hide the menu items by default */
+    }
+
+    nav ul.show {
+        display: flex; /* Mengatur tata letak kontainer menjadi flex */
+    flex-direction: column; /* Menetapkan arah tata letak menjadi vertikal */
+    align-content: center;
+    }
+
+    nav ul li {
+        display: flex; /* Mengatur tata letak kontainer menjadi flex */
+    flex-direction: row; /* Menetapkan arah tata letak menjadi vertikal */
+    }
+
+    nav ul li a {
+        top:200px;
+        display: block; /* Display the menu item links as block elements */
+        padding: 10px; /* Add padding to the menu item links */
+    }
+
+    .dropdown-menu {
+        position: static; /* Change the position of dropdown menu to static */
+        display: none; /* Hide the dropdown menu by default */
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block; /* Hide the dropdown menu on hover */
+    }
   }
   
   @media screen and (max-width: 426px) {
-    .category-content {
-      flex: 1 0 100%;
+    .wrapper {
+        width: 100%; /* Gunakan 100% dari lebar viewport */
+        padding: 0; /* Hilangkan padding */
+    }
+
+    nav {
+        width: 100%; /* Gunakan lebar penuh untuk nav */
+        margin: 0; /* Hilangkan margin */
+        padding: 0; /* Hilangkan padding */
+    }
+
+    .menu {
+        width: 100%; /* Gunakan lebar penuh untuk menu */
+    }
+
+    nav ul {
+        width: 100%; /* Gunakan lebar penuh untuk ul */
+        padding: 0; /* Hilangkan padding */
+        margin: 0; /* Hilangkan margin */
+    }
+
+    nav ul.show {
+        display: flex; /* Mengatur tata letak kontainer menjadi flex */
+        flex-direction: column; /* Menetapkan arah tata letak menjadi vertikal */
+        align-items: flex-start; /* Rata kiri */
+    }
+
+    nav ul li {
+        width: 100%; /* Gunakan lebar penuh untuk li */
+    }
+
+    nav ul li a {
+        width: 100%; /* Gunakan lebar penuh untuk tautan */
+    }
+
+    #menu-toggle {
+        margin-right: 0; /* Atur margin kanan ke 0 */
     }
   }

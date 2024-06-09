@@ -14,7 +14,7 @@
                         <li><a href="/hadist" class="nav-hadist">Hadist</a></li>
                     </ul>
                 </li>
-                <li><a href="/issolution" class="nav-issolution">Issolution</a></li>
+                <li><a href="/issolution" class="nav-issolution tbl-biru">Issolution</a></li>
                 <li class="dropdown nav-zakatime">
                     <a href="#">Zakatime</a>
                     <ul class="dropdown-menu">
@@ -42,43 +42,5 @@
                 menuUl.classList.toggle('show');
             }
         });
-
-        // Get the current path
-        var path = window.location.pathname;
-
-        // Define a mapping between paths and menu item classes
-        var pathToClassMap = {
-            "/": "nav-home",
-            "/quran": "nav-quran",
-            "/hadist": "nav-hadist",
-            "/issolution": "nav-issolution",
-            "/kalkulatormal": "nav-zakatmal",
-            "/kalkulatorfitrah": "nav-zakatfitrah",
-            "/memorizinspire": "nav-memorizinspire"
-        };
-
-        // Get the corresponding menu item class
-        var activeClass = pathToClassMap[path];
-
-        // If there is a corresponding class, add the tbl-biru class to that element
-        if (activeClass) {
-            var activeElement = document.querySelector("." + activeClass);
-            if (activeElement) {
-                activeElement.classList.add("tbl-biru");
-
-                // If the active element is a submenu item, also add the tbl-biru class to the parent item
-                if (["nav-quran", "nav-hadist"].includes(activeClass)) {
-                    var parentElement = document.querySelector(".nav-qurdistime > a");
-                    if (parentElement) {
-                        parentElement.classList.add("tbl-biru");
-                    }
-                } else if (["nav-zakatmal", "nav-zakatfitrah"].includes(activeClass)) {
-                    var parentElement = document.querySelector(".nav-zakatime > a");
-                    if (parentElement) {
-                        parentElement.classList.add("tbl-biru");
-                    }
-                }
-            }
-        }
     });
 </script>

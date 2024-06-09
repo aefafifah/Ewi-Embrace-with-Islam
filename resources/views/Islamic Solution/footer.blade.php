@@ -1,10 +1,11 @@
-<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="{{ asset('css/footerStyle.css') }}">
+
 <div id="contact">
     <div class="wrapper">
         <div class="footer">
             <div class="footer-section">
                 <h3>Akses Kelas Premium?</h3>
-                <p style="margin: 15px 0;">Dapatkan bimbingan lebih intensif bersama mentor-mentor berpengalaman!</p>
+                <p>Dapatkan bimbingan lebih intensif bersama mentor-mentor berpengalaman!</p>
                 <form action="/" method="POST">
                     @csrf <!-- Laravel CSRF Protection -->
                     <div class="row">

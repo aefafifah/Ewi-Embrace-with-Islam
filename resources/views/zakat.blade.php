@@ -1,4 +1,4 @@
-@extends('Islamic Solution.master')
+@extends('Islamic Solution.masterKategori')
 @section('content')
     <link rel="stylesheet" href="css/kategori/kategori.css">
 

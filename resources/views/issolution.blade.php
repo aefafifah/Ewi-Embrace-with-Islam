@@ -1,4 +1,4 @@
-@extends('Islamic Solution.master')
+@extends('Islamic Solution.masterKategori')
 @section('content')
     <link rel="stylesheet" href="css/issostyle.css">
 
@@ -113,7 +113,7 @@
 
 
     <!-- Conten Section -->
-    <section class="content">
+    <section class="content" id="content">
 
         <div class="container">
             <br><br><br><br><br><br><br>
