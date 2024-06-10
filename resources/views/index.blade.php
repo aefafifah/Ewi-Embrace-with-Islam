@@ -10,11 +10,11 @@
             <div class="kolom">
                 <p class="deskripsi">Qurdistime </p>
                 <h2>Luangkan Waktumu! Untuk hidup yang lebih tenang </h2>
-                <p>ر (( خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ )) رَوَاهُ البُخَارِيُّ .</p>
+                <p> (( خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ )) رَوَاهُ البُخَارِيُّ .</p>
                 <p>Utsman bin ‘Affan radhiyallahu ‘anhu berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda,
-                    “Sebaik-baik orang di antara kalian adalah yang belajar Al-Qur’an dan mengajarkannya.” (HR. Bukhari)
+                    “Sebaik-baik orang di antara kalian adalah yang belajar Al-Qur’an dan mengajarkannya.”
                     [HR. Bukhari, no. 5027]</p>
-                <p><a href="" class="tbl-pink">Ayo Dibuka</a></p>
+                <p><a href="/quran" class="tbl-pink">Quran Time!</a><span> <a href="/hadist" class="tbl-pink">Hadist Time!</a></span></p>
             </div>
         </section>
 
@@ -24,7 +24,7 @@
                 <p class="deskripsi">Telah Hadir</p>
                 <h2>ISSOLUTION</h2>
                 <p>siap membantu mu untuk menyelesaikan permasalahan yang telah teringkas menjadi beberapa sub tema </p>
-                <p><a href="" class="tbl-biru">Kamu Ada Masalah</a></p>
+                <p><a href="/issolution" class="tbl-pink">Kamu Ada Masalah?</a></p>
             </div>
             <img src="https://img.freepik.com/free-vector/hand-drawn-prayer-mat-illustration_23-2149265397.jpg?t=st=1716081734~exp=1716085334~hmac=ec07806042d02813e09c5711aaef7cfa108742c9a2780ed138165afc761223dd&w=740"width="400"
                 height="500" />
@@ -37,7 +37,7 @@
                 <h2>Membantumu dalam menghitung zakat </h2>
                 <p>Yuk ketahui asal muasal hitung zakat</p>
                 <p>sehingga zakatmu lebih berwarna!</p>
-                <p><a href="" class="tbl-pink">Hitung Zakat Yuk!</a></p>
+                <p><a href="/kalkulatormal" class="tbl-pink">Zakatimenya zakat mal!</a><span>  <a href="/kalkulatorfitrah" class="tbl-pink">Zakatimenya zakat fitrah!</a></span></p>
             </div>
         </section>
         <section id="courses">
@@ -46,7 +46,7 @@
                 <h2>Memorizinspire</h2>
                 <p>siap menginspirasimu dalam menghafal Al-Quran, Teruslah menghafal karena kelak ia akan menjadi syafaat
                     untukmu dan keluargamu</p>
-                <p><a href="" class="tbl-biru">Mulai Menghafal</a></p>
+                <p><a href="" class="tbl-pink">Mulai Menghafal Yuk!!</a></p>
             </div>
             <img src="https://img.freepik.com/free-vector/hand-drawn-ramadan-concept-illustration_23-2148890135.jpg?t=st=1716082793~exp=1716086393~hmac=7c58ef4fa85031793e59444791be43b6759fa97ca6acf19f7ab2b5956416d8a7&w=826"width="400"
                 height="500" />

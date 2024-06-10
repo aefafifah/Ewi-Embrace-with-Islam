@@ -458,12 +458,16 @@ border-radius: 5px;
 }
 
 .custom-page-item.active .custom-page-link {
-    z-index: 1;
+    position: relative;
+    z-index: -1;
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
 }
 
+nav[aria-label="Page navigation"] {
+    z-index: -1;
+}
 .custom-page-item.disabled .custom-page-link {
     color: #6c757d;
     pointer-events: none;
@@ -473,7 +477,8 @@ border-radius: 5px;
 }
 
 .custom-page-item .custom-page-link:hover {
-    z-index: 2;
+    position: relative;
+    z-index: -1;
     color: #0056b3;
     background-color: #e9ecef;
     border-color: #dee2e6;
