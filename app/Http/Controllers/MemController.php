@@ -104,21 +104,32 @@ public function update(Request $request, $id)
 }
 
 
+public function destroy(Request $request, $day_number)
+{
+    // Mendapatkan id dari sesi
+    $test_id = session('test_id');
+
+    // Cari semua entri dengan day_number yang sama
+    $verseProgresses = VerseProgress::where('day_number', $day_number)->get();
+
+    // Mengambil id dari entri pertama, atau tetapkan null jika tidak ada entri
+    // Namun, gunakan id dari sesi jika ada
+    $id = $verseProgresses->isEmpty() ? $test_id : $verseProgresses->first()->id;
+
+    // Find the verse progress entry based on the determined id
+    $verseProgress = VerseProgress::where('day_number', $day_number)
+                                   ->where('id', $id) // Use the determined ID
+                                   ->firstOrFail();
+
+    // Delete the entry
+    $verseProgress->delete();
+
+    // Redirect or return with a success message
+    return redirect()->route('verses.show', ['id' => $test_id])
+                     ->with('success', 'Verse deleted successfully!');
+}
 
 
 
-    public function destroy($day_number, $hafalan_ayat_id) // Mengubah nama parameter agar sesuai dengan route
-    {
-        // Cari entri kemajuan ayat berdasarkan day_number dan hafalan_ayat_id
-        $verseProgress = VerseProgress::where('day_number', $day_number)
-                                       ->where('id', $hafalan_ayat_id) // Menggunakan id dari model untuk pencarian
-                                       ->firstOrFail();
-
-        // Hapus entri
-        $verseProgress->delete();
-
-        return redirect()->route('verses.show', ['day_number' => $day_number])
-                         ->with('success', 'Verse deleted successfully!');
-    }
 
 }

@@ -155,6 +155,7 @@
                         </td>
                         <td class="show-td">{{ $verseProgress->is_finished ? 'Yes' : 'No' }}</td>
                         <td class="show-td show-action-buttons">
+
                             <form action="{{ route('verses.destroy', ['day_number' => $verseProgress->day_number, 'hafalan_ayat' => $verseProgress->id]) }}" method="POST">
                                 @csrf
                                 @method('DELETE')
