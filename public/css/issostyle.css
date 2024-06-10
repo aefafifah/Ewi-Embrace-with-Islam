@@ -24,7 +24,6 @@ body
   display: flex;
   position: relative;
   background-blend-mode: darken;
-  text-align: center;
 }
 
 .hero::after
