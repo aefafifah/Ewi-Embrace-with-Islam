@@ -21,30 +21,30 @@
             color: #102C57;
             font-size: 24px;
         }
-        .form-group {
+        .form-group-mal {
             display: flex;
             align-items: center;
             margin-bottom: 15px;
             transition: background-color 0.3s ease;
         }
-        .form-group:hover {
+        .form-group-mal:hover {
             background-color: #DAC0A3;
         }
-        .form-group label {
+        .form-group-mal label {
             width: 150px;
             margin-right: 10px;
             color: #102C57;
         }
-        .form-group input,
-        .form-group select {
+        .form-group-mal input,
+        .form-group-mal select {
             flex: 1;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
             transition: border-color 0.3s ease;
         }
-        .form-group input:focus,
-        .form-group select:focus {
+        .form-group-mal input:focus,
+        .form-group-mal select:focus {
             border-color: #102C57;
             outline: none;
         }
@@ -111,12 +111,12 @@
             h1 {
                 font-size: 20px;
             }
-            .form-group label {
+            .form-group-mal label {
                 width: 100px;
                 font-size: 14px;
             }
-            .form-group input,
-            .form-group select {
+            .form-group-mal input,
+            .form-group-mal select {
                 padding: 8px;
                 font-size: 14px;
             }
@@ -133,16 +133,16 @@
         }
 
         @media (max-width: 480px) {
-            .form-group {
+            .form-group-mal {
                 flex-direction: column;
                 align-items: flex-start;
             }
-            .form-group label {
+            .form-group-mal label {
                 width: 100%;
                 margin-bottom: 5px;
             }
-            .form-group input,
-            .form-group select {
+            .form-group-mal input,
+            .form-group-mal select {
                 width: 100%;
                 padding: 8px;
             }
@@ -163,23 +163,23 @@
     <div class="container">
         <h1>Kalkulator Zakat Maal</h1>
         <form id="zakatForm">
-            <div class="form-group">
+            <div class="form-group-mal">
                 <label for="cash">Uang Tunai (IDR):</label>
                 <input type="number" id="cash" name="cash" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-mal">
                 <label for="bank">Tabungan Bank (IDR):</label>
                 <input type="number" id="bank" name="bank" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-mal">
                 <label for="receivables">Piutang (IDR):</label>
                 <input type="number" id="receivables" name="receivables" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-mal">
                 <label for="investments">Investasi (IDR):</label>
                 <input type="number" id="investments" name="investments" required>
             </div>
-            <div class="form-group" id="goldGroup">
+            <div class="form-group-mal" id="goldGroup">
                 <label for="gold">Emas (gram):</label>
                 <select id="goldKarat" name="goldKarat">
                     <option value="1">1 karat</option>
@@ -209,11 +209,11 @@
                 </select>
                 <input type="number" id="gold" name="gold" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-mal">
                 <label for="silver">Perak (gram):</label>
                 <input type="number" id="silver" name="silver" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-mal">
                 <label for="business">Aset Bisnis (IDR):</label>
                 <input type="number" id="business" name="business" required>
             </div>
