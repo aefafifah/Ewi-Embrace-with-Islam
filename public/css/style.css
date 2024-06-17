@@ -459,14 +459,14 @@ border-radius: 5px;
 
 .custom-page-item.active .custom-page-link {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
 }
 
 nav[aria-label="Page navigation"] {
-    z-index: -1;
+    z-index: 1;
 }
 .custom-page-item.disabled .custom-page-link {
     color: #6c757d;

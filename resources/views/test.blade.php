@@ -437,7 +437,7 @@ function showNextVerses() {
                         </div>
                     </div>
             </div>
-            <h1>Audio Recording</h1>
+            <h1>Rekam Suaramu</h1>
 
             <div id="test-recordingControls">
                 <button id="test-startRecord" onclick="startRecording()">Mulai Rekam</button>
@@ -446,7 +446,7 @@ function showNextVerses() {
             </div>
 
             <div id="test-audioPreviewContainer" style="display: none;">
-                <h2>Recorded Audio</h2>
+                <h2>Audio Tersimpan</h2>
                 <audio controls id="test-audioPreview"></audio>
             </div>
 <form class="test-form" method="POST" action="{{ route('verses.store') }}">
